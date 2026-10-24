@@ -1,1 +1,79 @@
-[]
+[
+ {
+  "sitzung": "erz-s2",
+  "quelle": "Kleist-Handbuch, Kap. II.2.12 „Unwahrscheinliche Wahrhaftigkeiten“",
+  "seite": "S. 156",
+  "art": "wörtlicher Auszug, vom Scan abgelesen",
+  "text": "Der Text gibt sich durch die Struktur einer Verkoppelung von Rahmen- und (drei) Binnenerzählungen als Novelle zu erkennen, während die einzelnen Geschichten eher als Anekdoten zu bewerten wären.",
+  "bezug": [],
+  "anmerkung": "Für die Analyse, die du bis zum 27.11. schreibst: Das Handbuch ordnet die Form so ein, bevor es inhaltlich wird."
+ },
+ {
+  "sitzung": "erz-s2",
+  "quelle": "Kleist-Handbuch, Kap. II.2.12 „Unwahrscheinliche Wahrhaftigkeiten“",
+  "seite": "S. 158",
+  "art": "wörtlicher Auszug, vom Scan abgelesen",
+  "text": "Sein Thema ist allgemeiner die Unterscheidung von (wahrhaftiger) Historiographie und (wahrscheinlicher) Dichtung auf der Basis von Aristoteles’ Poetik, nach der sich Geschichtsschreiber und Dichter dadurch unterscheiden, dass »der eine das wirklich Geschehene mitteilt, der andere was geschehen könnte« (Aristoteles 1989, 31).",
+  "bezug": [
+   "dichtung-luege",
+   "faktuales-erzaehlen"
+  ],
+  "anmerkung": "Das ist dieselbe Unterscheidung wie in deiner Mitschrift vom 19.10. (Punkt 1, Aristoteles) und bei Martínez/Scheffel S. 13."
+ },
+ {
+  "sitzung": "erz-s2",
+  "quelle": "Kleist-Handbuch, Kap. II.2.12 „Unwahrscheinliche Wahrhaftigkeiten“",
+  "seite": "S. 158",
+  "art": "wörtlicher Auszug, vom Scan abgelesen",
+  "text": "Diese Unwahrscheinlichkeit wird durch Kleist – entgegen den Quellen – zusätzlich forciert, indem die grundsätzlich möglichen und z. T. dort bereits genannten Erklärungen unterschlagen werden",
+  "bezug": []
+ },
+ {
+  "sitzung": "erz-s2",
+  "quelle": "Kleist-Handbuch, Kap. II.2.12 „Unwahrscheinliche Wahrhaftigkeiten“",
+  "seite": "S. 159",
+  "art": "wörtlicher Auszug, vom Scan abgelesen",
+  "text": "Kleists Geschichte ist gut erzählt, und ihr Autor führt dieses gelungene Erzählen vor, das aber gerade dadurch entsteht, dass sich der Erzähler/Autor dem Zuhörer/Leser entzieht – letztlich verschwindet selbst Kleist und hinterlässt als Signum von Autorschaft nur noch das Kürzel »vx.«.",
+  "bezug": [
+   "doppelte-kommunikation"
+  ],
+  "anmerkung": "Passt zur doppelten Kommunikationssituation: Der Offizier erzählt der Gesellschaft, der (verschwindende) Autor dem Leser."
+ },
+ {
+  "sitzung": "erz-s3",
+  "quelle": "Kafka-Handbuch, Kap. „Kleine Formen: Denkbilder, Parabeln, Aphorismen“",
+  "seite": "S. 458",
+  "art": "wörtlicher Auszug, vom Scan abgelesen",
+  "text": "Im Vergleich zu den erzähltechnisch avancierten Belegfällen der Gattung ›Parabel‹ bei Kafka ist seine älteste und berühmteste Parabel, Vor dem Gesetz, allerdings noch recht konventionell, da man in diesem Text eine dominierende (erzähltechnisch distanzierende) personale Erzählsituation feststellen kann.",
+  "bezug": [],
+  "anmerkung": "‹Personale Erzählsituation› kommt im Seminarplan erst später dran (Modus, Fokalisierung ab 30.11.). Hier nur als Vorschau lesen."
+ },
+ {
+  "sitzung": "erz-s3",
+  "quelle": "Kafka-Handbuch, Kap. „Kleine Formen: Denkbilder, Parabeln, Aphorismen“",
+  "seite": "S. 458",
+  "art": "wörtlicher Auszug, vom Scan abgelesen",
+  "text": "Dabei wird der zur rezeptiven Anteilnahme einladende Inhalt konterkariert durch Formen der erzähltechnischen Distanzierung, durch die Kombination von Erzähltempus (historisches Präsens), intensiver Raffung und der dominanten personalen Erzählsituation.",
+  "bezug": [
+   "erzaehltempo"
+  ],
+  "anmerkung": "‹Raffung› gehört zur Dauer (Sitzung 5, 9.11.); in Sitzung 3 reicht es, den Begriff als Vorschau zu kennen."
+ },
+ {
+  "sitzung": "erz-s3",
+  "quelle": "Kafka-Handbuch, Kap. „Kleine Formen: Denkbilder, Parabeln, Aphorismen“",
+  "seite": "S. 458",
+  "art": "wörtlicher Auszug, vom Scan abgelesen",
+  "text": "Bei der Einzelerzählung endet der Text mit der Pointe der Geschichte (»Hier konnte niemand sonst Einlaß erhalten, denn dieser Eingang war nur für dich bestimmt. Ich gehe jetzt und schließe ihn«; DzL 269).",
+  "bezug": []
+ },
+ {
+  "sitzung": "erz-s3",
+  "quelle": "Kafka-Handbuch, Kap. „Kleine Formen: Denkbilder, Parabeln, Aphorismen“",
+  "seite": "S. 459",
+  "art": "wörtlicher Auszug, vom Scan abgelesen",
+  "text": "Im Kontext des Romans ist die Geschichte mithin darauf zu beziehen, dass und wie sich K. in dem Gericht täuscht, mit dem er es in seinem Prozess zu tun hat.",
+  "bezug": [],
+  "anmerkung": "Das Handbuch unterscheidet die einzeln gedruckte Parabel von der Fassung im Dom-Kapitel des Process-Romans (dort erzählt sie der Geistliche)."
+ }
+]

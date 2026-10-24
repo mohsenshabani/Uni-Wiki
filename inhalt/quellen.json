@@ -1,7 +1,7 @@
 [
  {
   "kurz": "Martínez/Scheffel: Einführung in die Erzähltheorie",
-  "voll": "Matías Martínez, Michael Scheffel: Einführung in die Erzähltheorie. München: C. H. Beck, 2019 (Ausgabe laut Dateiname der Seminar-PDF).",
+  "voll": "Matías Martínez, Michael Scheffel: Einführung in die Erzähltheorie. München: C. H. Beck (Seminarplan: 2020; Dateiname der Seminar-PDF: 2019).",
   "hinweis": "Seitenzahlen im Wiki sind die gedruckten Seitenzahlen. In der Seminar-PDF liegt jede Seite eine PDF-Seite später (gedruckte S. 22 = PDF-Seite 23)."
  },
  {
@@ -43,5 +43,39 @@
   "kurz": "Seminarfolien (Berthelé, Riemer, Zarrieß/Bunzeck)",
   "voll": "Folien der Dozierenden zu Prüfen und Testen, Feedback und generativer KI sowie Computerlinguistik. Zitate daraus sind mit Folien-Nummer angegeben.",
   "hinweis": "Folien-Nummern sind die PDF-Seiten der jeweiligen Datei."
+ },
+ {
+  "kurz": "Kleist: Unwahrscheinliche Wahrhaftigkeiten",
+  "voll": "Heinrich von Kleist: Unwahrscheinliche Wahrhaftigkeiten. In: Ders.: Sämtliche Erzählungen. Hg. v. Klaus Müller-Salget. Frankfurt a. M. 2005, S. 376–379.",
+  "hinweis": "Scan mit schlechter Texterkennung; zitiert sind nur gut lesbare Stellen, bitte gegen die Vorlage prüfen."
+ },
+ {
+  "kurz": "Mann: Buddenbrooks",
+  "voll": "Thomas Mann: Buddenbrooks (1901), S. 192–210 laut Seminarplan. Der Plan nennt die Große kommentierte Frankfurter Ausgabe (Hg. Heinrich Detering u. a., Frankfurt a. M. 2002ff.); welche Ausgabe der Scan zeigt, ist nicht vermerkt.",
+  "hinweis": "Scan schlecht lesbar. Zitate habe ich von Hand an den Seiten abgelesen; Seitenzahlen sind die der Vorlage."
+ },
+ {
+  "kurz": "Dembeck 2020",
+  "voll": "Till Dembeck: Es gibt keine einsprachigen Texte! Ein Vorschlag für die Literaturwissenschaft. In: Zeitschrift für interkulturelle Germanistik 11 (2020), H. 1, S. 163–176.",
+  "hinweis": "Gekürzte, überarbeitete Übersetzung von Dembeck (2017)."
+ },
+ {
+  "kurz": "Dembeck/Parr 2017",
+  "voll": "Till Dembeck, Rolf Parr (Hgg.): Literatur und Mehrsprachigkeit. Ein Handbuch. Tübingen 2017."
+ },
+ {
+  "kurz": "Seminarpläne",
+  "voll": "Die Seminarpläne (Erzählkunst: Schönbeck; Prüfen und Testen: Berthelé; Schreiben in der L2: Introna; Literarische Mehrsprachigkeit) liegen als PDF im jeweiligen Ordner ‹Folien und Aufgaben›.",
+  "hinweis": "Der Plan zu Erzählkunst nennt im Kopf ‹Wintersemester 2024›; der Plan zu Prüfen und Testen schreibt ‹Moser-Förtscher›, in der Lektüre steht ‹Moser-Frötscher›."
+ },
+ {
+  "kurz": "Kleist-Handbuch, Kap. II.2.12 „Unwahrscheinliche Wahrhaftigkeiten“",
+  "voll": "Kleist-Handbuch, Teil II „Werke – Erzählungen“, Kap. 2.12 „Unwahrscheinliche Wahrhaftigkeiten“, S. 156–159 (Scan, Datei „unwahrscheinliche Wahrhaftigkeiten Kleist.pdf“).",
+  "hinweis": "Titelei, Herausgeber und der Verfasser von Kap. 2.12 stehen nicht auf diesen vier Seiten (der Name „Ulrich Johannes Beil“ auf S. 156 gehört zum vorigen Kapitel 2.11). Trag sie nach, sobald du die Titelei hast."
+ },
+ {
+  "kurz": "Kafka-Handbuch, Kap. „Kleine Formen: Denkbilder, Parabeln, Aphorismen“",
+  "voll": "Kafka-Handbuch, Teil „4. Strukturen, Schreibweisen, Themen“, Kapitel „Kleine Formen: Denkbilder, Parabeln, Aphorismen“, S. 458–459 (Scan, Datei „Kommentar Kafka vor dem Gesetz HB S458.pdf“).",
+  "hinweis": "Titel des Handbuchs, Herausgeber und Verfasser des Kapitels stehen nicht auf diesen beiden Seiten. Trag sie nach, sobald du die Titelei hast. Verweise im Text wie „Zymner 1991“ sind Literaturangaben, nicht der Verfasser."
  }
 ]

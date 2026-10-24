@@ -2,17 +2,18 @@
  {
   "id": "erzaehlen-erzaehltes",
   "term": "das Erzählte und das Erzählen",
-  "fa": "آنچه روایت می‌شود و روایت‌کردن",
   "kurz": "Die Grundunterscheidung: Was wird erzählt, und wie?",
   "def": "Das Erzählte ist die Geschichte mit ihrer Welt. Das Erzählen ist die Art, wie sie vermittelt wird: Sprache, Stil, Reihenfolge, Perspektive. Man trennt beides, auch wenn man bei Fiktion nur über den Text Zugang zur Welt hat.",
   "zitate": [
    {
     "t": "Wenn und solange wir eine solche Lesehaltung einnehmen, konzentrieren wir uns auf das, was uns erzählt wird, und blenden die Art und Weise, wie die Geschichte vermittelt wird, aus dem Bereich unserer Aufmerksamkeit aus.",
-    "s": "S. 22"
+    "s": "S. 22",
+    "q": "Martínez/Scheffel"
    },
    {
     "t": "Eine Geschichte, die wir als dieselbe Geschichte wiedererkennen, kann auf unzählige verschiedene Weisen präsentiert werden.",
-    "s": "S. 23"
+    "s": "S. 23",
+    "q": "Martínez/Scheffel"
    }
   ],
   "kafka": "Erzählt wird: Ein Mann wartet vor einem Tor, bis er stirbt. Das Erzählen ist ein Erzähler in der dritten Person, im Präsens, mit knappen Sätzen.",
@@ -22,23 +23,32 @@
    "handlung"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": null,
   "seminare": [
    "erz"
+  ],
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 22",
+     "S. 23"
+    ]
+   }
   ]
  },
  {
   "id": "erzaehlte-welt",
   "term": "die erzählte Welt (Diegese)",
-  "fa": "جهان روایت‌شده",
   "kurz": "Alles, was in der Geschichte existiert, nicht nur das für die Handlung Wichtige.",
   "def": "Die erzählte Welt umfasst Figuren, Orte und die Regeln der Geschichte. Sie ist weiter gefasst als die Handlung. Der Begriff „Diegese“ kommt aus der Filmtheorie und wurde von Genette übernommen (Fußnote S. 26).",
   "zitate": [
    {
     "t": "… dem engeren Begriff der Handlung, der sich nur auf die Gesamtheit der handlungsfunktionalen Elemente der dargestellten Welt bezieht.",
-    "s": "S. 26"
+    "s": "S. 26",
+    "q": "Martínez/Scheffel"
    }
   ],
   "kafka": "Zur Welt gehören auch Dinge, die nie ins Geschehen eingreifen: <span class=\"kq\">„Von Saal zu Saal stehn aber Türhüter, einer mächtiger als der andere.“</span> Ob es diese Türhüter gibt, wissen wir nur durch die Worte des Türhüters.",
@@ -47,23 +57,31 @@
    "erzaehlen-erzaehltes"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": null,
   "seminare": [
    "erz"
+  ],
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 26"
+    ]
+   }
   ]
  },
  {
   "id": "handlung",
   "term": "die Handlung",
-  "fa": "کنش (رویدادهای مهم برای داستان)",
   "kurz": "Nur die handlungsfunktionalen Elemente der erzählten Welt.",
   "def": "Zur Handlung zählt, was für den Verlauf des Geschehens wichtig ist. Das Buch gliedert sie in vier Ebenen: Ereignis, Geschehen, Geschichte, Handlungsschema.",
   "zitate": [
    {
     "t": "… dem engeren Begriff der Handlung, der sich nur auf die Gesamtheit der handlungsfunktionalen Elemente der dargestellten Welt bezieht.",
-    "s": "S. 26"
+    "s": "S. 26",
+    "q": "Martínez/Scheffel"
    }
   ],
   "kafka": "Handlungsfunktional ist der Anblick des Türhüters, denn der Mann entscheidet sich seinetwegen zu warten: <span class=\"kq\">„entschließt er sich, doch lieber zu warten“</span>.",
@@ -75,23 +93,38 @@
    "handlungsschema"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": null,
   "seminare": [
    "erz"
+  ],
+  "lexikon": [
+   {
+    "t": "Summe des Geschehens in einem Drama, Film oder Erzählwerk; die Folge der Hauptbegebenheiten.",
+    "q": "Reallexikon der deutschen Literaturwissenschaft, s. v. Handlung",
+    "s": "PDF-S. 804"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 26"
+    ]
+   }
   ]
  },
  {
   "id": "darstellung",
   "term": "die Darstellung",
-  "fa": "شیوه‌ی ارائه",
   "kurz": "Die Seite des „Wie“: die Art der Vermittlung der erzählten Welt.",
   "def": "Das Buch teilt die Darstellung in zwei Ebenen: die Erzählung (Reihenfolge und Tempo der Ereignisse) und das Erzählen (Sprache, Medium, Erzählsituation, Stil).",
   "zitate": [
    {
     "t": "Die andere Seite der Opposition, also die Art und Weise der Vermittlung der erzählten Welt, bezeichnen wir als Darstellung.",
-    "s": "S. 26"
+    "s": "S. 26",
+    "q": "Martínez/Scheffel"
    }
   ],
   "kafka": "Darstellung bei Kafka: Zeitraffer, Präsens, ein Erzähler, der in den Mann hineinsieht, aber den Türhüter von außen zeigt.",
@@ -100,23 +133,31 @@
    "erzaehlen"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": null,
   "seminare": [
    "erz"
+  ],
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 26"
+    ]
+   }
   ]
  },
  {
   "id": "fiktionale-behauptungssaetze",
   "term": "fiktionale Behauptungssätze",
-  "fa": "جمله‌های ادعایی در متن داستانی",
   "kurz": "Sätze im Text beziehen sich auf Tatsachen der erzählten Welt.",
   "def": "In einem fiktionalen Text stellen Sätze etwas als Tatsache hin. Diese Tatsachen gelten in der erzählten Welt, unabhängig davon, ob der Leser sie für wirklich hält.",
   "zitate": [
    {
     "t": "Fiktionale Behauptungssätze enthalten eine Referenz auf Tatsachen der durch sie erzählten Welt, unabhängig davon, ob der Leser diese zeitweise für Gegebenheiten seiner objektiven Wirklichkeit nimmt oder nicht.",
-    "s": "S. 24"
+    "s": "S. 24",
+    "q": "Martínez/Scheffel"
    }
   ],
   "kafka": "In der erzählten Welt steht das Tor offen: <span class=\"kq\">„Da das Tor zum Gesetz offensteht wie immer“</span>. Das ist dort eine Tatsache, obwohl wir die Geschichte als Gleichnis lesen.",
@@ -124,17 +165,24 @@
    "erzaehlte-welt"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": null,
   "seminare": [
    "erz"
+  ],
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 24"
+    ]
+   }
   ]
  },
  {
   "id": "fabula-sjuzet",
   "term": "fabula und sjužet (Tomaševskij)",
-  "fa": "فابولا و سیوژت",
   "kurz": "Russischer Formalismus: Die Ereignisse selbst (fabula) und ihre Anordnung im Werk (sjužet).",
   "def": "Die fabula ordnet die Motive logisch und nach Ursache und Zeit. Das sjužet betrifft nur die Reihenfolge, in der die Motive im Werk stehen.",
   "zitate": [
@@ -155,17 +203,37 @@
    "genette"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": null,
   "seminare": [
    "erz"
+  ],
+  "lexikon": [
+   {
+    "t": "Modellhaftes Handlungssubstrat oder Kompositionsschema eines Textes; sein Hauptgegenstand (Thema, Motiv, Stoff bzw. Hauptfigur).",
+    "q": "Reallexikon der deutschen Literaturwissenschaft, s. v. Sujet",
+    "s": "PDF-S. 2143"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Tomaševskij über die fabula, zitiert bei Martínez/Scheffel",
+    "s": [
+     "S. 25"
+    ]
+   },
+   {
+    "q": "Tomaševskij über das sjužet, zitiert bei Martínez/Scheffel",
+    "s": [
+     "S. 25"
+    ]
+   }
   ]
  },
  {
   "id": "histoire-discours",
   "term": "histoire und discours (Todorov, Benveniste)",
-  "fa": "histoire: خودِ داستان · discours: شیوه‌ی روایتِ آن",
   "kurz": "Todorov: das Erzählte (histoire) und die Art, wie der Erzähler es uns vermittelt (discours).",
   "def": "Todorov übernimmt das Paar der Formalisten. Der discours ist weiter gefasst als das sjužet: Er umfasst auch Perspektive, Stil und Modus. Benveniste hatte ursprünglich einen sprachlichen Unterschied gemeint: Erzählformen ohne und mit deutlich hervortretender Sprecherinstanz (S. 25).",
   "zitate": [
@@ -176,7 +244,8 @@
    },
    {
     "t": "… umfasst Todorovs ‹discours› stattdessen den gesamten Bereich der literarischen Vermittlung eines Geschehens (d. h. außer der Anordnung der Ereignisse auch Perspektive, Stil, Modus usw.)",
-    "s": "S. 25"
+    "s": "S. 25",
+    "q": "Martínez/Scheffel"
    }
   ],
   "kafka": "Als histoire könnte man „Vor dem Gesetz“ auch als Film erzählen. Zum discours gehört, dass wir die Ereignisse mit dem Mann zusammen erleben und seine Gedanken kennen.",
@@ -186,17 +255,30 @@
    "darstellung"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": null,
   "seminare": [
    "erz"
+  ],
+  "herkunft": [
+   {
+    "q": "Todorov über die histoire, zitiert bei Martínez/Scheffel",
+    "s": [
+     "S. 25"
+    ]
+   },
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 25"
+    ]
+   }
   ]
  },
  {
   "id": "genette",
   "term": "Genettes Dreiteilung: Geschichte, Erzählung, Narration",
-  "fa": "سه‌گانه‌ی ژنت",
   "kurz": "Gérard Genette unterscheidet histoire, récit und narration.",
   "def": "Die Geschichte (histoire) ist der narrative Inhalt. Die Erzählung (récit) ist der Text selbst. Die Narration ist der produzierende narrative Akt, also das Erzählen, auch in seiner (realen oder fiktiven) Situation. Martínez/Scheffel nehmen diese Idee als Anregung, die Seite der Darstellung weiter zu unterteilen.",
   "zitate": [
@@ -223,23 +305,43 @@
    "erzaehlen"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": "Das Wort „Erzählung“ steht bei Genette (récit, der Text) und bei Martínez/Scheffel (Ebene 5, die Reihenfolge der Ereignisse) in ähnlichen Positionen, wird aber nicht automatisch gleich verwendet. Die Tabelle auf S. 28 zeigt, wie unterschiedlich die Autoren ihre Wörter verteilen.",
   "seminare": [
    "erz"
+  ],
+  "herkunft": [
+   {
+    "q": "Genette über die Geschichte, zitiert bei Martínez/Scheffel",
+    "s": [
+     "S. 26"
+    ]
+   },
+   {
+    "q": "Genette über die Erzählung, zitiert bei Martínez/Scheffel",
+    "s": [
+     "S. 26"
+    ]
+   },
+   {
+    "q": "Genette über die Narration, zitiert bei Martínez/Scheffel",
+    "s": [
+     "S. 26"
+    ]
+   }
   ]
  },
  {
   "id": "ereignis",
   "term": "das Ereignis (Motiv)",
-  "fa": "رویداد (موتیف)",
   "kurz": "Ebene 1: die kleinste Einheit der Handlung.",
   "def": "Ein Ereignis oder Motiv ist die elementare Einheit eines narrativen Textes im Bereich der Handlung.",
   "zitate": [
    {
     "t": "Die elementare Einheit eines narrativen Textes im Bereich der Handlung ist das Ereignis oder Motiv.",
-    "s": "S. 27"
+    "s": "S. 27",
+    "q": "Martínez/Scheffel"
    }
   ],
   "kafka": "<span class=\"kq\">„Der Türhüter gibt ihm einen Schemel“</span> ist ein Ereignis, ebenso das Bestechen oder das Winken kurz vor dem Tod.",
@@ -248,23 +350,31 @@
    "handlung"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": null,
   "seminare": [
    "erz"
+  ],
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 27"
+    ]
+   }
   ]
  },
  {
   "id": "geschehen",
   "term": "das Geschehen",
-  "fa": "رخدادها (ردیفِ زمانی)",
   "kurz": "Ebene 2: Ereignisse, die nur zeitlich aufeinander folgen.",
   "def": "Ein Geschehen entsteht, wenn Ereignisse chronologisch aneinandergereiht werden. Es gibt noch keinen Grund-Folge-Zusammenhang.",
   "zitate": [
    {
     "t": "Auf einer ersten Integrationsstufe erscheinen Ereignisse zu einem Geschehen aneinandergereiht, indem sie chronologisch aufeinander folgen.",
-    "s": "S. 27"
+    "s": "S. 27",
+    "q": "Martínez/Scheffel"
    }
   ],
   "kafka": "Der Mann kommt, bittet, wartet, fragt, stirbt: ein „und dann“.",
@@ -273,23 +383,31 @@
    "geschichte"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": "In der Tabelle auf S. 28 heißt bei Forster das Geschehen „story“ und die Geschichte „plot“. Gleiche Wörter können in anderen Theorien etwas anderes bedeuten.",
   "seminare": [
    "erz"
+  ],
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 27"
+    ]
+   }
   ]
  },
  {
   "id": "geschichte",
   "term": "die Geschichte",
-  "fa": "داستان (با رابطه‌ی علّی)",
   "kurz": "Ebene 3: Ereignisse mit kausalem Zusammenhang.",
   "def": "Zur Geschichte wird das Geschehen, wenn die Ereignisse nicht nur aufeinander, sondern auch auseinander folgen. Es gibt also ein „weil“.",
   "zitate": [
    {
     "t": "… wenn die Ereignisfolge zusätzlich zum chronologischen auch einen kausalen Zusammenhang aufweist, so dass die Ereignisse nicht nur aufeinander, sondern auch auseinander folgen.",
-    "s": "S. 27"
+    "s": "S. 27",
+    "q": "Martínez/Scheffel"
    }
   ],
   "kafka": "Weil der Mann den Türhüter genauer ansieht, <span class=\"kq\">„entschließt er sich, doch lieber zu warten“</span>. Weil er wartet, stirbt er vor dem Tor.",
@@ -298,23 +416,31 @@
    "handlungsschema"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": "Nicht mit „Geschichte“ im Sinne von Genette (histoire) verwechseln: Dort ist der ganze narrative Inhalt gemeint. Bei Martínez/Scheffel ist es eine bestimmte Ebene der Handlung (Tabelle S. 28).",
   "seminare": [
    "erz"
+  ],
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 27"
+    ]
+   }
   ]
  },
  {
   "id": "handlungsschema",
   "term": "das Handlungsschema",
-  "fa": "الگوی کلیِ کنش",
   "kurz": "Ebene 4: ein abstraktes Muster, das für Textgruppen typisch sein kann.",
   "def": "Das Handlungsschema ist ein aus allen erzählten Ereignissen abstrahiertes globales Schema. Es kann für ganze Textgruppen wie Gattungen charakteristisch sein und gibt der Geschichte Anfang, Mitte, Ende und eine sinnhafte Struktur.",
   "zitate": [
    {
     "t": "Durch die Integration in ein Handlungsschema erhält die Geschichte eine abgeschlossene (Anfang, Mitte, Ende) und sinnhafte (z. B. archetypische) Struktur.",
-    "s": "S. 27"
+    "s": "S. 27",
+    "q": "Martínez/Scheffel"
    }
   ],
   "kafka": "Mögliches Schema: Ein Suchender kommt an eine Schwelle, wartet und scheitert (eigene Deutung).",
@@ -323,23 +449,31 @@
    "handlung"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": null,
   "seminare": [
    "erz"
+  ],
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 27"
+    ]
+   }
   ]
  },
  {
   "id": "erzaehlung",
   "term": "die Erzählung (Ebene 5)",
-  "fa": "روایت (ترتیب و زمان‌بندی)",
   "kurz": "Die Ereignisse in der Reihenfolge, in der der Text sie darstellt.",
   "def": "Die Erzählung unterscheidet sich von der chronologisch rekonstruierten Handlung durch die Gestaltung und zeitliche Umgruppierung der Ereignisse im Text, etwa durch Erzähltempo, Rückwendung und Vorausdeutung.",
   "zitate": [
    {
     "t": "Die erzählten Ereignisse in der Reihenfolge ihrer Darstellung im Text.",
-    "s": "S. 27"
+    "s": "S. 27",
+    "q": "Martínez/Scheffel"
    }
   ],
   "kafka": "Beginn ohne Einleitung, Jahre in einem Satz (<span class=\"kq\">„Dort sitzt er Tage und Jahre.“</span>), eine kleine Vorausdeutung (<span class=\"kq\">„Nun lebt er nicht mehr lange.“</span>).",
@@ -349,23 +483,31 @@
    "genette"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": null,
   "seminare": [
    "erz"
+  ],
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 27"
+    ]
+   }
   ]
  },
  {
   "id": "erzaehlen",
   "term": "das Erzählen (Ebene 6)",
-  "fa": "روایت‌کردن (زبان، سبک، موقعیت)",
   "kurz": "Die Präsentation der Geschichte in Sprache, Medium und Darstellungsverfahren.",
   "def": "Zum Erzählen gehören die Sprache, das Medium (z. B. rein sprachlich oder audio-visuell) und Darstellungsverfahren wie Erzählsituation oder Sprachstil.",
   "zitate": [
    {
     "t": "Die Präsentation der Geschichte und die Art und Weise dieser Präsentation in bestimmten Sprachen, Medien (z. B. rein sprachliche oder audio-visuelle) und Darstellungsverfahren (z. B. Erzählsituation oder Sprachstil).",
-    "s": "S. 28"
+    "s": "S. 28",
+    "q": "Martínez/Scheffel"
    }
   ],
   "kafka": "Ein Erzähler in der dritten Person, Präsens (eigene Beobachtung), Einblick in die Gedanken des Mannes: <span class=\"kq\">„denkt er“</span>.",
@@ -374,23 +516,31 @@
    "darstellung"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": null,
   "seminare": [
    "erz"
+  ],
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 28"
+    ]
+   }
   ]
  },
  {
   "id": "erzaehltempo",
   "term": "Erzähltempo, Rückwendung, Vorausdeutung",
-  "fa": "سرعت روایت، بازگشت به گذشته، پیش‌نمایی",
   "kurz": "Drei Möglichkeiten, die Zeit im Text zu gestalten (genannt bei Ebene 5).",
   "def": "Das Buch nennt diese Begriffe auf S. 27 als Beispiele für die zeitliche Umgruppierung der Ereignisse. Kurz gesagt: das Tempo, mit dem erzählt wird, der Sprung zurück und der Hinweis auf Späteres. Ausführlich folgen sie im Kapitel zum „Wie“.",
   "zitate": [
    {
     "t": "(Erzähltempo, Rückwendung, Vorausdeutung)",
-    "s": "S. 27"
+    "s": "S. 27",
+    "q": "Martínez/Scheffel"
    }
   ],
   "kafka": "Tempo: viele Jahre in einem Satz (<span class=\"kq\">„Dort sitzt er Tage und Jahre.“</span>). Vorausdeutung: <span class=\"kq\">„Nun lebt er nicht mehr lange.“</span> Eine Rückwendung gibt es kaum.",
@@ -398,17 +548,24 @@
    "erzaehlung"
   ],
   "sitzungen": [
-   "erz-s1"
+   "erz-s3"
   ],
   "hinweis": null,
   "seminare": [
    "erz"
+  ],
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 27"
+    ]
+   }
   ]
  },
  {
   "id": "summative-evaluation",
   "term": "summative Evaluation",
-  "fa": "ارزیابی پایانی (تراکمی)",
   "kurz": "Misst im Nachhinein, was erreicht wurde, und dient der Benotung.",
   "def": "Formelle, geplante Bewertung am Ende einer Unterrichtseinheit (Woche, Monat, Semester oder Jahr). Neuere Bezeichnung: Assessment of Learning.",
   "zitate": [
@@ -429,12 +586,19 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Moser-Frötscher 2025",
+    "s": [
+     "S. 83"
+    ]
+   }
+  ]
  },
  {
   "id": "formative-evaluation",
   "term": "formative Evaluation",
-  "fa": "ارزیابی تکوینی (در جریان آموزش)",
   "kurz": "Prüft den Fortschritt während des Lernens, um Unterricht und Feedback anzupassen.",
   "def": "Neuere Bezeichnung: Assessment for Learning. Ziel ist, den nachfolgenden Unterricht abzustimmen und den Schüler:innen Feedback zu geben.",
   "zitate": [
@@ -455,12 +619,19 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Moser-Frötscher 2025",
+    "s": [
+     "S. 83"
+    ]
+   }
+  ]
  },
  {
   "id": "learning-oriented-assessment",
   "term": "Learning-Oriented Assessment",
-  "fa": "سنجش یادگیری‌محور",
   "kurz": "Modell, in dem formative und summative Zugänge eng verwoben sind.",
   "def": "Nach Jones/Saville (2016) steht das erfolgreiche Sprachenlernen im Fokus jeglicher Prüfungsaktivitäten.",
   "zitate": [
@@ -481,12 +652,19 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Moser-Frötscher 2025",
+    "s": [
+     "S. 83"
+    ]
+   }
+  ]
  },
  {
   "id": "ealta-leitfragen",
   "term": "EALTA-Leitfragen",
-  "fa": "پرسش‌های راهنمای EALTA",
   "kurz": "Leitfragen für gute Prüfungspraxis in drei Bereichen.",
   "def": "Die Richtlinien der European Association for Language Testing and Assessment (EALTA 2006) betreffen (1) Prüfungszweck und Spezifikation, (2) Prüfungsverfahren und (3) Konsequenzen.",
   "zitate": [
@@ -509,12 +687,19 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Moser-Frötscher 2025",
+    "s": [
+     "S. 85"
+    ]
+   }
+  ]
  },
  {
   "id": "testspezifikationen",
   "term": "Testspezifikationen",
-  "fa": "مشخصات آزمون",
   "kurz": "Zentrale Informationen über eine Prüfung.",
   "def": "Sie enthalten laut Text die Art der überprüften Kompetenzen, die Gewichtung der Komponenten und die Aufgabenformate (Green 2013).",
   "zitate": [
@@ -534,12 +719,19 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Moser-Frötscher 2025",
+    "s": [
+     "S. 85"
+    ]
+   }
+  ]
  },
  {
   "id": "reliabilitaet",
   "term": "Reliabilität",
-  "fa": "پایایی",
   "kurz": "Ergebnisse hängen konsistent von der Sprachkompetenz ab.",
   "def": "Instrumente sind laut Text reliabel, wenn ihre Ergebnisse konsistent von der Sprachkompetenz abhängen und nicht von anderen Faktoren, z. B. unklaren Anweisungen oder missverständlichen Fragen (Green 2013).",
   "zitate": [
@@ -561,12 +753,19 @@
    "pruefen-s2",
    "ki-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Moser-Frötscher 2025",
+    "s": [
+     "S. 86"
+    ]
+   }
+  ]
  },
  {
   "id": "high-low-stakes",
   "term": "low stakes und high stakes",
-  "fa": "آزمون با پیامد کم / پیامد سنگین",
   "kurz": "Unterscheidung nach den Folgen der Prüfungsentscheidung.",
   "def": "Bei low stakes sind die Auswirkungen gering. Bei high stakes hat das Nichtbestehen weitreichende Folgen, für Lernende (z. B. Verwehrung einer Ausbildung) und für Schulen (z. B. Personalabbau, behördliche Kontrolle).",
   "zitate": [
@@ -587,12 +786,19 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Moser-Frötscher 2025",
+    "s": [
+     "S. 87"
+    ]
+   }
+  ]
  },
  {
   "id": "washback",
   "term": "washback",
-  "fa": "اثر بازگشتی آزمون بر آموزش",
   "kurz": "Rückwirkung einer Prüfung auf Unterricht und Lernen.",
   "def": "Vor allem bei high stakes konzentrieren sich Lehrende und Lernende auf das, was vermutlich geprüft wird. Der Effekt kann negativ oder positiv sein.",
   "zitate": [
@@ -613,12 +819,19 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Moser-Frötscher 2025",
+    "s": [
+     "S. 87"
+    ]
+   }
+  ]
  },
  {
   "id": "language-assessment-literacy",
   "term": "Language Assessment Literacy",
-  "fa": "سواد سنجش زبان",
   "kurz": "Leistungsbeurteilungskompetenz von Lehrpersonen.",
   "def": "Sie umfasst laut Text Fach- und Anwendungswissen in der fremdsprachlichen Leistungsbeurteilung sowie sprachlich-fachliche Kompetenzen (Fulcher 2010).",
   "zitate": [
@@ -638,12 +851,19 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Moser-Frötscher 2025",
+    "s": [
+     "S. 85"
+    ]
+   }
+  ]
  },
  {
   "id": "funktionen-assessment",
   "term": "Funktionen von Assessment",
-  "fa": "کارکردهای سنجش",
   "kurz": "Wozu Lehrende Leistungen erfassen: Diagnose, Förderung, Notenvergabe, Selektion u. a.",
   "def": "Die Folie sammelt Funktionen aus der Lehrendenperspektive (Grotjahn/Kleppin 2017, S. 12), z. B. Diagnose, Einstufung, Rückmeldung, Förderung, Motivierung, Notenvergabe, Rangordnung, Selektion und Disziplinierung.",
   "zitate": [
@@ -664,12 +884,19 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Berthelé",
+    "s": [
+     "Folie 8"
+    ]
+   }
+  ]
  },
  {
   "id": "pruefen-testen",
   "term": "Prüfen und Testen",
-  "fa": "آزمودن و تست‌کردن (assessment / testing)",
   "kurz": "Prüfen (assessment) ist der weite, Testen (testing) der engere Begriff.",
   "def": "Prüfen umfasst alle Aktivitäten, bei denen Informationen über Lernende gesammelt werden (auch Quiz, Selbst- und Peerevaluation). Testen meint Verfahren der Leistungsmessung, möglichst objektiv und zuverlässig. In der Praxis werden beide oft synonym verwendet.",
   "zitate": [
@@ -690,12 +917,26 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "lexikon": [
+   {
+    "t": "Der Begriff steht für die möglichst präzise Erhebung und Beschreibung von Lernleistungen unabhängig davon, ob diese dann bewertet werden sollen oder nicht.",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Leistungsermittlung",
+    "s": "PDF-S. 295"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Folien Berthelé",
+    "s": [
+     "Folie 12"
+    ]
+   }
+  ]
  },
  {
   "id": "feedback-hattie",
   "term": "Feedback: feed up, feed back, feed forward",
-  "fa": "بازخورد: feed up / feed back / feed forward",
   "kurz": "Drei Fragen: Wo will ich hin, wie komme ich voran, was ist der nächste Schritt?",
   "def": "Nach Hattie/Timperley (2007) hat Feedback drei Teile: Feed up (Ziele, Standort), Feed back (Fortschritt, Reflexion) und Feed forward (nächste Schritte). Es soll die Distanz zwischen Lernziel und aktueller Leistung überbrücken.",
   "zitate": [
@@ -716,12 +957,26 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "lexikon": [
+   {
+    "t": "Feedback ist ursprünglich ein Begriff aus der Kybernetik und bedeutet ‚Rückkoppelung‘. Im Kontext von Lehren und Lernen bezeichnet F. eine Information an eine Person oder Gruppe darüber, wie deren Verhalten von einer anderen Person oder Gruppe wahrgenommen wird.",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Feedback",
+    "s": "PDF-S. 110"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Folien Berthelé",
+    "s": [
+     "Folie 10"
+    ]
+   }
+  ]
  },
  {
   "id": "konstrukt",
   "term": "Konstrukt der Leistungsmessung",
-  "fa": "سازه‌ی سنجش (آنچه باید اندازه‌گیری شود)",
   "kurz": "Theoretische Vorstellung davon, was Sprachkompetenz ist und gemessen werden soll.",
   "def": "Die Folie zeichnet eine Entwicklung nach: behavioristisch (Lado 1961), multikomponentiell (Bachman/Palmer 2010), handlungsorientiert (GeR 2001 und 2010). Neuere Ausweitungen betreffen Mediation, Mehrsprachigkeit und den Verzicht auf den native-speaker-Standard.",
   "zitate": [
@@ -742,12 +997,19 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Berthelé",
+    "s": [
+     "Folie 14"
+    ]
+   }
+  ]
  },
  {
   "id": "standardisierung",
   "term": "Standardisierung (high-stakes-Tests)",
-  "fa": "استانداردسازی آزمون",
   "kurz": "Einheitliche Entwicklung, Durchführung und Auswertung für vergleichbare Ergebnisse.",
   "def": "Bei der Entwicklung legen Testspezifikationen Konstrukt und Aufgabenformate fest. Bei der Durchführung gelten vergleichbare Bedingungen. Bei der Auswertung sichern einheitliche Skalen, Doppelbeurteilung und die Multifacetten-Rasch-Analyse die Qualität.",
   "zitate": [
@@ -769,12 +1031,19 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Berthelé",
+    "s": [
+     "Folie 18"
+    ]
+   }
+  ]
  },
  {
   "id": "eingangstest",
   "term": "Eingangstest und Eignungstest",
-  "fa": "آزمون ورودی و آزمون استعداد",
   "kurz": "Aufnahmetest entscheidet über die Aufnahme, Eignungstest misst die allgemeine Lernbefähigung.",
   "def": "Aufnahme-, Zulassungs- und Zugangstest entscheiden, ob Teilnehmende in eine Sprachausbildung aufgenommen werden. Ein Eignungstest misst dagegen die allgemeine Befähigung zum Fremdsprachenlernen. Beispiele für Aufnahmetests: TOEFL, IELTS, TestDaF.",
   "zitate": [
@@ -795,12 +1064,19 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": "proficiency test = Sprachstandstest: misst den erreichten Sprachstand, unabhängig von einem bestimmten Kurs."
+  "hinweis": "proficiency test = Sprachstandstest: misst den erreichten Sprachstand, unabhängig von einem bestimmten Kurs.",
+  "herkunft": [
+   {
+    "q": "Folien Berthelé",
+    "s": [
+     "Folie 20"
+    ]
+   }
+  ]
  },
  {
   "id": "assessment-of-for-as",
   "term": "Assessment of, for und as Learning",
-  "fa": "سنجش «از»، «برای» و «به‌عنوان» یادگیری",
   "kurz": "Drei Arten von Assessment mit unterschiedlichem Ziel und unterschiedlichen Beurteilenden.",
   "def": "Of Learning ist summativ (am Ende, Lehrperson oder Institution). For Learning ist formativ und unterstützt den Lernprozess. As Learning ist formativ und gibt den Lernenden Verantwortung, z. B. durch Self- und Peer-Assessment.",
   "zitate": [
@@ -822,12 +1098,19 @@
   "sitzungen": [
    "pruefen-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Berthelé",
+    "s": [
+     "Folie 21"
+    ]
+   }
+  ]
  },
  {
   "id": "schreibkompetenz",
   "term": "fremdsprachliche Schreibkompetenz",
-  "fa": "توانایی نوشتن در زبان خارجی",
   "kurz": "Besteht aus fünf Teilkompetenzen.",
   "def": "Krings unterscheidet Schreibmotorik, Orthographie, fremdsprachliches Schriftsystem, das Verfassen von Texten nach Textkonventionen und das Schreibprozessmanagement.",
   "zitate": [
@@ -849,12 +1132,26 @@
   "sitzungen": [
    "schreiben-s1"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "lexikon": [
+   {
+    "t": "Schreiben zählt zu den produktiven fremdsprachlichen",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Schreiben",
+    "s": "PDF-S. 410"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Krings 2016",
+    "s": [
+     "S. 107"
+    ]
+   }
+  ]
  },
  {
   "id": "schreibprozessmanagement",
   "term": "Schreibprozessmanagement",
-  "fa": "مدیریت فرایند نوشتن",
   "kurz": "Planen und Steuern der mentalen Teilprozesse der Textproduktion.",
   "def": "Krings bezeichnet es als am häufigsten übersehene Teilkompetenz. Je umfangreicher und anspruchsvoller der Text, desto wichtiger wird sie.",
   "zitate": [
@@ -874,12 +1171,19 @@
   "sitzungen": [
    "schreiben-s1"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Krings 2016",
+    "s": [
+     "S. 107"
+    ]
+   }
+  ]
  },
  {
   "id": "textkonventionen",
   "term": "Textkonventionen und Textsortenkonventionen",
-  "fa": "قواعد و هنجارهای متنی",
   "kurz": "Regeln, nach denen Texte einer Sorte verfasst werden.",
   "def": "Textsortenkonventionen können nicht nur zwischen Textsorten, sondern auch für gleiche Textsorten von Sprache zu Sprache verschieden sein. Das Verfassen von Texten nach gültigen Konventionen ist laut Krings die Kernkompetenz des Schreibens.",
   "zitate": [
@@ -899,12 +1203,19 @@
   "sitzungen": [
    "schreiben-s1"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Krings 2016",
+    "s": [
+     "S. 107"
+    ]
+   }
+  ]
  },
  {
   "id": "ger-skalen",
   "term": "GER-Skalen zum Schreiben",
-  "fa": "مقیاس‌های GER برای نوشتن",
   "kurz": "Niveaubeschreibungen von A1 bis C2 für verschiedene Aspekte des Schreibens.",
   "def": "Im Anhang bei Grotjahn (2017) stehen sieben Skalen: Schriftliche Produktion allgemein, Schriftliche Interaktion allgemein, Spektrum sprachlicher Mittel, Wortschatzbeherrschung, Grammatische Korrektheit, Beherrschung der Orthographie, Kohärenz und Kohäsion (zitiert nach Europarat 2001).",
   "zitate": [
@@ -925,12 +1236,26 @@
   "sitzungen": [
    "schreiben-s1"
   ],
-  "hinweis": "GER = Gemeinsamer europäischer Referenzrahmen für Sprachen. Die Skalen stammen aus der Fassung von 2001."
+  "hinweis": "GER = Gemeinsamer europäischer Referenzrahmen für Sprachen. Die Skalen stammen aus der Fassung von 2001.",
+  "lexikon": [
+   {
+    "t": "ist als flexibles und ausschließlich deskriptives Werkzeug zur Beschreibung von Sprachkompetenz auf i. d. R. sechs unterschiedlichen Kompetenzstufen",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Gemeinsamer europäischer Referenzrahmen für Sprachen",
+    "s": "PDF-S. 152"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Grotjahn 2017",
+    "s": [
+     "Anhang 1, S. 113"
+    ]
+   }
+  ]
  },
  {
   "id": "kohaerenz-kohaesion",
   "term": "Kohärenz und Kohäsion (GER-Skala)",
-  "fa": "انسجام و پیوستگی متن (مقیاس GER)",
   "kurz": "Skala zur Gliederung und Verknüpfung von Texten.",
   "def": "Die Skala beschreibt, wie gut Gliederung und Verknüpfung gelingen, von einfachen Konnektoren wie „und“ auf A1 bis zu einer Vielfalt an Mitteln auf C2 (Anhang 7).",
   "zitate": [
@@ -950,12 +1275,31 @@
   "sitzungen": [
    "schreiben-s1"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "lexikon": [
+   {
+    "t": "K. gilt als entscheidendes Definitionskriterium von Texten: nur kohärente Zeichenfolgen werden vom Sprachteilnehmer als Text interpretiert.",
+    "q": "Metzler Lexikon Sprache, s. v. Kohärenz",
+    "s": "PDF-S. 368"
+   },
+   {
+    "t": "so gilt die explizite Verknüpfung von Sätzen in einem Text als K.",
+    "q": "Metzler Lexikon Sprache, s. v. Kohäsion",
+    "s": "PDF-S. 368"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Grotjahn 2017",
+    "s": [
+     "Anhang 7, S. 116"
+    ]
+   }
+  ]
  },
  {
   "id": "schreibsubprozesse",
   "term": "Schreibsubprozesse",
-  "fa": "زیرفرایندهای نوشتن",
   "kurz": "Teilprozesse des Schreibens: Ideen, Planen, Formulieren, Ausführen, Revidieren.",
   "def": "Breuer behandelt im Auszug fünf Subprozesse: Ideen generieren, Text planen, sprachliche Transformation, Ausführung und Revision. Sie laufen nicht strikt nacheinander ab, sondern beeinflussen sich gegenseitig.",
   "zitate": [
@@ -977,12 +1321,19 @@
   "sitzungen": [
    "schreiben-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Breuer 2020",
+    "s": [
+     "S. 27"
+    ]
+   }
+  ]
  },
  {
   "id": "schreiben-als-denken",
   "term": "Schreiben als Denken (thinking in action)",
-  "fa": "نوشتن به‌مثابه‌ی اندیشیدن",
   "kurz": "Beim Schreiben entsteht und verändert sich Wissen.",
   "def": "Nach Menary (2007: 622) aktivieren die körperlichen Prozesse die mentalen. Wenn Sprachsuche zu viel Arbeitsgedächtnis bindet, hemmt das diese Funktion.",
   "zitate": [
@@ -1004,12 +1355,19 @@
   "sitzungen": [
    "schreiben-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Breuer 2020",
+    "s": [
+     "S. 22"
+    ]
+   }
+  ]
  },
  {
   "id": "freewriting",
   "term": "freewriting",
-  "fa": "نوشتن آزاد",
   "kurz": "Gedanken in vorgegebener Zeit ohne Unterbrechung und Korrektur aufschreiben.",
   "def": "Nach Elbow (1973) schreibt man in einem festgelegten Zeitraum, ohne zum Nachdenken oder Korrigieren zu stoppen. In Breuers Studie (2016a) entstanden damit die meisten Ideen.",
   "zitate": [
@@ -1030,12 +1388,19 @@
   "sitzungen": [
    "schreiben-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Breuer 2020",
+    "s": [
+     "S. 23"
+    ]
+   }
+  ]
  },
  {
   "id": "pre-task-planning",
   "term": "pre-task planning",
-  "fa": "برنامه‌ریزی پیش از نوشتن",
   "kurz": "Planung vor dem eigentlichen Schreiben.",
   "def": "Sie kann mental oder mit Stichwörtern und visuellen Mitteln relativ sprachungebunden erfolgen (z. B. Mindmap, Stichwortliste).",
   "zitate": [
@@ -1056,12 +1421,19 @@
   "sitzungen": [
    "schreiben-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Breuer 2020",
+    "s": [
+     "S. 24"
+    ]
+   }
+  ]
  },
  {
   "id": "l1-entlastung",
   "term": "L1 als Entlastungsstrategie",
-  "fa": "زبان اول به‌عنوان راهبرد کاهش بار",
   "kurz": "Die Erstsprache nutzen, um das Arbeitsgedächtnis beim FS-Schreiben zu entlasten.",
   "def": "FS-Schreibende nutzen die L1 oft für Ideen, Struktur und Wortfindung. Der Nutzen hängt von der FS-Kompetenz ab.",
   "zitate": [
@@ -1082,12 +1454,19 @@
   "sitzungen": [
    "schreiben-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Breuer 2020",
+    "s": [
+     "S. 22"
+    ]
+   }
+  ]
  },
  {
   "id": "copy-task",
   "term": "copy task",
-  "fa": "تکلیف رونویسی",
   "kurz": "Abschreibaufgabe mit Keylogging, die reine Ausführungsprozesse misst.",
   "def": "Van Waes et al. (2019) entwickelten sie, um die Ausführung des Schreibens in verschiedenen Sprachen zu vergleichen.",
   "zitate": [
@@ -1107,12 +1486,19 @@
   "sitzungen": [
    "schreiben-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Breuer 2020",
+    "s": [
+     "S. 28"
+    ]
+   }
+  ]
  },
  {
   "id": "revision",
   "term": "Revision (Revidieren)",
-  "fa": "بازبینی متن",
   "kurz": "Abgleich des Textes mit dem Schreibziel, beginnt schon bei der Ideenwahl.",
   "def": "Bei FS-Schreibenden ist Revision nach der Fertigstellung besonders wirksam (Chenoweth/Hayes 2001). Sie bleibt oft lokal und kosmetisch.",
   "zitate": [
@@ -1133,12 +1519,19 @@
   "sitzungen": [
    "schreiben-s2"
   ],
-  "hinweis": "Kellogg nennt die Teilprozesse reading und editing (Sitzung 3)."
+  "hinweis": "Kellogg nennt die Teilprozesse reading und editing (Sitzung 3).",
+  "herkunft": [
+   {
+    "q": "Breuer 2020",
+    "s": [
+     "S. 29"
+    ]
+   }
+  ]
  },
  {
   "id": "translanguaging",
   "term": "translanguaging",
-  "fa": "ترازبان‌ورزی (آمیختن زبان‌ها)",
   "kurz": "Das Mischen mehrerer Sprachen beim Lernen und Schreiben.",
   "def": "Gevers (2018) warnt vor unkritischem Einsatz, weil der Effekt auf das Schreiben nicht gesichert sei und von der Unterschiedlichkeit der Sprachen abhänge.",
   "zitate": [
@@ -1158,12 +1551,31 @@
   "sitzungen": [
    "schreiben-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "lexikon": [
+   {
+    "t": "T. ist ein sprachpädagogisches Konzept (vgl. Panagiotopoulou 2018), mit dem nicht länger der Erwerb einer Einzelsprache fokussiert wird, sondern sämtliche kommunikativen Mittel – verbal und nonverbal",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Translanguaging",
+    "s": "PDF-S. 476"
+   },
+   {
+    "t": "Im Unterschied zu code-switching basiert t. auf der Annahme, dass Lernende nur ein linguistisches Repertoire nutzen, um zu kommunizieren, und nicht (willkürlich) zwischen mehreren sprachlichen Systemen wechseln.",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Translanguaging",
+    "s": "PDF-S. 476"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Breuer 2020",
+    "s": [
+     "S. 27"
+    ]
+   }
+  ]
  },
  {
   "id": "arbeitsgedaechtnis",
   "term": "Arbeitsgedächtnis beim Schreiben",
-  "fa": "حافظه‌ی کاری در نوشتن",
   "kurz": "Begrenzte Kapazität, die alle Schreibprozesse gleichzeitig beanspruchen.",
   "def": "Beansprucht Sprachsuche zu viel Kapazität, leiden Denken und Planen (Breuer, mit Baddeley 2007). Kellogg beschreibt, welche Teilprozesse welche Komponenten des Arbeitsgedächtnisses brauchen.",
   "zitate": [
@@ -1171,6 +1583,11 @@
     "t": "so hemmt dies das Schreiben als Denken.",
     "s": "S. 23",
     "q": "Breuer 2020"
+   },
+   {
+    "t": "individuals with different working memory spans can be expected to vary in the speed an efficiency with which they execute various writing processes",
+    "s": "S. 34",
+    "q": "Schnell 2020"
    }
   ],
   "beispiel": "Wer Orthographie und Grammatik noch nicht automatisiert hat, hat weniger Kapazität für Argumentation (eigene Anwendung).",
@@ -1182,15 +1599,27 @@
    "schreiben"
   ],
   "sitzungen": [
-   "schreiben-s2",
-   "schreiben-s3"
+   "schreiben-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Breuer 2020",
+    "s": [
+     "S. 23"
+    ]
+   },
+   {
+    "q": "Schnell 2020",
+    "s": [
+     "S. 34"
+    ]
+   }
+  ]
  },
  {
   "id": "kellogg-modell",
   "term": "Kellogg-Modell (1996): Arbeitsgedächtnis beim Schreiben",
-  "fa": "مدل کلوگ (حافظه‌ی کاری در نوشتن)",
   "kurz": "Sechs Schreibprozesse und ihre Anforderungen an das Arbeitsgedächtnis.",
   "def": "Planning, translating, programming, executing, reading, editing. Außer der motorischen Ausführung beanspruchen alle die zentrale Exekutive. Der Notizblock wird nur beim Planen gebraucht, die phonologische Schleife beim Formulieren und Lesen.",
   "zitate": [
@@ -1209,14 +1638,21 @@
    "schreiben"
   ],
   "sitzungen": [
-   "schreiben-s3"
+   "schreiben-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Kellogg et al., Modell von 1996",
+    "s": [
+     "S. 161"
+    ]
+   }
+  ]
  },
  {
   "id": "selbstregulation-schreiben",
   "term": "Selbstregulation beim Schreiben (Zyklusmodell)",
-  "fa": "خودتنظیمی در نوشتن (مدل چرخه‌ای)",
   "kurz": "Drei Phasen: Forethought, Performance, Self-reflection.",
   "def": "Ergebnisse des Schreibens wirken auf die nächste Vorüberlegung zurück. Dazu gehören Zielsetzung, Strategien, Selbstbeobachtung, Selbstbewertung, Attribution und Zufriedenheit.",
   "zitate": [
@@ -1235,14 +1671,21 @@
    "schreiben"
   ],
   "sitzungen": [
-   "schreiben-s3"
+   "schreiben-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Zimmerman/Kitsantas 2006",
+    "s": [
+     "S. 54"
+    ]
+   }
+  ]
  },
  {
   "id": "knowledge-telling",
   "term": "knowledge telling",
-  "fa": "دانش‌گویی",
   "kurz": "Gedächtnisinhalte zu Thema und Genre linear aufschreiben.",
   "def": "Strategie nach Bereiter/Scardamalia (1987), typisch bei Schreibnovizen. Sie ähnelt dem assoziativen Schreiben und braucht kaum Planung.",
   "zitate": [
@@ -1262,15 +1705,21 @@
    "schreiben"
   ],
   "sitzungen": [
-   "schreiben-s2",
    "schreiben-s3"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Schnell 2020",
+    "s": [
+     "S. 42"
+    ]
+   }
+  ]
  },
  {
   "id": "knowledge-transforming",
   "term": "knowledge transforming",
-  "fa": "دانش‌دگرگونی",
   "kurz": "Wissen wird beim Schreiben problemorientiert umgeformt.",
   "def": "Strategie der geübten Schreibenden: Textziele und Textmuster steuern, Inhalts- und Diskurswissen werden aufeinander bezogen. Das knowledge telling ist darin als Unterprozess enthalten.",
   "zitate": [
@@ -1292,12 +1741,19 @@
   "sitzungen": [
    "schreiben-s3"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Schnell 2020",
+    "s": [
+     "S. 43"
+    ]
+   }
+  ]
  },
  {
   "id": "knowledge-crafting",
   "term": "knowledge crafting",
-  "fa": "دانش‌پرداخت",
   "kurz": "Dritte Stufe nach Kellogg (2008): zusätzlich die Leserperspektive im Blick.",
   "def": "Expert:innen halten im Kopf, wie die Leserschaft den Text interpretiert, was die Ideen des Autors sind und was der Text aktuell kommuniziert. Laut Schnell braucht das etwa zwanzig Jahre Schreibpraxis.",
   "zitate": [
@@ -1317,12 +1773,19 @@
   "sitzungen": [
    "schreiben-s3"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Schnell 2020",
+    "s": [
+     "S. 44"
+    ]
+   }
+  ]
  },
  {
   "id": "schreibstrategie",
   "term": "Schreibstrategie",
-  "fa": "راهبرد نوشتن",
   "kurz": "Erworbenes Ablauf- und Organisationsschema für das Schreiben, stark aufgaben- und personengebunden.",
   "def": "Nach Ortner (2000) ein Verfahren, das Feld der Aufmerksamkeit zu erweitern und die Zuwendung selbst zu steuern. Er unterscheidet zehn idealtypische Strategien. Reid (1984) unterscheidet radical brain-stormer und radical outliner.",
   "zitate": [
@@ -1335,7 +1798,8 @@
   "beispiel": "Brain-stormer: schnell schreiben, dann mehrfach überarbeiten. Outliner: lange gliedern, dann schreiben (S. 46).",
   "see": [
    "knowledge-telling",
-   "selbstregulation-schreiben"
+   "selbstregulation-schreiben",
+   "schreibblockade"
   ],
   "seminare": [
    "schreiben"
@@ -1343,12 +1807,19 @@
   "sitzungen": [
    "schreiben-s3"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Schnell 2020",
+    "s": [
+     "S. 47"
+    ]
+   }
+  ]
  },
  {
   "id": "schreibentwicklung-bereiter",
   "term": "Schreibentwicklung nach Bereiter (1980)",
-  "fa": "رشد نوشتن بر اساس برایتر",
   "kurz": "Fünf Stufen von assoziativem bis epistemischem Schreiben, ohne feste Reihenfolge.",
   "def": "Associative, performative, communicative, unified und epistemic writing. Automatisierung der Grundprozesse macht Kapazität frei für weitere Teilfähigkeiten.",
   "zitate": [
@@ -1369,12 +1840,19 @@
   "sitzungen": [
    "schreiben-s3"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Schnell 2020",
+    "s": [
+     "S. 71"
+    ]
+   }
+  ]
  },
  {
   "id": "epistemisches-schreiben",
   "term": "epistemisches Schreiben",
-  "fa": "نوشتن معرفت‌ساز",
   "kurz": "Schreiben, das Erkenntnis erweitert.",
   "def": "Gedanken werden umstrukturiert und neue Zusammenhänge erarbeitet. Besonders interessant für universitäre Lernprozesse.",
   "zitate": [
@@ -1395,12 +1873,19 @@
   "sitzungen": [
    "schreiben-s3"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Schnell 2020",
+    "s": [
+     "S. 71"
+    ]
+   }
+  ]
  },
  {
   "id": "computerlinguistik",
   "term": "Computerlinguistik",
-  "fa": "زبان‌شناسی رایانشی",
   "kurz": "Wissenschaft von Sprache aus einer rechnerischen Perspektive.",
   "def": "Sie modelliert sprachliche Phänomene mit Algorithmen, entweder wissensbasiert (handgemacht) oder datengetrieben (statistisch). Andere Bezeichnungen: maschinelle Sprachverarbeitung, Sprachtechnologie, NLP.",
   "zitate": [
@@ -1422,12 +1907,26 @@
   "sitzungen": [
    "cl-s1"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "lexikon": [
+   {
+    "t": "Gegenstandsbereich der C. ist die Repräsentation und Verarbeitung natürlicher Spr. mit den Methoden der Informatik.",
+    "q": "Metzler Lexikon Sprache, s. v. Computerlinguistik",
+    "s": "PDF-S. 149"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Folien Sitzung 1 (vl01)",
+    "s": [
+     "Folie 43 (ACL)"
+    ]
+   }
+  ]
  },
  {
   "id": "algorithmus",
   "term": "Algorithmus",
-  "fa": "الگوریتم",
   "kurz": "Eindeutige Handlungsvorschrift, die eine Eingabe in eine Ausgabe überführt.",
   "def": "Maschinell ausführbare Algorithmen sind finit und terminieren nach endlich vielen Schritten. Formal kann man sie als Funktion f: X → Y verstehen (Sitzung 2).",
   "zitate": [
@@ -1449,12 +1948,26 @@
    "cl-s1",
    "cl-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "lexikon": [
+   {
+    "t": "Ein generelles, schrittweise vorgehendes Rechenverfahren, das nach schemat. Regeln vollzogen wird.",
+    "q": "Metzler Lexikon Sprache, s. v. Algorithmus",
+    "s": "PDF-S. 53"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Folien Sitzung 1 (vl01)",
+    "s": [
+     "Folie 21"
+    ]
+   }
+  ]
  },
  {
   "id": "programmiersprache",
   "term": "Programmiersprache",
-  "fa": "زبان برنامه‌نویسی",
   "kurz": "Formale Sprache zur Formulierung von Algorithmen.",
   "def": "Sie definiert, welche Instruktionen im Quelltext erlaubt sind. Ein Compiler oder Interpreter übersetzt sie in Prozessorbefehle. Beispiel: Python.",
   "zitate": [
@@ -1475,12 +1988,19 @@
   "sitzungen": [
    "cl-s1"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Sitzung 1 (vl01)",
+    "s": [
+     "Folie 22"
+    ]
+   }
+  ]
  },
  {
   "id": "natuerliche-sprache",
   "term": "natürliche Sprache",
-  "fa": "زبان طبیعی",
   "kurz": "Die von Menschen gelernte, gesprochene, geschriebene oder gebärdete Sprache.",
   "def": "Natürliche Sprache ist systematisch, folgt Regeln, verändert sich aber ständig.",
   "zitate": [
@@ -1501,12 +2021,19 @@
   "sitzungen": [
    "cl-s1"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Sitzung 1 (vl01)",
+    "s": [
+     "Folie 27"
+    ]
+   }
+  ]
  },
  {
   "id": "sprachliche-ebenen",
   "term": "sprachliche Ebenen",
-  "fa": "سطوح زبانی",
   "kurz": "Phonetik/Phonologie, Morphologie, Syntax, Semantik, Pragmatik.",
   "def": "Sprachliche Einheiten, Regeln, Strukturen und Bedeutung werden auf unterschiedlichen Ebenen betrachtet: Laute, Wörter, Satz, Bedeutung, Kommunikation.",
   "zitate": [
@@ -1528,12 +2055,19 @@
    "cl-s1",
    "cl-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Sitzung 1 (vl01)",
+    "s": [
+     "Folie 35"
+    ]
+   }
+  ]
  },
  {
   "id": "sprachmodell",
   "term": "Sprachmodell (Language Model)",
-  "fa": "مدل زبانی",
   "kurz": "Modell, das auf großen Datenmengen lernt, Wortsequenzen vorherzusagen.",
   "def": "Neuere Ansätze wie ChatGPT beruhen laut Folie auf sehr einfachen, aber riesigen Sprachmodellen. Im Gegensatz dazu zerlegen klassische, regelbasierte Systeme den Prozess in Komponenten.",
   "zitate": [
@@ -1553,12 +2087,19 @@
   "sitzungen": [
    "cl-s1"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Sitzung 1 (vl01)",
+    "s": [
+     "Folie 46"
+    ]
+   }
+  ]
  },
  {
   "id": "phonem",
   "term": "Phonem",
-  "fa": "واج",
   "kurz": "Kleinste bedeutungsunterscheidende Einheit der gesprochenen Sprache.",
   "def": "Phoneme sind die Lauttypen, die in einer Sprache Wörter unterscheiden. Beispiel: /a/ vs. /u/ in „hat“ und „Hut“. Schreibweise: IPA.",
   "zitate": [
@@ -1579,12 +2120,26 @@
   "sitzungen": [
    "cl-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "lexikon": [
+   {
+    "t": "Seit Ende des 19. Jh. Bez. für die kleinste bedeutungsunterscheidende segmentale Lauteinheit einer Spr.",
+    "q": "Metzler Lexikon Sprache, s. v. Phonem",
+    "s": "PDF-S. 537"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Folien Sitzung 2 (vl02)",
+    "s": [
+     "Folie 60"
+    ]
+   }
+  ]
  },
  {
   "id": "phon-allophon",
   "term": "Phon und Allophon",
-  "fa": "آوا و واج‌گونه",
   "kurz": "Konkrete Realisierung eines Phonems und seine Varianten.",
   "def": "Dasselbe Phonem kann mit verschiedenen Phonen realisiert werden. Diese Varianten (Allophone) unterscheiden keine Bedeutung.",
   "zitate": [
@@ -1604,12 +2159,31 @@
   "sitzungen": [
    "cl-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "lexikon": [
+   {
+    "t": "Minimale segmentale Analyseeinheit der deskriptiven Phonetik (Laut) als Realisation (Allophon) eines Phonems.",
+    "q": "Metzler Lexikon Sprache, s. v. Phon",
+    "s": "PDF-S. 536"
+   },
+   {
+    "t": "Phonet. Variante der Realisierung eines Phonems.",
+    "q": "Metzler Lexikon Sprache, s. v. Allophon",
+    "s": "PDF-S. 55"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Folien Sitzung 2 (vl02)",
+    "s": [
+     "Folie 26"
+    ]
+   }
+  ]
  },
  {
   "id": "graphem",
   "term": "Graphem",
-  "fa": "نویسه",
   "kurz": "Kleinste Einheit der geschriebenen Sprache.",
   "def": "Grapheme sind konventionell. In logographischen Schriften stehen sie für bedeutungstragende, in phonographischen für bedeutungsunterscheidende Einheiten. Die Phonem-Graphem-Zuordnung ist nie 1:1.",
   "zitate": [
@@ -1630,12 +2204,26 @@
   "sitzungen": [
    "cl-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "lexikon": [
+   {
+    "t": "Minimale systemat. Einheit in alphabetischen Schriftsystemen",
+    "q": "Metzler Lexikon Sprache, s. v. Graphem",
+    "s": "PDF-S. 278"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Folien Sitzung 2 (vl02)",
+    "s": [
+     "Folie 60"
+    ]
+   }
+  ]
  },
  {
   "id": "spracherkennung-asr",
   "term": "Spracherkennung (ASR)",
-  "fa": "بازشناسی خودکار گفتار",
   "kurz": "Bildet Lautsignale auf Folgen von Graphemen ab.",
   "def": "ASR ist nicht dasselbe wie Transkription: Die Ausgabe ist keine genaue phonetische Transkription. Herausforderungen sind Segmentierung und Variation (Reduktion, Assimilation).",
   "zitate": [
@@ -1656,12 +2244,19 @@
   "sitzungen": [
    "cl-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Sitzung 2 (vl02)",
+    "s": [
+     "Folie 60"
+    ]
+   }
+  ]
  },
  {
   "id": "sprachsynthese-tts",
   "term": "Sprachsynthese (TTS)",
-  "fa": "سنتز گفتار",
   "kurz": "Bildet geschriebene Sprache auf Lautsignale ab.",
   "def": "Umkehrung der Spracherkennung (Text-to-Speech).",
   "zitate": [
@@ -1681,12 +2276,19 @@
   "sitzungen": [
    "cl-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Sitzung 2 (vl02)",
+    "s": [
+     "Folie 60"
+    ]
+   }
+  ]
  },
  {
   "id": "korpus",
   "term": "Korpus (Korpora)",
-  "fa": "پیکره‌ی زبانی",
   "kurz": "Sammlung von sprachlichen Daten.",
   "def": "Man unterscheidet Textkorpora (geschrieben) und Korpora gesprochener Sprache. Letztere sind schwieriger zu erstellen.",
   "zitate": [
@@ -1706,12 +2308,31 @@
   "sitzungen": [
    "cl-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "lexikon": [
+   {
+    "t": "Sprachl. Daten, die einer sprachwiss. Analyse als Grundlage dienen.",
+    "q": "Metzler Lexikon Sprache, s. v. Korpus",
+    "s": "PDF-S. 401"
+   },
+   {
+    "t": "Sammlung einer möglichst hohen, notwendigerweise aber immer begrenzten Anzahl möglichst zusammenhängender sprachl. Äußerungen (gesprochen und/oder geschrieben) aus möglichst natürl. Kommunikationssituationen.",
+    "q": "Metzler Lexikon Sprache, s. v. Korpus",
+    "s": "PDF-S. 401"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Folien Sitzung 2 (vl02)",
+    "s": [
+     "Folie 35"
+    ]
+   }
+  ]
  },
  {
   "id": "zeichensatz",
   "term": "Zeichensatz und Zeichenkodierung",
-  "fa": "مجموعه نویسه و کدگذاری",
   "kurz": "Wie der Computer Schriftzeichen als Zahlen darstellt.",
   "def": "ASCII umfasst 128 Zeichen und reicht für das Englische. Unicode (UTF-8) kann alle existierenden Zeichen kodieren und ist heute Standard.",
   "zitate": [
@@ -1731,12 +2352,19 @@
   "sitzungen": [
    "cl-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Sitzung 2 (vl02)",
+    "s": [
+     "Folie 51"
+    ]
+   }
+  ]
  },
  {
   "id": "token-typ",
   "term": "Token und Typ (Type)",
-  "fa": "توکن و تایپ",
   "kurz": "Vorkommen versus Wortform.",
   "def": "Ein Token ist eine Instanz einer Wortform in einem Text, ein Typ ist die abstrakte Wortform. Im Satz über die Fliegen gibt es 11 Token und 7 Typen (eigene Zählung).",
   "zitate": [
@@ -1756,12 +2384,19 @@
   "sitzungen": [
    "cl-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Sitzung 2 (vl02)",
+    "s": [
+     "Folie 57"
+    ]
+   }
+  ]
  },
  {
   "id": "ki-feedback",
   "term": "KI-Feedback",
-  "fa": "بازخورد هوش مصنوعی",
   "kurz": "Rückmeldung zu Lernertexten durch ein generatives KI-Tool.",
   "def": "Im Seminar im Zentrum: Wie gut ist KI-Feedback auf L2-Texte, wie unterscheidet es sich vom Feedback der Lehrkraft, und wie lässt sich damit eine Lerneinheit didaktisieren? Nach Moorhouse/Wong kann es als Vorkorrektur oder formatives Feedback dienen, ist aber der umstrittenste Einsatz.",
   "zitate": [
@@ -1784,12 +2419,19 @@
    "ki-s1",
    "ki-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Einstieg (Riemer)",
+    "s": [
+     "Folie 4"
+    ]
+   }
+  ]
  },
  {
   "id": "genki",
   "term": "generative KI (genKI)",
-  "fa": "هوش مصنوعی مولد",
   "kurz": "KI, die neue Inhalte erzeugt, z. B. Text, Code, Bilder, Videos.",
   "def": "Im Gegensatz zu regelbasierten Systemen folgt genKI nicht vorprogrammierten Antworten, sondern erzeugt Inhalte aus gelernten Mustern.",
   "zitate": [
@@ -1811,12 +2453,19 @@
   "sitzungen": [
    "ki-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Moorhouse/Wong 2025",
+    "s": [
+     "S. 5"
+    ]
+   }
+  ]
  },
  {
   "id": "llm",
   "term": "Large Language Model (LLM)",
-  "fa": "مدل زبانی بزرگ",
   "kurz": "Sprachmodell, das mit Deep Learning auf großen Datenmengen Inhalte als statistisch wahrscheinliche Ergebnisse erzeugt.",
   "def": "LLMs können z. B. das nächste Wort oder Token vorhersagen. Sie sind sehr flexibel einsetzbar und arbeiten extrem schnell.",
   "zitate": [
@@ -1839,12 +2488,19 @@
   "sitzungen": [
    "ki-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Moorhouse/Wong 2025",
+    "s": [
+     "S. 5"
+    ]
+   }
+  ]
  },
  {
   "id": "p-genai-c",
   "term": "berufliche genKI-Kompetenz (P-GenAI-C)",
-  "fa": "شایستگی حرفه‌ای در هوش مصنوعی مولد",
   "kurz": "Fünf Aspekte des Wissens und Könnens, das Sprachlehrkräfte für genKI brauchen.",
   "def": "Technologische Kompetenz, pädagogische Kompatibilität, professionelle Arbeit außerhalb des Unterrichts, Risiko/Wohlbefinden/Ethik und Vorbereitung der Lernenden auf eine genKI-Welt.",
   "zitate": [
@@ -1865,12 +2521,19 @@
   "sitzungen": [
    "ki-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Moorhouse/Wong 2025",
+    "s": [
+     "S. 2"
+    ]
+   }
+  ]
  },
  {
   "id": "affordanz",
   "term": "Affordanz",
-  "fa": "امکان‌نمایی (ویژگی‌ای که کاربرد را پیشنهاد می‌کند)",
   "kurz": "Handlungsmöglichkeiten, die ein Tool für Nutzende in einem Kontext wahrnehmbar und realisierbar macht.",
   "def": "Dazu gehört auch, was ein Tool nahelegt oder erschwert (Folie 4).",
   "zitate": [
@@ -1890,12 +2553,19 @@
   "sitzungen": [
    "ki-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Moorhouse/Wong Teil I (Riemer)",
+    "s": [
+     "Folie 4"
+    ]
+   }
+  ]
  },
  {
   "id": "halluzination",
   "term": "Halluzination (KI)",
-  "fa": "توهم (خروجی نادرست مدل)",
   "kurz": "Von der KI erzeugte falsche oder erfundene, aber plausibel klingende Inhalte.",
   "def": "Deshalb müssen Lehrkräfte Ergebnisse prüfen. Besonders riskant bei Sprachen, zu denen es wenige Trainingsdaten gibt.",
   "zitate": [
@@ -1916,12 +2586,19 @@
   "sitzungen": [
    "ki-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Moorhouse/Wong Teil I (Riemer)",
+    "s": [
+     "Folie 9"
+    ]
+   }
+  ]
  },
  {
   "id": "human-in-the-loop",
   "term": "human in the loop",
-  "fa": "انسان در چرخه (نظارت انسانی)",
   "kurz": "Ein Mensch prüft und verantwortet die KI-Ausgabe.",
   "def": "Beim Feedback und Bewerten soll die Lehrkraft die KI-Ausgabe prüfen, damit sie zu Aufgabe, Kontext und Lernenden passt.",
   "zitate": [
@@ -1942,12 +2619,19 @@
   "sitzungen": [
    "ki-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Moorhouse/Wong 2025",
+    "s": [
+     "S. 39"
+    ]
+   }
+  ]
  },
  {
   "id": "prompt",
   "term": "Prompt (Prompten)",
-  "fa": "پرامپت (دستور ورودی)",
   "kurz": "Eingabeanweisung an ein genKI-Tool.",
   "def": "Je genauer der Kontext beschrieben wird (Alter, Sprachstand, Fokus, Methode, Dauer), desto brauchbarer das Ergebnis. Arbeiten mit KI ist ein iterativer Prozess mit Folgeprompts.",
   "zitate": [
@@ -1968,12 +2652,19 @@
    "ki-s1",
    "ki-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Einstieg (Riemer)",
+    "s": [
+     "Folie 4"
+    ]
+   }
+  ]
  },
  {
   "id": "validitaet",
   "term": "Validität",
-  "fa": "روایی",
   "kurz": "Geprüft wird das, was geprüft werden soll, und nichts anderes.",
   "def": "Neben Transparenz und Reliabilität ein Qualitätskriterium für Bewertung. Es gilt auch beim Einsatz von genKI.",
   "zitate": [
@@ -1995,6 +2686,651 @@
   "sitzungen": [
    "ki-s2"
   ],
-  "hinweis": null
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Folien Moorhouse/Wong Teil I (Riemer)",
+    "s": [
+     "Folie 14"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hayes-flower",
+  "term": "Schreibprozessmodell von Hayes/Flower",
+  "kurz": "Kognitives Modell mit Aufgabenumfeld, Langzeitgedächtnis und den Prozessen Planen, Formulieren, Überprüfen.",
+  "def": "Schreiben wird als rekursiver Problemlösungsprozess modelliert, nicht als Abfolge fester Phasen. Ein Monitor steuert, wann Schreibende von einem Prozess zum nächsten wechseln.",
+  "zitate": [
+   {
+    "t": "the task environment, the writer’s long-term memory, and the writing processes",
+    "s": "S. 24",
+    "q": "Schnell 2020"
+   }
+  ],
+  "beispiel": "Beim Schreiben einer Hausarbeit springt man vom Formulieren zurück zum Ideensammeln und dann zum Überarbeiten (eigenes Beispiel).",
+  "see": [
+   "schreibsubprozesse",
+   "arbeitsgedaechtnis",
+   "kellogg-modell"
+  ],
+  "seminare": [
+   "schreiben"
+  ],
+  "sitzungen": [
+   "schreiben-s2"
+  ],
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Schnell 2020",
+    "s": [
+     "S. 24"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "schreibblockade",
+  "term": "Schreibblockade",
+  "kurz": "Anhaltende Schwierigkeit, mit dem Schreiben zu beginnen oder weiterzukommen.",
+  "def": "Nach Rose und Keseling entsteht sie meist durch starre Regeln oder ineffektive Strategien, etwa zu frühes Überarbeiten der Sprache, fehlendes Konzept oder einen zu kritischen inneren Adressaten.",
+  "zitate": [
+   {
+    "t": "rigid rules focus the writer’s mind too narrowly",
+    "s": "S. 65",
+    "q": "Schnell 2020"
+   }
+  ],
+  "beispiel": "Man feilt am ersten Satz, statt zuerst das Konzept zu klären (angelehnt an Rose, S. 66).",
+  "see": [
+   "schreibstrategie",
+   "selbstregulation-schreiben"
+  ],
+  "seminare": [
+   "schreiben"
+  ],
+  "sitzungen": [
+   "schreiben-s2"
+  ],
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Schnell 2020",
+    "s": [
+     "S. 65"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "faktuales-erzaehlen",
+  "term": "faktuale Erzählung",
+  "kurz": "Erzählung, die den Anspruch erhebt, von realen Vorgängen zu berichten.",
+  "def": "Beispiele sind der Reisebericht, der Zeitungsbericht und die Biographie. Die Lüge gilt hier als Sonderfall: Sie erzählt Erfundenes mit dem Anspruch, wahr zu sein.",
+  "zitate": [
+   {
+    "t": "Diese Form der authentischen Erzählung von historischen Ereignissen und Personen sei hier als faktuale Erzählung bezeichnet",
+    "s": "S. 12",
+    "q": "Martínez/Scheffel"
+   }
+  ],
+  "beispiel": "Ein Zeitungsbericht über einen Verkehrsunfall (Beispiel des Buchs, S. 12).",
+  "see": [
+   "fiktional-fiktiv-fingiert",
+   "erzaehlen"
+  ],
+  "seminare": [
+   "erz"
+  ],
+  "sitzungen": [
+   "erz-s2"
+  ],
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 12"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "fiktional-fiktiv-fingiert",
+  "term": "fiktional, fiktiv, fingiert",
+  "kurz": "Drei Begriffe, die das Buch bewusst unterscheidet.",
+  "def": "Fingieren heißt (vor)täuschen. Fiktional ist der pragmatische Status einer Rede (Gegenbegriff: faktual, authentisch). Fiktiv ist der ontologische Status des Ausgesagten (Gegenbegriff: real).",
+  "zitate": [
+   {
+    "t": "Fiktional steht im Gegensatz zu ‹faktual› bzw. ‹authentisch› und bezeichnet den pragmatischen Status einer Rede.",
+    "s": "S. 16",
+    "q": "Martínez/Scheffel"
+   },
+   {
+    "t": "Fiktiv steht im Gegensatz zu ‹real› und bezeichnet den ontologischen Status des in dieser Rede Ausgesagten.",
+    "s": "S. 16",
+    "q": "Martínez/Scheffel"
+   }
+  ],
+  "beispiel": "Ein Märchen ist fiktional (als Erzählung markiert) und fiktiv (die Figuren gibt es nicht), aber nicht fingiert, weil es niemanden täuschen will.",
+  "see": [
+   "faktuales-erzaehlen",
+   "fiktionssignale",
+   "fiktionale-behauptungssaetze"
+  ],
+  "seminare": [
+   "erz"
+  ],
+  "sitzungen": [
+   "erz-s2"
+  ],
+  "hinweis": null,
+  "lexikon": [
+   {
+    "t": "Ein erfundener (‚fingierter‘) einzelner Sachverhalt oder eine Zusammenfügung solcher Sachverhalte zu einer erfundenen Geschichte.",
+    "q": "Reallexikon der deutschen Literaturwissenschaft, s. v. Fiktion",
+    "s": "PDF-S. 616"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 16"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dichtung-luege",
+  "term": "Dichtung und Lüge (Sidney)",
+  "kurz": "Sidneys These, dass der Dichter nichts behauptet und deshalb nicht lügt.",
+  "def": "Sidney antwortet auf den Täuschungsvorwurf (Platon), indem er sich nicht auf den Inhalt, sondern auf den Status der Rede des Dichters beruft. Lukian hatte schon in der Vorrede gestanden, dass seine Geschichten erfunden sind.",
+  "zitate": [
+   {
+    "t": "the Poet, he nothing affirms, and therefore never lieth",
+    "s": "S. 15",
+    "q": "Martínez/Scheffel"
+   }
+  ],
+  "beispiel": "Die Eingangsformel ‹Es war einmal› heißt nicht nur ‹Glauben Sie nichts davon›, sondern auch ‹Stellen Sie sich vor› (S. 17).",
+  "see": [
+   "fiktional-fiktiv-fingiert"
+  ],
+  "seminare": [
+   "erz"
+  ],
+  "sitzungen": [
+   "erz-s2"
+  ],
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 15"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "fiktionssignale",
+  "term": "Fiktionssignale",
+  "kurz": "Erkennbare Hinweise, dass eine Rede als fiktional gelesen werden soll.",
+  "def": "Kontextmarkierungen wie Gattungsbezeichnung im Untertitel, Eingangsformeln und Schlüsse, textinterne Merkmale (Verben innerer Vorgänge, erweitertes Tempussystem) und Metafiktion.",
+  "zitate": [
+   {
+    "t": "Damit eine Rede als fiktional aufgefasst wird, bedarf sie der Kontextmarkierung.",
+    "s": "S. 18",
+    "q": "Martínez/Scheffel"
+   }
+  ],
+  "beispiel": "‹morgen war Weihnachten, und sie hatte immer noch kein Geschenk›: Zukunftsadverb mit Präteritum (S. 19).",
+  "see": [
+   "fiktional-fiktiv-fingiert",
+   "doppelte-kommunikation"
+  ],
+  "seminare": [
+   "erz"
+  ],
+  "sitzungen": [
+   "erz-s2"
+  ],
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 18"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "doppelte-kommunikation",
+  "term": "doppelte Kommunikationssituation",
+  "kurz": "Fiktionale Texte gehören einer realen und einer imaginären Kommunikation an.",
+  "def": "In der realen Kommunikation schreibt ein Autor für einen Leser (Sätze real, aber inauthentisch). In der imaginären erzählt ein Erzähler einem Hörer oder Leser (Sätze imaginär, aber authentisch).",
+  "zitate": [
+   {
+    "t": "Die fiktionale Erzählung richtet sich sowohl im imaginären als auch im realen Kontext an einen Leser und stellt daher eine «kommunizierte Kommunikation» dar",
+    "s": "S. 19",
+    "q": "Martínez/Scheffel"
+   }
+  ],
+  "beispiel": "In Kleists Anekdote erzählt der Offizier (imaginär) der Gesellschaft; Kleist (real) schreibt für uns.",
+  "see": [
+   "fiktionssignale",
+   "erzaehlen-erzaehltes"
+  ],
+  "seminare": [
+   "erz"
+  ],
+  "sitzungen": [
+   "erz-s2"
+  ],
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Martínez/Scheffel",
+    "s": [
+     "S. 19"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mehrsprachigkeitsphilologie",
+  "term": "Mehrsprachigkeitsphilologie",
+  "kurz": "Dembecks Vorschlag, die Literaturwissenschaft methodisch auf Sprachvielfalt auszurichten.",
+  "def": "Sie untersucht literarische Sprachvielfalt nicht als ein Korpus mehrsprachiger Texte, sondern liest jeden Text auf die Vielfalt seiner sprachlichen Mittel hin und bezieht manifeste wie latente Formen ein.",
+  "zitate": [
+   {
+    "t": "die Analyse und Interpretation literarischer Sprachvielfalt muss umgekehrt als Frage der Methode aufgefasst werden",
+    "s": "S. 163",
+    "q": "Dembeck 2020"
+   },
+   {
+    "t": "Jeder Text kann im Hinblick auf die Vielfalt der verwendeten sprachlichen Ausdrucksmittel gelesen werden.",
+    "s": "S. 167",
+    "q": "Dembeck 2020"
+   }
+  ],
+  "beispiel": "Eine Lektüre der Buddenbrooks-Szene fragt nach Platt, Hochdeutsch, Schreibung und Goschs Fremdsprachen zugleich.",
+  "see": [
+   "heterolinguismus",
+   "binnenmehrsprachigkeit"
+  ],
+  "seminare": [
+   "litmehr"
+  ],
+  "sitzungen": [
+   "litmehr-s3",
+   "litmehr-s2"
+  ],
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Dembeck 2020",
+    "s": [
+     "S. 163",
+     "S. 167"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "heterolinguismus",
+  "term": "Heterolinguismus (hétérolinguisme)",
+  "kurz": "Grutmans weite Bestimmung literarischer Mehrsprachigkeit.",
+  "def": "Gemeint ist das Vorhandensein fremder Idiome in einem Text in irgendeiner Form sowie von sozial, regional oder historisch definierten Varietäten der Hauptsprache.",
+  "zitate": [
+   {
+    "t": "Vorhandensein fremder Idiome, in welcher Form auch immer, sowie von (sozial, regional oder chronologisch definierten) Varietäten der Hauptsprache in einem Text",
+    "s": "S. 164 (Fn. 2)",
+    "q": "Dembeck 2020"
+   }
+  ],
+  "beispiel": "Plattdeutsch in einem hochdeutschen Roman fällt unter diesen Begriff.",
+  "see": [
+   "mehrsprachigkeitsphilologie",
+   "binnenmehrsprachigkeit"
+  ],
+  "seminare": [
+   "litmehr"
+  ],
+  "sitzungen": [
+   "litmehr-s3",
+   "litmehr-s2"
+  ],
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Dembeck 2020",
+    "s": [
+     "S. 164 (Fn. 2)"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "binnenmehrsprachigkeit",
+  "term": "binnensprachliche Mehrsprachigkeit",
+  "kurz": "Mehrsprachigkeit innerhalb einer Sprache, etwa zwischen Standard und Dialekt.",
+  "def": "Dembeck übernimmt den Begriff von Wandruszka. Er ergibt sich aus Fällen wie Karl May, wo Dialekt für eine andere Sprache steht.",
+  "zitate": [
+   {
+    "t": "binnensprachliche Mehrsprachigkeit",
+    "s": "S. 168",
+    "q": "Dembeck 2020"
+   }
+  ],
+  "beispiel": "Karl May: Sächsisch steht für Deutsch, Standarddeutsch steht für Englisch.",
+  "see": [
+   "heterolinguismus",
+   "dialekt"
+  ],
+  "seminare": [
+   "litmehr"
+  ],
+  "sitzungen": [
+   "litmehr-s3",
+   "litmehr-s2"
+  ],
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Dembeck 2020",
+    "s": [
+     "S. 168"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sprachwechsel-sprachmischung",
+  "term": "Sprachwechsel und Sprachmischung",
+  "kurz": "Zwei Formen der Kontrastierung von Idiomen im Text.",
+  "def": "Beim Sprachwechsel bleiben die beteiligten Idiome voneinander unterscheidbar, bei der Sprachmischung sind sie so stark integriert, dass sich das nicht mehr trennen lässt.",
+  "zitate": [
+   {
+    "t": "Sprachwechsel einerseits und Sprachmischung andererseits unterscheiden, wobei Ersterer die segmentäre Differenzierung der beteiligten Idiome erlaubt, während Letztere die verschiedenen Sprachen in einem solchen Maße integriert, dass diese Differenzierung nicht möglich ist",
+    "s": "S. 170",
+    "q": "Dembeck 2020"
+   }
+  ],
+  "beispiel": "Joyce, Finnegans Wake: eine Sprachmischung, bei der kaum noch eine Hauptsprache bestimmbar ist.",
+  "see": [
+   "code-switching",
+   "heterolinguismus"
+  ],
+  "seminare": [
+   "litmehr"
+  ],
+  "sitzungen": [
+   "litmehr-s3",
+   "litmehr-s2"
+  ],
+  "hinweis": "Dembeck meint mit ‹Sprachwechsel› das Wechseln zwischen Idiomen im Text. Im Metzler Lexikon Sprache bedeutet derselbe Begriff etwas anderes, nämlich den Übergang einer Sprachgemeinschaft von einer Sprache zur anderen (engl. language shift). Beides nicht verwechseln.",
+  "lexikon": [
+   {
+    "t": "Übergang einer Sprachgemeinschaft bzw. eines Individuums von einer Spr. A zu einer Spr. B",
+    "q": "Metzler Lexikon Sprache, s. v. Sprachwechsel",
+    "s": "PDF-S. 685"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Dembeck 2020",
+    "s": [
+     "S. 170"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "code-switching",
+  "term": "Code-Switching (Codeswitching)",
+  "kurz": "Wechsel zwischen Sprachen oder Varietäten im Gespräch oder im Text.",
+  "def": "Ein Begriff der Mehrsprachigkeitslinguistik, den die Literaturwissenschaft mit Dembeck für literarische Texte nutzt. In der Literatur wird es oft nur durch ‹poetische Tricks› nachgeahmt.",
+  "zitate": [
+   {
+    "t": "durch poetische Tricks nachgeahmt",
+    "s": "S. 164",
+    "q": "Dembeck 2020"
+   }
+  ],
+  "beispiel": "Zauberberg: Französisch von Hans Castorp und Clawdia Chauchat (S. 169).",
+  "see": [
+   "sprachwechsel-sprachmischung"
+  ],
+  "seminare": [
+   "litmehr",
+   "schreiben"
+  ],
+  "sitzungen": [
+   "litmehr-s3",
+   "litmehr-s2"
+  ],
+  "hinweis": "Auch im Seminar ‹Schreiben in der L2› relevant (Translanguaging).",
+  "lexikon": [
+   {
+    "t": "Im Unterschied zu code-switching basiert t. auf der Annahme, dass Lernende nur ein linguistisches Repertoire nutzen, um zu kommunizieren, und nicht (willkürlich) zwischen mehreren sprachlichen Systemen wechseln.",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Translanguaging",
+    "s": "PDF-S. 476"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Dembeck 2020",
+    "s": [
+     "S. 164"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "semiodiversity-glossodiversity",
+  "term": "Semiodiversity und Glossodiversity",
+  "kurz": "Gramlings Begriffspaar bei Dembeck.",
+  "def": "Semiodiversity meint die Diversifizierung der Ausdrucksmittel jenseits der Sprachgrenzen, Glossodiversity das Nebeneinander wohlbestimmter Einzelsprachen.",
+  "zitate": [
+   {
+    "t": "die schiere Diversifizierung der Ausdrucksmittel, die vor Sprachgrenzen keinen Halt macht",
+    "s": "S. 166",
+    "q": "Dembeck 2020"
+   }
+  ],
+  "beispiel": "Ein Gedicht mit Hexameter und deutschen Wörtern ist ein Fall von Semiodiversity.",
+  "see": [
+   "mehrsprachigkeitsphilologie"
+  ],
+  "seminare": [
+   "litmehr"
+  ],
+  "sitzungen": [
+   "litmehr-s3"
+  ],
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Dembeck 2020",
+    "s": [
+     "S. 166"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "kulturpolitische-interpretation",
+  "term": "kulturpolitische Interpretation",
+  "kurz": "Das Ziel der Mehrsprachigkeitsphilologie: die Folgen der Sprachvielfalt eines Textes einordnen.",
+  "def": "Dembeck versteht den literarischen Text als Akteur, der die Art verändern kann, wie Dingen Bedeutung zugeschrieben wird.",
+  "zitate": [
+   {
+    "t": "sind sie selbst kulturpolitische Akteure",
+    "s": "S. 174",
+    "q": "Dembeck 2020"
+   }
+  ],
+  "beispiel": "Wer darf in der Buddenbrooks-Szene Platt sprechen, und mit welcher Wirkung?",
+  "see": [
+   "mehrsprachigkeitsphilologie"
+  ],
+  "seminare": [
+   "litmehr"
+  ],
+  "sitzungen": [
+   "litmehr-s3",
+   "litmehr-s2"
+  ],
+  "hinweis": null,
+  "herkunft": [
+   {
+    "q": "Dembeck 2020",
+    "s": [
+     "S. 174"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "plattdeutsch-figurenrede",
+  "term": "Plattdeutsch als Figurenrede (Buddenbrooks)",
+  "kurz": "Darstellung von Dialektsprechern im hochdeutschen Roman.",
+  "def": "In der Szene S. 192–210 sprechen Trina und Corl Smolt Platt, der Konsul wechselt je nach Adressat. Die Schreibung ist besonders (‹Kunsel›, ‹Revolutschon›).",
+  "zitate": [
+   {
+    "t": "Lüd, wat is dat nu bloß für dumm Tüg, wat Ji da anstellt!",
+    "s": "S. 208",
+    "q": "Thomas Mann, Buddenbrooks"
+   },
+   {
+    "t": "Großer Gott, du Tropf! rief der Konsul und vergaß, platt zu sprechen vor Indignation",
+    "s": "S. 209",
+    "q": "Thomas Mann, Buddenbrooks"
+   }
+  ],
+  "beispiel": "Corl Smolt: ‹Je, Herr Kunsel, denn wull wi noch een.› (S. 209).",
+  "see": [
+   "sprachwechsel-sprachmischung",
+   "binnenmehrsprachigkeit",
+   "dialekt"
+  ],
+  "seminare": [
+   "litmehr"
+  ],
+  "sitzungen": [
+   "litmehr-s2"
+  ],
+  "hinweis": "Zitate von Hand aus dem Scan abgelesen.",
+  "lexikon": [
+   {
+    "t": "Zusammenfassende Bez. aller Varietäten des Deutschen, die keinerlei Reflexe der sog. zweiten Lautverschiebung aufweisen.",
+    "q": "Metzler Lexikon Sprache, s. v. Niederdeutsch",
+    "s": "PDF-S. 488"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Thomas Mann, Buddenbrooks",
+    "s": [
+     "S. 208",
+     "S. 209"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "interferenz",
+  "term": "Interferenz",
+  "kurz": "Einwirkung einer Sprache auf eine andere.",
+  "def": "In der Sprachwissenschaft die nicht beabsichtigte Übertragung von Strukturen aus einer Sprache in eine andere. Dembeck nennt Interferenz neben Codeswitching als Phänomen, das literarische Texte durch poetische Mittel nachahmen.",
+  "zitate": [
+   {
+    "t": "Phänomene, wie sie auch die Mehrsprachigkeitslinguistik beschreibt, etwa Interferenz oder Codeswitching, durch poetische Tricks nachgeahmt",
+    "s": "S. 164",
+    "q": "Dembeck 2020"
+   }
+  ],
+  "beispiel": "Ein Lerner überträgt die Wortstellung seiner Erstsprache ins Deutsche. In der Literatur: Özdamar überträgt türkische Redewendungen wörtlich ins Deutsche (Dembeck, S. 170).",
+  "see": [
+   "code-switching",
+   "heterolinguismus"
+  ],
+  "seminare": [
+   "litmehr"
+  ],
+  "sitzungen": [
+   "litmehr-s3"
+  ],
+  "hinweis": null,
+  "lexikon": [
+   {
+    "t": "Einwirkung einer Sprache auf eine andere, wie sie v. a. unter den Gegebenheiten des Sprachkontakts und des Bilingualismus zustande kommt.",
+    "q": "Metzler Lexikon Sprache, s. v. Interferenz",
+    "s": "PDF-S. 328"
+   },
+   {
+    "t": "die nicht beabsichtigte Übertragung von Strukturen, Funktionen und Merkmalen aus einer Sprache in eine andere",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Interferenz",
+    "s": "PDF-S. 211"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Dembeck 2020",
+    "s": [
+     "S. 164"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dialekt",
+  "term": "Dialekt und Varietät",
+  "kurz": "Regional gebundene Varietät einer Sprache.",
+  "def": "Eine Varietät ist ein Teil einer ganzen Sprache, ein Dialekt eine standardferne, regional gebundene Varietät. Für Dembeck gehören Dialekte, Soziolekte und Register zur Sprachvielfalt eines Textes (binnensprachliche Mehrsprachigkeit).",
+  "zitate": [
+   {
+    "t": "In den Wildwestromanen Karl Mays sprechen die deutschen Protagonisten manchmal untereinander im sächsischen Dialekt",
+    "s": "S. 164",
+    "q": "Dembeck 2020"
+   }
+  ],
+  "beispiel": "Plattdeutsch in Buddenbrooks (Corl Smolt, Trina).",
+  "see": [
+   "binnenmehrsprachigkeit",
+   "plattdeutsch-figurenrede"
+  ],
+  "seminare": [
+   "litmehr"
+  ],
+  "sitzungen": [
+   "litmehr-s2",
+   "litmehr-s3"
+  ],
+  "hinweis": null,
+  "lexikon": [
+   {
+    "t": "Standardfernste areale Varietät einer Spr.",
+    "q": "Metzler Lexikon Sprache, s. v. Dialekt",
+    "s": "PDF-S. 170"
+   },
+   {
+    "t": "Teil einer ganzen Spr., die in aller Regel eine größere Zahl von V. umfasst, z. B. Dialekte, eine Standardvarietät.",
+    "q": "Metzler Lexikon Sprache, s. v. Varietät",
+    "s": "PDF-S. 773"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Dembeck 2020",
+    "s": [
+     "S. 164"
+    ]
+   }
+  ]
  }
 ]

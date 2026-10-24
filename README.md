@@ -36,3 +36,14 @@ die offline im Browser funktioniert (Doppelklick).
 - Repository privat lassen: Das Wiki enthält Zitate aus Büchern und Folien.
 - `seminare/` wird nicht hochgeladen (Urheberrecht, große Dateien).
 - Audio wird zuerst in Text umgewandelt (z. B. Whisper). Die Textdatei in `Audio/` oder `Notizen/` ablegen.
+
+## Fachlexika (nur lokal)
+
+Im Ordner `fachlexika/` liegen drei Lexika als PDF (Metzler Lexikon Sprache, Metzler Lexikon Fremdsprachendidaktik, Reallexikon der deutschen Literaturwissenschaft). Der Ordner steht in `.gitignore` und geht nie ins Repo.
+
+- `python3 lex.py Begriff` sucht das Stichwort in allen drei Lexika und zeigt PDF-Seite und Anfang des Artikels.
+- `python3 lex.py --lead Begriff` zeigt die Kurzdefinition im Reallexikon.
+- `python3 lex.py --seite sprache 170` rendert eine PDF-Seite als Bild nach `fachlexika/_png/`, um Zitate zu prüfen.
+- Beim ersten Mal die Texte erzeugen: `mkdir -p fachlexika/_text` und je Lexikon `pdftotext Datei.pdf fachlexika/_text/<sprache|fdid|rdl>.txt`.
+
+Im Glossar steht die Lexikondefinition im Feld `lexikon` (Anzeige: «Im Fachlexikon»). Zitate müssen wörtlich sein; in den Texten fehlen teils Umlaute, die Zitate werden mit korrekten Umlauten geschrieben.

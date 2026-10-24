@@ -1,0 +1,67 @@
+{
+ "id": "litmehr-s2",
+ "nr": 2,
+ "seminar": "litmehr",
+ "titel": "Ein Beispiel: Platt und Hochdeutsch in Buddenbrooks",
+ "autor": "Thomas Mann",
+ "lektuere": "Thomas Mann, Buddenbrooks (1901), S. 192–210",
+ "thema": "Die Bürgerschaftssitzung im Oktober 1848 und die Sprachwechsel zwischen Hochdeutsch und Plattdeutsch",
+ "status": "entwurf",
+ "ueberblick": {
+  "kurzinhalt": "Die Szene spielt an einem Oktobertag 1848. Die Köchin Trina kündigt in plattdeutscher Rede einen Umsturz an, das Volk zieht durch die Stadt, und die Bürgerschaft sitzt in ihrem Saal fest. Konsul Buddenbrook geht mit dem Makler Gosch hinaus und spricht mit dem Lagerarbeiter Corl Smolt Platt. Das Gespräch löst die Spannung in Gelächter auf. Für das Seminar ist die Szene ein Beispiel dafür, wie ein hochdeutscher Roman Sprachvielfalt darstellt: durch [[plattdeutsch-figurenrede|Plattdeutsch als Figurenrede]], durch [[sprachwechsel-sprachmischung|Sprachwechsel]] je nach Gesprächspartner und durch Goschs Zitate in anderen Sprachen.",
+  "leitfrage": "Wie und wozu stellt der Roman die Sprachen der Figuren dar, und was zeigt die Szene über Stand, Macht und Nähe?",
+  "merksatz": "In der Szene wechselt der Konsul bewusst ins Platt, sobald er sich an die Menge wendet, und fällt vor Ärger zurück ins Hochdeutsche. Die Wahl der Sprache ist also Teil der Handlung.",
+  "fa": [
+   "صحنه در اکتبر ۱۸۴۸ می‌گذرد: آشپز خانه (Trina) به زبان پلاتدویچ (گویش شمال آلمان) تهدید می‌کند که «نظم تازه‌ای می‌آید»؛ مردم در شهر شلوغ می‌کنند و اعضای Bürgerschaft در سالن گیر می‌افتند.",
+   "کنسول Buddenbrook همراه دلال Gosch بیرون می‌رود و با کارگر انبار Corl Smolt به پلاتدویچ حرف می‌زند. گفت‌وگو شوخی‌وار تمام می‌شود و جمعیت پراکنده می‌شود.",
+   "نکته‌ی سمینار: رمان به آلمانی معیار نوشته شده، اما با گویش (پلات)، املای ویژه‌ی گویش، و جمله‌های ایتالیایی Gosch تنوع زبانی را نشان می‌دهد. انتخاب زبان بسته به مخاطب عوض می‌شود (کنسول با مردم پلات، با دیگران آلمانی معیار).",
+   "جمله‌ی مهم متن: کنسول «از شدت خشم فراموش کرد پلات حرف بزند». یعنی پلات برای او ابزاری آگاهانه است، نه زبان طبیعی لحظه."
+  ]
+ },
+ "inhalt": [
+  {
+   "titel": "1. Was geschieht in S. 192–210?",
+   "quelle": "Thomas Mann, Buddenbrooks, S. 192–210 (Kap. 2–3, Beginn von Kap. 4)",
+   "html": "<div class=\"tablewrap\"><table><thead><tr><th>Stelle</th><th>Handlung</th></tr></thead><tbody><tr><td>S. 192–193</td><td>Beim Mittagessen erfährt der Konsul, dass die Köchin Trina entlassen wurde, nachdem sie mit „neuer Ordnung“ gedroht hatte. In der Stadt gärt es wegen der Verfassungsfrage (ständisches Prinzip gegen allgemeines Wahlrecht).</td></tr><tr><td>S. 193–196</td><td>An einem Oktobertag 1848 zieht ein Volkshaufen durch die Straßen. Die Konsulin ist in Angst, der Konsul geht trotzdem in die Sitzung der Bürgerschaft.</td></tr><tr><td>S. 196–199</td><td>Auf dem Weg trifft er den Makler Gosch, der die Szene mit dem Pathos eines Schauspielers begleitet (S. 197–198 beschreiben ihn ausführlich).</td></tr><tr><td>S. 199–205</td><td>Im Sitzungssaal herrscht Aufregung. Die Sitzung wird nicht eröffnet, man beschließt abzuwarten, bis das Volk abzieht.</td></tr><tr><td>S. 207–210</td><td>Konsul und Gosch gehen vor das Haus. Der Konsul spricht die Menge auf Platt an, Corl Smolt antwortet, man lacht, die Menge zerstreut sich.</td></tr></tbody></table></div><p class=\"meta\">Die Seitenangaben beruhen auf dem Seminarscan. Der Scan ist schlecht lesbar, die zitierten Stellen habe ich von Hand an den Seiten abgelesen.</p>"
+  },
+  {
+   "titel": "2. Trinas Rede: das Plattdeutsche als Stimme von unten (S. 192)",
+   "quelle": "Thomas Mann, Buddenbrooks, S. 192",
+   "html": "<p>Die Szene beginnt mit einem Bericht über die Köchin. Sie hat bis dahin „Treue und Biedersinn“ gezeigt und ist dann plötzlich zu „unverhüllter Empörung“ übergegangen:</p><blockquote><p>„Trina, die Köchin Trina, ein Mädchen, das bislang nur Treue und Biedersinn an den Tag gelegt hatte, war plötzlich zu unverhüllter Empörung übergegangen.“</p><cite>Thomas Mann, Buddenbrooks, S. 192</cite></blockquote><p>Dann folgt ihre Rede im Wortlaut, ohne Übersetzung:</p><blockquote><p>„Warten Sie man bloß, Fru Konsulin, dat duert nu nich mehr lang, denn kommt ne annere Ordnung in de Saak; denn sitt ick doar up'm Sofa in' sieden Kleed, un Sei bedeinen mich denn...“</p><cite>Thomas Mann, Buddenbrooks, S. 192</cite></blockquote><p>Zwei Beobachtungen:</p><ul class=\"plain\"><li>Der Erzähler berichtet auf Hochdeutsch, die Figur spricht Platt, nur die Anrede „Sei“ (Sie) und „Fru Konsulin“ ist angepasst. Der Gegensatz Erzählstimme und Figurenrede ist hier auch ein sozialer Gegensatz.</li><li>Die Köchin greift die Gesellschaftsordnung in der Sprache an, in der sie lebt. Ihr Satz ist eine Vorwegnahme der späteren Szene mit Corl Smolt (Revolution, Ordnung).</li></ul>"
+  },
+  {
+   "titel": "3. Gosch: Hochdeutsch mit Pathos und fremden Sprachen (S. 197–198)",
+   "quelle": "Thomas Mann, Buddenbrooks, S. 197–198",
+   "html": "<p>Siegismund Gosch ist ein Makler mit künstlerischen Neigungen. Der Erzähler beschreibt ihn so:</p><blockquote><p>„Dieser Makler Siegismund Gosch, ein Junggeselle von etwa vierzig Jahren, war trotz seines Gebarens der ehrlichste und gutmütigste Mensch von der Welt; nur war er ein Schöngeist, ein origineller Kopf.“</p><cite>Thomas Mann, Buddenbrooks, S. 197</cite></blockquote><blockquote><p>„eine böse, hämische, interessante und furchtgebietende Charakterfigur zwischen Mephistopheles und Napoleon“</p><cite>Thomas Mann, Buddenbrooks, S. 197</cite></blockquote><blockquote><p>„in seinem engen, dunklen Comptoir aber stand ein großer Bücherschrank, der mit Dichtwerken in allen Sprachen gefüllt war, und es ging das Gerücht, daß er seit seinem zwanzigsten Jahre an einer Übersetzung von Lope de Vega's sämtlichen Dramen arbeite“</p><cite>Thomas Mann, Buddenbrooks, S. 197</cite></blockquote><p>Gosch spricht auch in der Alltagsrede mit Pathos. Der Erzähler zeigt es an seinen Redewendungen und an einem italienischen Satz, den niemand versteht:</p><blockquote><p>„als wollte er sagen: Schurke, ha! Im Grab verfluch' ich deine Ahnen!“</p><cite>Thomas Mann, Buddenbrooks, S. 198</cite></blockquote><blockquote><p>„pflegte er zu antworten: Oh, mein werter Freund! Uomo non educato dal dolore riman sempre bambino! Begreiflicher Weise verstand das Niemand. War es von Lope de Vega?“</p><cite>Thomas Mann, Buddenbrooks, S. 198</cite></blockquote><p>Damit steht Gosch für eine weitere Art von Sprachvielfalt in der Szene: Er bringt Fremdsprachiges und literarische Register in die Stadtgesellschaft, die ihn nicht versteht, aber als Original duldet.</p>"
+  },
+  {
+   "titel": "4. Das Gespräch mit Corl Smolt (S. 207–210)",
+   "quelle": "Thomas Mann, Buddenbrooks, S. 207–210",
+   "html": "<p>Der Konsul tritt auf die Stufen, sieht die Menge und spricht sie sofort auf Platt an:</p><blockquote><p>„Lüd, wat is dat nu bloß für dumm Tüg, wat Ji da anstellt!“</p><cite>Thomas Mann, Buddenbrooks, S. 208</cite></blockquote><p>Die Menge reagiert mit Respekt und mit Platt, auch über Gosch:</p><blockquote><p>„Dat's Kunsel Buddenbrook! Kunsel Buddenbrook will 'ne Red' hollen! Holl din Mul, Krischan, hei kann höllschen fuchtig warn!... Dat's Makler Gosch... kiek! Dat's son Aap!... Is hei 'n beeten öwerspönig?“</p><cite>Thomas Mann, Buddenbrooks, S. 208</cite></blockquote><p>Der Konsul wendet sich dann an den Lagerarbeiter Corl Smolt, und es folgt das Gespräch, das die Szene entscheidet:</p><blockquote><p>„Je, Herr Kunsel... brachte Corl Smolt kauend hervor. Dat's nu so 'n Saak... öäwer... Dat is nu so wied... Wi maaken nu Revolutschon.“</p><cite>Thomas Mann, Buddenbrooks, S. 208</cite></blockquote><blockquote><p>„Hür mal, Smolt, un ihr annern Lüd! Wer nu 'n verstännigen Kierl is, der geht naa Hus un scheert sich nich mihr um Revolution und stört hier nich de Ordnung...“</p><cite>Thomas Mann, Buddenbrooks, S. 209</cite></blockquote><blockquote><p>„Die heilige Ordnung! unterbrach Herr Gosch ihn zischend“</p><cite>Thomas Mann, Buddenbrooks, S. 209</cite></blockquote><blockquote><p>„De Ordnung, seg ick! beschloß Konsul Buddenbrook.“</p><cite>Thomas Mann, Buddenbrooks, S. 209</cite></blockquote><p>Der Moment, in dem der Konsul das Platt kurz verliert, ist im Text ausdrücklich benannt:</p><blockquote><p>„Großer Gott, du Tropf! rief der Konsul und vergaß, platt zu sprechen vor Indignation... Du redest ja lauter Unsinn...“</p><cite>Thomas Mann, Buddenbrooks, S. 209</cite></blockquote><p>Dann der Wendepunkt, der die Menge zum Lachen bringt:</p><blockquote><p>„Je, Herr Kunsel, ick seg man bloß: wie wull nu 'ne Republike, seg ick man bloß...“</p><cite>Thomas Mann, Buddenbrooks, S. 209</cite></blockquote><blockquote><p>„Öwer du Döskopp... Ji heww ja schon een!“</p><cite>Thomas Mann, Buddenbrooks, S. 209</cite></blockquote><blockquote><p>„Je, Herr Kunsel, denn wull wi noch een.“</p><cite>Thomas Mann, Buddenbrooks, S. 209</cite></blockquote><blockquote><p>„Einige der Umstehenden, die es besser wußten, begannen schwerfällig und herzlich zu lachen, und obgleich die Wenigsten die Antwort Corl Smolts verstanden hatten, pflanzte diese Heiterkeit sich fort“</p><cite>Thomas Mann, Buddenbrooks, S. 209</cite></blockquote><blockquote><p>„Na Lüd, sagte schließlich Konsul Buddenbrook, ick glöw, dat is nu dat Beste, wenn ihr Alle naa Hus gaht!“</p><cite>Thomas Mann, Buddenbrooks, S. 210</cite></blockquote><blockquote><p>„Der Einzige, den diese Wendung der Dinge enttäuschte und schmerzte, war Siegismund Gosch.“</p><cite>Thomas Mann, Buddenbrooks, S. 210</cite></blockquote>"
+  },
+  {
+   "titel": "5. Beobachtungen zur Sprachdarstellung (eigene Analyse)",
+   "quelle": "Eigene Analyse, nicht im Text ausgesprochen",
+   "html": "<p>Das sind Beobachtungen für die Diskussion, keine Aussagen des Romans. Teil 2 der Sitzung 3 (Dembeck) liefert dazu die Begriffe.</p><div class=\"tablewrap\"><table><thead><tr><th>Beobachtung</th><th>Beleg</th><th>mögliche Deutung</th></tr></thead><tbody><tr><td><strong>Sprachwahl nach Adressat:</strong> Der Konsul spricht seine Frau und die Herren Hochdeutsch, die Menge auf Platt.</td><td>S. 208 „Lüd, wat is dat nu bloß für dumm Tüg…“; S. 209 „vergaß, platt zu sprechen“</td><td>Platt dient der Nähe und dem Einfluss auf die Menge; der Wechsel ist eine soziale Entscheidung.</td></tr><tr><td><strong>Mischung in einer Äußerung:</strong> In Platt-Sätzen stehen hochdeutsche Formen.</td><td>S. 209 „un ihr annern Lüd“; S. 210 „wenn ihr Alle naa Hus gaht“</td><td>Das Platt des Konsuls ist durchsetzt mit hochdeutschen Formen. Das ist Sprachmischung statt eines klaren Wechsels.</td></tr><tr><td><strong>Eigene Schreibung des Dialekts:</strong> „Kunsel“, „Revolutschon“, „öäwer“, „mihr“</td><td>S. 208–209</td><td>Der Text bildet Aussprache ab. Die Schreibung selbst ist eine Entscheidung des Autors.</td></tr><tr><td><strong>Platt als Pointe:</strong> „denn wull wi noch een“</td><td>S. 209</td><td>Die Sprachform trägt den Witz, der die Spannung löst. Die „Umstehenden, die es besser wußten“, lachen zuerst.</td></tr><tr><td><strong>Weitere Sprachen bei Gosch:</strong> Italienisch, Lope de Vega, Schillers Don Carlos</td><td>S. 197–198</td><td>Die Bildungsrede steht gegen die Volksrede und wird von beiden nicht verstanden.</td></tr></tbody></table></div>"
+  },
+  {
+   "titel": "6. Fragen für die Sitzung",
+   "quelle": "",
+   "html": "<ul class=\"plain\"><li>Welche Funktion hat die Platt-Rede bei Trina, Corl Smolt und dem Konsul, und wo unterscheiden sich die drei?</li><li>Was bedeutet es, dass der Erzähler den Wechsel ausdrücklich benennt („vergaß, platt zu sprechen“)?</li><li>Welche Rolle spielt Goschs Italienisch? Wer ist hier der Adressat der Rede?</li><li>Wie weit hilft der Begriff ‹Sprachwechsel› (Dembeck, S. 170), und wo muss man von Sprachmischung sprechen?</li></ul>"
+  }
+ ],
+ "zusatz": [],
+ "material": [
+  {
+   "datei": "Mann, Thomas-Buddenbrooks S. 192-210 (Scan)",
+   "art": "Primärtext",
+   "notiz": "Seminarscan, schwer lesbar; Zitate von Hand an der Seite geprüft"
+  }
+ ],
+ "begriffe": [
+  "plattdeutsch-figurenrede",
+  "sprachwechsel-sprachmischung",
+  "code-switching",
+  "heterolinguismus"
+ ]
+}

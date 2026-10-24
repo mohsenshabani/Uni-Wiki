@@ -91,6 +91,9 @@ blockquote cite{display:block;font:500 .75rem var(--f-mono);letter-spacing:.06em
 .kq{font-style:italic}
 .bei{border-top:1px dashed var(--line);margin-top:.7rem;padding-top:.5rem;font-size:.96rem}
 .bei b{font:600 .72rem var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-right:.4rem}
+.src{font:.9rem/1.5 var(--f-sans);border-left:3px solid var(--line);padding:.2rem .9rem;margin:.8rem 0;color:var(--muted)}
+.src p{margin:.3rem 0}.src ul{margin:.2rem 0 .4rem 1.1rem;padding:0}
+blockquote.lex{border-left-color:var(--accent)}
 .hint{font:.88rem/1.5 var(--f-sans);color:var(--muted);background:var(--accent-soft);padding:.55rem .8rem;border-radius:5px;margin:.8rem 0}
 a.term{text-decoration:none;border-bottom:1px solid var(--accent)}
 a.term:hover{background:var(--accent-soft)}
@@ -105,6 +108,22 @@ a.term:hover{background:var(--accent-soft)}
 .list .r{grid-row:1/3;grid-column:2;align-self:center;font-size:.95rem}
 .sess{display:block;text-decoration:none;color:var(--ink);padding:1rem 1.2rem;background:var(--surface);border:1px solid var(--line);border-radius:6px;margin:.8rem 0}
 .sess:hover{border-color:var(--accent)}
+.plan{list-style:none;padding:0;margin:.6rem 0 1.2rem}
+.plan li{display:grid;grid-template-columns:6rem minmax(0,1fr);gap:.15rem 1rem;padding:.7rem .3rem;border-top:1px solid var(--line)}
+.plan li:last-child{border-bottom:1px solid var(--line)}
+.plan .d{font:500 .82rem/1.5 var(--f-mono);color:var(--muted)}
+.plan .th{font-weight:600;overflow-wrap:anywhere}
+.plan .tx{font:.9rem/1.5 var(--f-sans);color:var(--muted);overflow-wrap:anywhere;margin:.15rem 0 0}
+.plan .fr{font:.88rem/1.5 var(--f-sans);color:var(--stamp);margin:.15rem 0 0}
+.plan li.next{background:var(--accent-soft);border-radius:6px;border-top-color:transparent}
+.plan li.off .th{color:var(--muted);text-decoration:line-through}
+.plan .go{font:.88rem var(--f-sans);margin:.2rem 0 0}
+.pinfo{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:.2rem .9rem;font:.92rem/1.5 var(--f-sans);margin:.4rem 0 1rem}
+.pinfo dt{color:var(--muted)} .pinfo dd{margin:0;overflow-wrap:anywhere}
+.lei{margin:.6rem 0;padding:.7rem 1rem;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+.lei h3{font-size:1.02rem;margin:0 0 .3rem}.lei p{margin:.2rem 0;font:.93rem/1.55 var(--f-sans)}
+@media (max-width:560px){.plan li{grid-template-columns:1fr}}
+
 .sess h3{font-size:1.2rem;margin:.1rem 0 .3rem}
 .sess p{margin:.2rem 0;font:.95rem/1.5 var(--f-sans);color:var(--muted)}
 .filter{width:100%;max-width:26rem;font:inherit;font-family:var(--f-sans);padding:.5rem .75rem;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink);margin:.4rem 0 .8rem}
@@ -248,10 +267,10 @@ function emptyKomm(){
   return '<div class="empty"><strong>Noch keine Handbuch-Kommentare.</strong><p>Schick Auszüge aus akademischen Handbüchern mit Quelle und Seitenzahl. Sie werden hier abgelegt und mit Begriffen und Sitzungen verknüpft. Kurze Zitate oder Zusammenfassungen reichen.</p><pre>Handbuch / Autor:\nSeite:\nSitzung (Text):\nBezug (Begriff):\nAuszug oder Zusammenfassung:</pre></div>';
 }
 function vocabRows(list){
-  return list.map(function(v){return '<tr data-sem="'+esc(v.seminar||"")+'" data-art="'+esc(v.gruppe)+'"><td><strong>'+esc(v.de)+'</strong>'+(v.hinweis?'<div class="small">'+esc(v.hinweis)+'</div>':'')+'</td><td class="fa" lang="fa" dir="rtl">'+v.fa+'</td><td class="small">'+esc(v.gruppe==="text"?"Text":"Fachbegriff")+'</td></tr>'}).join("");
+  return list.map(function(v){return '<tr data-sem="'+esc(v.seminar||"")+'" data-art="'+esc(v.gruppe)+'"><td><strong>'+esc(v.de)+'</strong>'+(v.hinweis?'<div class="small">'+esc(v.hinweis)+'</div>':'')+'</td>'+(v.fa?'<td class="fa" lang="fa" dir="rtl">'+v.fa+'</td>':'<td class="small">'+(v.glossar?'<a href="#b-'+esc(v.glossar)+'">→ Glossar</a>':'ohne Übersetzung')+'</td>')+'<td class="small">'+esc(v.gruppe==="text"?"Text":"Fachbegriff")+'</td></tr>'}).join("");
 }
 function vocabTable(list){
-  return '<div class="tablewrap"><table><thead><tr><th>Deutsch</th><th style="text-align:right">فارسی</th><th>Art</th></tr></thead><tbody>'+vocabRows(list)+'</tbody></table></div>';
+  return '<div class="tablewrap"><table><thead><tr><th>Deutsch</th><th>Persisch / Glossar</th><th>Art</th></tr></thead><tbody>'+vocabRows(list)+'</tbody></table></div>';
 }
 function semOptions(){
   return '<option value="">Alle Seminare</option>'+D.seminare.map(function(s){return '<option value="'+esc(s.id)+'">'+esc(s.name)+'</option>'}).join("");
@@ -275,10 +294,27 @@ function pStart(){
   h+='<footer class="f">Stand: '+esc(D.meta.stand)+'. Seiten mit dem Vermerk „Entwurf“ sind noch nicht geprüft. Zitate aus der Literatur sind kurz gehalten und mit Seitenzahl belegt.</footer>';
   return h;
 }
+function planHtml(sm){
+  var p=sm.plan; if(!p)return "";
+  var today=new Date().toISOString().slice(0,10), nxt=-1;
+  (p.termine||[]).forEach(function(t,i){if(nxt<0&&t.iso&&t.iso>=today&&!t.entfaellt)nxt=i});
+  var h='<h2>Seminarplan</h2>';
+  if(p.info&&p.info.length)h+='<dl class="pinfo">'+p.info.map(function(x){return '<dt>'+esc(x[0])+'</dt><dd>'+esc(x[1])+'</dd>'}).join("")+'</dl>';
+  h+='<ul class="plan">'+(p.termine||[]).map(function(t,i){
+    var s=t.sitzung&&D.sitzungen.filter(function(x){return x.id===t.sitzung})[0];
+    return '<li class="'+(i===nxt?'next':'')+(t.entfaellt?' off':'')+'"><div class="d">'+(t.nr?'Sitzung '+t.nr+'<br>':'')+esc(t.datum)+(i===nxt?'<br><strong>nächste</strong>':'')+'</div><div><div class="th">'+esc(t.thema)+'</div>'
+      +(t.texte&&t.texte.length?t.texte.map(function(x){return '<p class="tx">'+esc(x)+'</p>'}).join(""):'')
+      +(t.frist?'<p class="fr">'+esc(t.frist)+'</p>':'')
+      +(s?'<p class="go"><a href="#'+s.id+'">Zur Sitzungsseite: '+esc(s.titel)+'</a></p>':'')+'</div></li>'}).join("")+'</ul>';
+  if(p.leistungen&&p.leistungen.length)h+='<h3 style="margin-top:1.4rem">Leistungen</h3>'+p.leistungen.map(function(l){return '<div class="lei"><h3>'+esc(l.titel)+'</h3>'+l.text.map(function(x){return '<p>'+esc(x)+'</p>'}).join("")+'</div>'}).join("");
+  if(p.quelle)h+='<p class="meta">Quelle: '+esc(p.quelle)+'</p>';
+  return h;
+}
 function pSeminar(id){
   var sm=sem(id), se=semester(sm.semester), list=D.sitzungen.filter(function(s){return s.seminar===id});
   var h='<span class="stamp">'+esc(se.kurz)+'</span><h1>'+esc(sm.name)+'</h1><p class="lead">'+esc(sm.beschreibung||"")+'</p><h2>Sitzungen</h2>';
   h+=list.length?list.map(function(s){return '<a class="sess" href="#'+s.id+'"><span class="meta">Sitzung '+s.nr+(s.autor?' · '+esc(s.autor):'')+(s.lektuere?' · '+esc(s.lektuere):'')+'</span>'+statusBadge(s)+'<h3>'+esc(s.titel)+'</h3><p>'+esc(s.thema||"")+'</p></a>'}).join(""):'<div class="empty">Noch keine Sitzungen.</div>';
+  h+=planHtml(sm);
   if(sm.lektuere&&sm.lektuere.length)h+='<h2>Lektüre und Material</h2><ul class="list">'+sm.lektuere.map(function(l){return '<li><div class="row"><span class="t">'+esc(l.titel)+'</span><span class="s">'+esc(l.autor)+(l.umfang?' · '+esc(l.umfang):'')+'</span><span class="r meta">'+esc(l.art)+'</span></div></li>'}).join("")+'</ul>';
   var gl=D.glossar.filter(function(g){return (g.seminare||[]).indexOf(id)>=0});
   h+='<h2>Begriffe dieses Seminars</h2><p>'+(gl.length?gl.map(function(g){return '<a class="term" href="#b-'+g.id+'">'+esc(g.term)+'</a>'}).join(" · "):'Noch keine Begriffe.')+'</p>';
@@ -353,7 +389,7 @@ function pAnalyse(s){
   var g="";
   (a.ebenen||[]).forEach(function(e){
     if(e.gruppe!==g){g=e.gruppe;h+='<div class="group">'+esc(g)+'</div>'}
-    h+='<div class="lvl"><div class="n">'+e.n+'</div><div><h3>'+rich(e.titel)+' '+fa(e.fa)+'</h3>'+zitate(e.zitate)+'<p>'+rich(e.kafka)+'</p></div></div>';
+    h+='<div class="lvl"><div class="n">'+e.n+'</div><div><h3>'+rich(e.titel)+'</h3>'+zitate(e.zitate)+'<p>'+rich(e.kafka)+'</p></div></div>';
   });
   if(a.beobachtungen&&a.beobachtungen.length){h+='<h2>Weitere Beobachtungen</h2>';a.beobachtungen.forEach(function(b){h+='<div class="card"><h3>'+esc(b.titel)+'</h3><p>'+rich(b.text)+'</p></div>'})}
   if(a.fragen&&a.fragen.length)h+='<h2>Fragen für die Seminardiskussion</h2><ul class="plain">'+a.fragen.map(function(f){return '<li>'+rich(f)+'</li>'}).join("")+'</ul>';
@@ -382,17 +418,25 @@ function pSKomm(s){
   return sessionHead(s,"kommentare")+(list.length?list.map(kommCard).join(""):emptyKomm());
 }
 function pGlossar(){
-  var h='<h1>Glossar</h1><p class="lead">Begriffe aller Seminare, mit Definition, Belegstelle und Beispiel.</p>';
+  var h='<h1>Glossar</h1><p class="lead">Begriffe aller Seminare, mit Definition, Angabe der Herkunft, Belegstelle und Beispiel. Fachbegriffe stehen ohne persische Entsprechung.</p>';
   h+='<div class="row-tools"><input class="filter" id="gf" type="search" placeholder="Begriffe filtern" aria-label="Begriffe filtern"><select id="gs" aria-label="Seminar">'+semOptions()+'</select></div><ul class="list" id="glist">';
   D.glossar.slice().sort(function(a,b){return a.term.localeCompare(b.term,"de")}).forEach(function(g){
-    h+='<li data-sem="'+esc((g.seminare||[]).join(" "))+'"><a class="row" href="#b-'+g.id+'"><span class="t">'+esc(g.term)+'</span><span class="s">'+esc(g.kurz)+'</span><span class="r fa" lang="fa" dir="rtl">'+g.fa+'</span></a></li>';
+    h+='<li data-sem="'+esc((g.seminare||[]).join(" "))+'"><a class="row" href="#b-'+g.id+'"><span class="t">'+esc(g.term)+'</span><span class="s">'+esc(g.kurz)+'</span>'+(g.lexikon&&g.lexikon.length?'<span class="r small">Fachlexikon</span>':'')+'</a></li>';
   });
   return h+'</ul>';
 }
+function herkunft(g){
+  var hk=g.herkunft||[], lx=g.lexikon||[];
+  var h='<div class="src"><strong>Woher die Definition stammt</strong><p>Kurzfassung im Wiki, nicht wörtlich zitiert'+(hk.length?'. Grundlage:':'.')+'</p>';
+  if(hk.length)h+='<ul>'+hk.map(function(x){return '<li>'+esc(x.q)+(x.s&&x.s.length?', '+esc(x.s.join('; ')):'')+'</li>'}).join('')+'</ul>';
+  h+='<p>'+(lx.length?'Fachlexikon: '+lx.map(function(z){return esc(z.q)+', '+esc(z.s)}).join('; ')+' (wörtlich unten).':'Aus den Fachlexika ist hier noch nichts belegt.')+'</p></div>';
+  return h;
+}
 function pEntry(id){
   var g=entry(id); if(!g)return pStart();
-  var h='<a class="back" href="#glossar">← Glossar</a><h1>'+esc(g.term)+'</h1><p style="font-size:1.1rem;margin:.3rem 0">'+fa(g.fa)+'</p>';
-  h+='<h2>Definition</h2><p>'+rich(g.def)+'</p>'+zitate(g.zitate);
+  var h='<a class="back" href="#glossar">← Glossar</a><h1>'+esc(g.term)+'</h1>';
+  h+='<h2>Definition</h2><p>'+rich(g.def)+'</p>'+herkunft(g)+zitate(g.zitate);
+  if(g.lexikon&&g.lexikon.length)h+='<h2>Im Fachlexikon</h2><p class="meta">Wörtlich aus den Lexika in deinem Ordner fachlexika (PDF-Seitenzahlen).</p>'+g.lexikon.map(function(z){return '<blockquote class="lex"><p>'+rich(z.t)+'</p><cite>'+esc(z.q)+', '+esc(z.s)+'</cite></blockquote>'}).join("");
   if(g.hinweis)h+='<div class="hint"><strong>Achtung.</strong> '+rich(g.hinweis)+'</div>';
   var bsp=g.beispiel||g.kafka;
   if(bsp)h+='<h2>Beispiel</h2><p>'+rich(bsp)+'</p>';
@@ -403,7 +447,7 @@ function pEntry(id){
   return h;
 }
 function pVokabeln(){
-  var h='<h1>Vokabeln</h1><p class="lead">Alle Wörter aus den Sitzungen, Deutsch–Persisch.</p><div class="row-tools"><input class="filter" id="vf" type="search" placeholder="Vokabeln filtern" aria-label="Vokabeln filtern"><select id="vs" aria-label="Seminar">'+semOptions()+'</select><select id="vg" aria-label="Art"><option value="">Alle Arten</option><option value="text">Wörter aus den Texten</option><option value="fach">Fachbegriffe</option></select></div>';
+  var h='<h1>Vokabeln</h1><p class="lead">Alle Wörter aus den Sitzungen. Wörter aus den Texten haben eine persische Übersetzung. Fachbegriffe haben keine, dafür einen Link zum Glossar, wo es einen Eintrag gibt.</p><div class="row-tools"><input class="filter" id="vf" type="search" placeholder="Vokabeln filtern" aria-label="Vokabeln filtern"><select id="vs" aria-label="Seminar">'+semOptions()+'</select><select id="vg" aria-label="Art"><option value="">Alle Arten</option><option value="text">Wörter aus den Texten</option><option value="fach">Fachbegriffe</option></select></div>';
   return h+vocabTable(D.vokabeln);
 }
 function pKomm(){
@@ -432,8 +476,8 @@ function buildIndex(){
     }
     (s.zusatz||[]).forEach(function(z){add(b+"-zusatz",n+" · "+z.titel,"Zusatz",[z.quelle||"",z.notiz||"",z.url].join(" "))});
   });
-  D.glossar.forEach(function(g){add("#b-"+g.id,g.term,"Glossar",[g.fa,g.kurz,g.def,g.beispiel||g.kafka||"",g.hinweis||""].concat((g.zitate||[]).map(function(z){return z.t})).join(" "))});
-  D.vokabeln.forEach(function(v){add("#vokabeln",v.de,"Vokabel",v.de+" "+v.fa)});
+  D.glossar.forEach(function(g){add("#b-"+g.id,g.term,"Glossar",[g.kurz,g.def,g.beispiel||g.kafka||"",g.hinweis||""].concat((g.zitate||[]).map(function(z){return z.t})).concat((g.lexikon||[]).map(function(z){return z.t})).join(" "))});
+  D.vokabeln.forEach(function(v){add("#vokabeln",v.de,"Vokabel",v.de+(v.fa?" "+v.fa:""))});
   D.kommentare.forEach(function(k){add("#kommentare",k.quelle,"Kommentar",k.text+" "+(k.anmerkung||""))});
   D.quellen.forEach(function(q){add("#quellen",q.kurz,"Quelle",q.voll)});
 }

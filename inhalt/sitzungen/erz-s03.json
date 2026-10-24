@@ -1,6 +1,6 @@
 {
- "id": "erz-s1",
- "nr": 1,
+ "id": "erz-s3",
+ "nr": 3,
  "titel": "Vor dem Gesetz",
  "autor": "Franz Kafka",
  "thema": "Das Erzählen und das Erzählte",
@@ -293,6 +293,11 @@
    "datei": "Martinez_Scheffel_2019-Einführung_in_die_Erzähltheorie.pdf",
    "art": "Lektüre",
    "notiz": "gedruckte S. 22–28 (PDF-Seiten 23–29)"
+  },
+  {
+   "datei": "Kommentar Kafka vor dem Gesetz HB S458.pdf",
+   "art": "Handbuch",
+   "notiz": "Kafka-Handbuch, S. 458–459 (Kleine Formen: Parabeln)"
   }
  ],
  "zusatz": []

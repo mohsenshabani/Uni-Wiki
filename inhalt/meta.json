@@ -12,22 +12,250 @@
    "id": "erz",
    "semester": "2026-ws",
    "name": "Erzählkunst",
-   "beschreibung": "Seminar zur Erzähltheorie. Pro Sitzung eine Kurzgeschichte und Seiten aus Martínez/Scheffel: Einführung in die Erzähltheorie.",
+   "beschreibung": "Kleist, Kafka und die Kunst des Erzählens (Dr. Sebastian Schönbeck, Mo 14–16 Uhr, U2-240). Einführung in die Erzähltextanalyse an Texten von Kleist und Kafka; pro Sitzung ein Abschnitt aus Martínez/Scheffel.",
    "lektuere": [
     {
-     "titel": "Vor dem Gesetz",
-     "autor": "Franz Kafka",
-     "umfang": "S. 267–269 (Kritische Ausgabe)",
+     "titel": "Faktuales und Fiktionales Erzählen (Kap. I.1)",
+     "autor": "Martínez/Scheffel",
+     "umfang": "S. 11–21 (Sitzung 2)",
+     "art": "Lektüre"
+    },
+    {
+     "titel": "Unwahrscheinliche Wahrhaftigkeiten",
+     "autor": "Heinrich von Kleist",
+     "umfang": "S. 376–379 (Sitzung 2)",
      "art": "Primärtext"
     },
     {
-     "titel": "Einführung in die Erzähltheorie",
-     "autor": "Matías Martínez, Michael Scheffel (2019)",
-     "umfang": "S. 22–28 (Sitzung 1)",
+     "titel": "Das Erzählen und das Erzählte",
+     "autor": "Martínez/Scheffel",
+     "umfang": "S. 22–28 (Sitzung 3)",
      "art": "Lektüre"
+    },
+    {
+     "titel": "Vor dem Gesetz",
+     "autor": "Franz Kafka",
+     "umfang": "S. 267–269 (Kritische Ausgabe, Sitzung 3)",
+     "art": "Primärtext"
     }
    ],
-   "ordner": "Erzählkunst"
+   "ordner": "Erzählkunst",
+   "plan": {
+    "info": [
+     [
+      "Seminarnummer",
+      "230453"
+     ],
+     [
+      "Zeit und Ort",
+      "Montags 14–16 Uhr (c.t.), U2-240"
+     ],
+     [
+      "Dozent",
+      "Dr. Sebastian Schönbeck"
+     ],
+     [
+      "Format",
+      "Präsenz"
+     ],
+     [
+      "Sekundärliteratur",
+      "Kafka-Handbuch (Engel/Auerochs 2010), Kleist-Handbuch (Breuer 2013)"
+     ]
+    ],
+    "termine": [
+     {
+      "datum": "12.10.2026",
+      "iso": "2026-10-12",
+      "thema": "Stimmen aus dem Seminar, Seminarplan, Leistungsnachweise",
+      "nr": 1,
+      "texte": [
+       "Kafka: Ausflug ins Gebirge (Erzählungen Bd. 1, hg. v. Stach 2025, S. 20), einführende Diskussion"
+      ]
+     },
+     {
+      "datum": "19.10.2026",
+      "iso": "2026-10-19",
+      "thema": "Faktuales und Fiktionales Erzählen",
+      "nr": 2,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 11–21",
+       "Kleist: Unwahrscheinliche Wahrhaftigkeiten, S. 376–379"
+      ],
+      "sitzung": "erz-s2"
+     },
+     {
+      "datum": "26.10.2026",
+      "iso": "2026-10-26",
+      "thema": "Das Erzählen und das Erzählte",
+      "nr": 3,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 22–28",
+       "Kafka: Vor dem Gesetz, S. 267–269"
+      ],
+      "sitzung": "erz-s3"
+     },
+     {
+      "datum": "02.11.2026",
+      "iso": "2026-11-02",
+      "thema": "Zeit I: Ordnung (In welcher Reihenfolge?)",
+      "nr": 4,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 33–41",
+       "Kleist: Das Bettelweib von Locarno, S. 261–264"
+      ]
+     },
+     {
+      "datum": "09.11.2026",
+      "iso": "2026-11-09",
+      "thema": "Zeit II: Dauer (Wie lange?)",
+      "nr": 5,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 42–46",
+       "Kafka: Kinder auf der Landstraße (Erzählungen Bd. 1, S. 10–13)"
+      ]
+     },
+     {
+      "datum": "16.11.2026",
+      "iso": "2026-11-16",
+      "thema": "Zeit III: Frequenz (Wie oft?)",
+      "nr": 6,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 47–49",
+       "Kafka: Der Kreisel (Nachgelassene Schriften II, S. 361–362)"
+      ]
+     },
+     {
+      "datum": "23.11.2026",
+      "iso": "2026-11-23",
+      "thema": "Modus I: Distanz (Wie mittelbar wird das Erzählte präsentiert?)",
+      "nr": 7,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 50–66",
+       "Kleist: Unwahrscheinliche Wahrhaftigkeiten, S. 376–379"
+      ],
+      "frist": "Studienleistung: Abgabe der Analyse bis 27.11.2026"
+     },
+     {
+      "datum": "30.11.2026",
+      "iso": "2026-11-30",
+      "thema": "Modus II: Fokalisierung (Aus welcher Sicht wird erzählt?)",
+      "nr": 8,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 67–70",
+       "Kafka: Auf der Galerie, S. 262–263"
+      ],
+      "frist": "Studienleistung: Feedback im Seminar"
+     },
+     {
+      "datum": "07.12.2026",
+      "iso": "2026-12-07",
+      "thema": "Zeitpunkt und Ort (Wann wird erzählt? Auf welcher Ebene wird erzählt?)",
+      "nr": 9,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 71–84",
+       "Kleist: Über das Marionettentheater, S. 555–563"
+      ],
+      "frist": "Studienleistung: Abgabe der Reflexion bis 04.12.2026"
+     },
+     {
+      "datum": "14.12.2026",
+      "iso": "2026-12-14",
+      "thema": "Erzähler und Adressat",
+      "nr": 10,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 85–93",
+       "Kleist: Über die allmählige Verfertigung der Gedanken beim Reden, S. 534–540"
+      ]
+     },
+     {
+      "datum": "21.12.2026",
+      "iso": "2026-12-21",
+      "thema": "Stanzels Typologie",
+      "nr": 11,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 94–99",
+       "Kafka: Erinnerungen an die Kaldabahn (Erzählungen Bd. 1, S. 200–211)"
+      ]
+     },
+     {
+      "datum": "23.12.2026 – 03.01.2027",
+      "iso": "2026-12-23",
+      "thema": "Weihnachtsferien",
+      "entfaellt": true
+     },
+     {
+      "datum": "04.01.2027",
+      "iso": "2027-01-04",
+      "thema": "Unzuverlässiges Erzählen",
+      "nr": 12,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 100–114",
+       "Kafka: Bericht für eine Akademie, S. 299–313"
+      ]
+     },
+     {
+      "datum": "11.01.2027",
+      "iso": "2027-01-11",
+      "thema": "Ereignis – Geschehen – Geschichte, Motivierung",
+      "nr": 13,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 115–126",
+       "Kleist: Das Erdbeben in Chili, S. 187–221"
+      ]
+     },
+     {
+      "datum": "18.01.2027",
+      "iso": "2027-01-18",
+      "thema": "Doppelte Zeitperspektive und Handlungsschema",
+      "nr": 14,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 127–136",
+       "Kleist: Das Erdbeben in Chili, S. 187–221"
+      ],
+      "frist": "Hausarbeit: Thema bis 22.01.2027 in der Sprechstunde anmelden"
+     },
+     {
+      "datum": "25.01.2027",
+      "iso": "2027-01-25",
+      "thema": "Erzählte Welt und Figur",
+      "nr": 15,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 137–154",
+       "Kafka: Die Sorge des Hausvaters, S. 282–284"
+      ],
+      "frist": "Studienleistung: Schreibaufgabe, Abgabe bis 29.01.2027"
+     },
+     {
+      "datum": "01.02.2027",
+      "iso": "2027-02-01",
+      "thema": "Raum",
+      "nr": 16,
+      "texte": [
+       "Martínez/Scheffel, Einführung in die Erzähltheorie, S. 155–166",
+       "Kleist: Das Bettelweib von Locarno, S. 261–264"
+      ]
+     }
+    ],
+    "leistungen": [
+     {
+      "titel": "Studienleistung",
+      "text": [
+       "Aktive und regelmäßige Teilnahme sowie eine kurze textnahe Analyse (ca. ½ Seite) zu Kleists „Unwahrscheinliche Wahrhaftigkeiten“, Upload im Lernraum bis 27.11.2026.",
+       "Vor der Sitzung am 30.11. wird die Analyse einer zugeteilten Person gelesen, in der Sitzung gibt es mündliches Feedback nach vorgegebenen Kriterien. Danach eine kurze Reflexion (Upload bis 04.12.2026). Eine überarbeitete Fassung ist nicht nötig.",
+       "In der Sitzung am 18.1. entsteht eine Schreibaufgabe zu „Die Sorge des Hausvaters“, Upload bis 29.01.2027."
+      ]
+     },
+     {
+      "titel": "Prüfungsleistung",
+      "text": [
+       "Seminararbeit, ca. 15 Seiten. Anmeldung des Themas bis 22.01.2027 persönlich in der Sprechstunde, mit Fragestellung und Gliederung (mindestens 48 Stunden vorher an den Dozenten schicken).",
+       "Abgabe bis 31.03.2027 (Ausschlussfrist) per E-Mail als PDF mit unterschriebener Eigenständigkeitserklärung."
+      ]
+     }
+    ],
+    "quelle": "Seminarplan (PDF) von Dr. Sebastian Schönbeck. Im PDF steht ‹Wintersemester 2024›, das ist vermutlich ein Tippfehler."
+   }
   },
   {
    "id": "pruefen",
@@ -54,7 +282,170 @@
     }
    ],
    "semester": "2026-ws",
-   "ordner": "Prüfen und Testen in DaF:DaZ und der sprachliche Zugang zum Studium"
+   "ordner": "Prüfen und Testen in DaF:DaZ und der sprachliche Zugang zum Studium",
+   "plan": {
+    "info": [
+     [
+      "Veranstalterin",
+      "Annika Berthelé (DaF/DaZ), Modul 23-DAF-M-DAFGER-SKV"
+     ],
+     [
+      "Zeit und Ort",
+      "Donnerstags 12–14 Uhr (c.t.), X-E0-204"
+     ],
+     [
+      "Sprechstunde",
+      "Dienstags 11–12 Uhr (U8-214), Termin über eKVV"
+     ],
+     [
+      "Hauptwerk",
+      "Vogt/Rossa (Hg.) 2025: Leistungsmessung, Evaluation und Feedback im Fremdsprachenunterricht (e-Book in Moodle)"
+     ]
+    ],
+    "termine": [
+     {
+      "datum": "15.10.2026",
+      "iso": "2026-10-15",
+      "thema": "Einführung: Perspektiven auf das Prüfen und Testen",
+      "nr": 1
+     },
+     {
+      "datum": "22.10.2026",
+      "iso": "2026-10-22",
+      "thema": "Terminologische Einordnung, Funktionen und Assessment-Typen und standardisierte Prüfungen für DaF/DaZ",
+      "nr": 2,
+      "texte": [
+       "Text im Kurs: Moser-Frötscher (2025)"
+      ],
+      "sitzung": "pruefen-s2"
+     },
+     {
+      "datum": "29.10.2026",
+      "iso": "2026-10-29",
+      "thema": "Referat I: Gütekriterien (Validität, Reliabilität, Objektivität, Praktikabilität, Fairness, Authentizität, Interaktivität, Washback)",
+      "nr": 3,
+      "texte": [
+       "Für alle: mindestens 2 Texte aus Kapitel 2 in Vogt/Rossa (2025)"
+      ]
+     },
+     {
+      "datum": "05.11.2026",
+      "iso": "2026-11-05",
+      "thema": "Verfahren und Instrumente des Testens und Prüfens und Inhaltsbereiche von Leistungsmessungen",
+      "nr": 4
+     },
+     {
+      "datum": "12.11.2026",
+      "iso": "2026-11-12",
+      "thema": "Rahmenbedingungen im Testen, Prüfen und Evaluieren (GeR etc.); Lernziele der studienbezogenen Deutschförderung im Vergleich zum GeR",
+      "nr": 5,
+      "texte": [
+       "Für alle: Althaus (2018)",
+       "Weitere: Bärenfänger et al. (2024), Glaboniat (2010)"
+      ]
+     },
+     {
+      "datum": "19.11.2026",
+      "iso": "2026-11-19",
+      "thema": "Referat II: TestDaF",
+      "nr": 6,
+      "texte": [
+       "Für alle: Marks (2015)"
+      ]
+     },
+     {
+      "datum": "26.11.2026",
+      "iso": "2026-11-26",
+      "thema": "Referat III: DSH",
+      "nr": 7,
+      "texte": [
+       "Für alle: Krekeler (2005), Hülsmann (2020)"
+      ]
+     },
+     {
+      "datum": "03.12.2026",
+      "iso": "2026-12-03",
+      "thema": "Referat IV: Goethe-Zertifikat C2",
+      "nr": 8,
+      "texte": [
+       "Für alle: Eckes/Althaus (2020)"
+      ]
+     },
+     {
+      "datum": "10.12.2026",
+      "iso": "2026-12-10",
+      "thema": "Referat V: ÖSD 2",
+      "nr": 9
+     },
+     {
+      "datum": "17.12.2026",
+      "iso": "2026-12-17",
+      "thema": "Referat V: telc C1 Hochschule",
+      "nr": 10,
+      "texte": [
+       "Für alle: Wisniewski/Möhring (2021)"
+      ]
+     },
+     {
+      "datum": "07.01.2027",
+      "iso": "2027-01-07",
+      "thema": "Referat VI: Feststellungsprüfung, Prüfungsteil Deutsch",
+      "nr": 11,
+      "texte": [
+       "Für alle: Settinieri (2022)"
+      ]
+     },
+     {
+      "datum": "14.01.2027",
+      "iso": "2027-01-14",
+      "thema": "Referat VII: Entwicklungsperspektiven und aktuelle Tendenzen: heterogenitätssensitive Evaluation (multilinguales Assessment, differenzierte Leistungsmessung, adaptives Testen)",
+      "nr": 12,
+      "texte": [
+       "Für alle: mindestens ein Text aus Kapitel 8 in Vogt/Rossa (2025)"
+      ]
+     },
+     {
+      "datum": "21.01.2027",
+      "iso": "2027-01-21",
+      "thema": "Referat VIII: Tendenzen: Technology Based Assessment, KI und Leistungsüberprüfung",
+      "nr": 13,
+      "texte": [
+       "Für alle: Dillmann/Krämer (in Vogt/Rossa 2025), Sieradz (2025)"
+      ]
+     },
+     {
+      "datum": "28.01.2027",
+      "iso": "2027-01-28",
+      "thema": "Hands on: Prüfungsaufgaben für den Unterricht erstellen und Bewertung von Prüfungsleistungen",
+      "nr": 14
+     },
+     {
+      "datum": "04.02.2027",
+      "iso": "2027-02-04",
+      "thema": "Abschluss: Reflexion des Rahmenthemas für die eigene Forschungs- und Unterrichtspraxis (Ideen für Prüfungsleistung, Hausarbeit, Thesenpapier)",
+      "nr": 15
+     }
+    ],
+    "leistungen": [
+     {
+      "titel": "Studienleistung: Referat",
+      "text": [
+       "Das Referat ist eine Stundengestaltung für die ganze Sitzung. Besprechung mit der Dozentin mindestens eine Woche vorher (max. 30 Minuten).",
+       "Themen I, VII und VIII: theoretische Konzepte, die anderen werden mit Fragen und Denkaufträgen zur Reflexion angeregt.",
+       "Themen II–VI: Prüfungskonzept, Design und Beispielprüfung vorstellen und analysieren; Inhaltsbereiche (Vogt/Rossa 2025, Kap. 5), Gütekriterien (Sitzung 3 im Plan), Teile der Prüfung selbst bearbeiten."
+      ]
+     },
+     {
+      "titel": "Prüfungsleistung",
+      "text": [
+       "Hausarbeit (15–20 Seiten) zu einem Thema des Prüfens und Testens DaF/Z im Hochschulbereich. Abgabe spätestens 31.03.2027, keine Fristverlängerung.",
+       "Oder: 45-minütige mündliche Prüfung mit 5–10-seitigem Thesenpapier (drei Thesen). Prüfungstermine 16., 19., 23., 26. März 2027, Abgabe des Papiers eine Woche vorher.",
+       "Thema vorab in der Sprechstunde besprechen (ca. 10 Sätze und erste Gliederung, Upload in Moodle)."
+      ]
+     }
+    ],
+    "quelle": "Vorläufiger Seminarplan (PDF) von Annika Berthelé. Die Nummerierung ‹Referat V› steht im Plan zweimal (10.12. und 17.12.)."
+   }
   },
   {
    "id": "schreiben",
@@ -99,7 +490,181 @@
     }
    ],
    "semester": "2026-ws",
-   "ordner": "Schreiben in der L2- Prozesse, Förderung und die Rolle von KI"
+   "ordner": "Schreiben in der L2- Prozesse, Förderung und die Rolle von KI",
+   "plan": {
+    "info": [
+     [
+      "Seminarnummer",
+      "230374"
+     ],
+     [
+      "Zeit und Ort",
+      "Dienstags 14–16 Uhr (c.t.), U7-205"
+     ],
+     [
+      "Leitung",
+      "Dr. Silvia Introna"
+     ],
+     [
+      "Sprechstunde",
+      "Donnerstags 15–16 Uhr, U8-151 oder online (Termin über eKVV)"
+     ],
+     [
+      "Modul",
+      "23-DAF-M-DAFGER-SKV"
+     ],
+     [
+      "Materialien",
+      "Moodle-Kurs im Lernraum"
+     ]
+    ],
+    "termine": [
+     {
+      "datum": "13.10.2026",
+      "iso": "2026-10-13",
+      "thema": "Einführung ins Themenfeld und Organisatorisches",
+      "nr": 1,
+      "sitzung": "schreiben-s1"
+     },
+     {
+      "datum": "20.10.2026",
+      "iso": "2026-10-20",
+      "thema": "Schreiben als Prozess",
+      "nr": 2,
+      "texte": [
+       "Schnell (2020), Kap. 2.1 „L1-Schreiben“, S. 22–40; 65–69"
+      ],
+      "sitzung": "schreiben-s2"
+     },
+     {
+      "datum": "27.10.2026",
+      "iso": "2026-10-27",
+      "thema": "Schreibentwicklung und Schreibstrategien",
+      "nr": 3,
+      "texte": [
+       "Schnell (2020), Kap. 2.1 „L1-Schreiben“, S. 40–51; 70–75"
+      ],
+      "sitzung": "schreiben-s3"
+     },
+     {
+      "datum": "03.11.2026",
+      "iso": "2026-11-03",
+      "thema": "L2-Schreiben als mehrsprachiges Schreiben",
+      "nr": 4,
+      "texte": [
+       "Riehl (2018): Mehrschriftlichkeit, S. 209–234"
+      ]
+     },
+     {
+      "datum": "10.11.2026",
+      "iso": "2026-11-10",
+      "thema": "Methoden zur Erforschung des L2-Schreibens",
+      "nr": 5,
+      "texte": [
+       "Schramm (2018): Methoden zur empirischen Erforschung des Schreibens in DaZ, S. 33–46"
+      ]
+     },
+     {
+      "datum": "17.11.2026",
+      "iso": "2026-11-17",
+      "thema": "Schreibförderung im FSU: Einführung",
+      "nr": 6,
+      "texte": [
+       "Koeppel (2022): Deutsch als Fremdsprache, Kap. 8 „Schreiben“, S. 280–306"
+      ]
+     },
+     {
+      "datum": "24.11.2026",
+      "iso": "2026-11-24",
+      "thema": "Schreibförderung im FSU: Selbstreguliertes Schreiben",
+      "nr": 7,
+      "texte": [
+       "Harris/Graham (2017): Self-Regulated Strategy Development, S. 119–151"
+      ]
+     },
+     {
+      "datum": "01.12.2026",
+      "iso": "2026-12-01",
+      "thema": "Schreibförderung im FSU: Kreatives und Kooperatives Schreiben",
+      "nr": 8,
+      "texte": [
+       "Ruf (2016): Kreatives Schreiben, Kap. 1, S. 19–48"
+      ]
+     },
+     {
+      "datum": "08.12.2026",
+      "iso": "2026-12-08",
+      "thema": "Mehrsprachigkeitsorientierte Schreibdidaktik",
+      "nr": 9,
+      "texte": [
+       "Gürsoy/Roll (2018): Schreiben und Mehrschriftlichkeit, S. 350–364"
+      ]
+     },
+     {
+      "datum": "15.12.2026",
+      "iso": "2026-12-15",
+      "thema": "KI und L2-Schreiben: Einführung",
+      "nr": 10,
+      "texte": [
+       "Vorbereitungstexte folgen"
+      ]
+     },
+     {
+      "datum": "22.12.2026",
+      "iso": "2026-12-22",
+      "thema": "KI und L2-Schreiben: Forschungsstand",
+      "nr": 11,
+      "texte": [
+       "Vorbereitungstexte folgen"
+      ]
+     },
+     {
+      "datum": "12.01.2027",
+      "iso": "2027-01-12",
+      "thema": "KI und L2-Schreiben: Forschungsstand",
+      "nr": 12,
+      "texte": [
+       "Vorbereitungstexte folgen"
+      ]
+     },
+     {
+      "datum": "19.01.2027",
+      "iso": "2027-01-19",
+      "thema": "Puffer",
+      "nr": 13
+     },
+     {
+      "datum": "26.01.2027",
+      "iso": "2027-01-26",
+      "thema": "Posterpräsentationen (Studienleistung) und Auf dem Weg zur Hausarbeit / mündlichen Prüfung",
+      "nr": 14
+     },
+     {
+      "datum": "02.02.2027",
+      "iso": "2027-02-02",
+      "thema": "Kurzpräsentationen (Prüfungsleistung) und Seminarevaluation",
+      "nr": 15
+     }
+    ],
+    "leistungen": [
+     {
+      "titel": "Studienleistung",
+      "text": [
+       "Digitales Poster im .ppt-Format (A1) zu einem Themenaspekt, mit mindestens 4 wissenschaftlichen Quellen. Abgabefrist 20.01.2027.",
+       "Präsentation in der vorletzten Sitzung: 10 Minuten Vortrag und 5 Minuten Fragen."
+      ]
+     },
+     {
+      "titel": "Prüfungsleistung",
+      "text": [
+       "Hausarbeit (ca. 15–20 Seiten) oder ca. 45-minütige mündliche Prüfung mit 5–10-seitigem Thesenpapier (Modulprüfung).",
+       "Zusatzbestimmung: Wird im Modul „Sprachlehr- und -lernforschung“ die Hausarbeit gewählt, muss dieses Modul mündlich abgeschlossen werden und umgekehrt.",
+       "Voraussetzung: Kurzpräsentation der Thematik und der Fachliteratur in der letzten Sitzung."
+      ]
+     }
+    ],
+    "quelle": "Seminarplan (PDF) von Dr. Silvia Introna."
+   }
   },
   {
    "id": "ki",
@@ -126,7 +691,138 @@
      "art": "Folien"
     }
    ],
-   "ordner": "KI Feedback Forschung"
+   "ordner": "KI Feedback Forschung",
+   "plan": {
+    "info": [
+     [
+      "Leitung",
+      "Prof. Dr. Claudia Riemer"
+     ],
+     [
+      "Quelle",
+      "Folie 3 der Einstiegsfolien (Zeitplan), Folie 2 (Leistungen)"
+     ]
+    ],
+    "termine": [
+     {
+      "datum": "13.10.2026",
+      "iso": "2026-10-13",
+      "thema": "Seminarplanung, Einstiegsübung",
+      "nr": 1,
+      "sitzung": "ki-s1"
+     },
+     {
+      "datum": "20.10.2026",
+      "iso": "2026-10-20",
+      "thema": "Theoretische Grundlagen 1: KI und Fremdsprachenlernen",
+      "nr": 2,
+      "texte": [
+       "Moorhouse/Wong (2025), Teil I (Kap. 1–4)"
+      ],
+      "sitzung": "ki-s2"
+     },
+     {
+      "datum": "27.10.2026",
+      "iso": "2026-10-27",
+      "thema": "Theoretische Grundlagen 2: KI und Fremdsprachenlernen",
+      "nr": 3,
+      "texte": [
+       "Moorhouse/Wong (2025), Teil II (Kap. 5–8)"
+      ]
+     },
+     {
+      "datum": "03.11.2026",
+      "iso": "2026-11-03",
+      "thema": "Gruppenarbeit, Training",
+      "nr": 4
+     },
+     {
+      "datum": "10.11.2026",
+      "iso": "2026-11-10",
+      "thema": "Theoretische Grundlagen 3: Feedback und Schreiben in der L2",
+      "nr": 5,
+      "frist": "Gruppenzuordnung bis 17.11. abgeschlossen"
+     },
+     {
+      "datum": "17.11.2026",
+      "iso": "2026-11-17",
+      "thema": "Überblick über das Forschungsthema: Lektüre von Meta-Studien",
+      "nr": 6
+     },
+     {
+      "datum": "24.11.2026",
+      "iso": "2026-11-24",
+      "thema": "Recherche empirischer Studien zur Rolle von genKI beim Schreiben in der L2 (Gruppenarbeit)",
+      "nr": 7
+     },
+     {
+      "datum": "01.12.2026",
+      "iso": "2026-12-01",
+      "thema": "Kurzpräsentation gefundener empirischer Studien",
+      "nr": 8,
+      "frist": "Auswahl der empirischen Studie bis 8.12."
+     },
+     {
+      "datum": "08.12.2026",
+      "iso": "2026-12-08",
+      "thema": "Analyse empirischer Studien mit dem Analyseraster (Einführung, Gruppenarbeit)",
+      "nr": 9
+     },
+     {
+      "datum": "15.12.2026",
+      "iso": "2026-12-15",
+      "thema": "Analyse empirischer Studien mit dem Analyseraster (Gruppenarbeit)",
+      "nr": 10,
+      "frist": "Ausgefüllte Analyseraster bis 21.12."
+     },
+     {
+      "datum": "22.12.2026",
+      "iso": "2026-12-22",
+      "thema": "Kurzpräsentation der Analyseergebnisse (Diskussion, mündliche Kommentierung, keine PowerPoint)",
+      "nr": 11
+     },
+     {
+      "datum": "12.01.2027",
+      "iso": "2027-01-12",
+      "thema": "Entwicklung einer didaktisierten Lerneinheit (Einführung, Gruppenarbeit)",
+      "nr": 12
+     },
+     {
+      "datum": "19.01.2027",
+      "iso": "2027-01-19",
+      "thema": "Entwicklung einer didaktisierten Lerneinheit (Gruppenarbeit)",
+      "nr": 13,
+      "frist": "Entwurf der Lerneinheit bis 25.1."
+     },
+     {
+      "datum": "26.01.2027",
+      "iso": "2027-01-26",
+      "thema": "Präsentation der Lerneinheiten plus Peer-Feedback",
+      "nr": 14
+     },
+     {
+      "datum": "02.02.2027",
+      "iso": "2027-02-02",
+      "thema": "Präsentation der Lerneinheiten plus Peer-Feedback",
+      "nr": 15
+     }
+    ],
+    "leistungen": [
+     {
+      "titel": "Studienleistung",
+      "text": [
+       "Betreute Gruppenarbeit mit Präsentationen: Recherche und Analyse einer empirischen Studie sowie Didaktisierung einer Lerneinheit mit KI-Feedback. Gruppen mit 3 bis 5 Personen, festzulegen bis 17.11.2026."
+      ]
+     },
+     {
+      "titel": "Prüfungsleistung",
+      "text": [
+       "Hausarbeit (ca. 15–20 Seiten, kritische Analyse von mindestens zwei empirischen Studien) oder ca. 45-minütige mündliche Prüfung mit Thesenpapier. Vorab Kurzpräsentation der Thematik im Seminar."
+      ]
+     }
+    ],
+    "quelle": "Von den Folien abgelesen (Bildschirmfotos). Wortlaut bitte in Moodle gegenprüfen."
+   }
   },
   {
    "id": "cl",
@@ -176,17 +872,203 @@
   {
    "id": "litmehr",
    "name": "Literatur und Mehrsprachigkeit",
-   "beschreibung": "Seminar zu literarischer Mehrsprachigkeit. Noch keine Sitzungen angelegt.",
+   "beschreibung": "Literarische Mehrsprachigkeit (Veranstaltung 230149, Mi 16–18 Uhr, B2-215). Ausgangspunkt ist Till Dembecks These, dass es keine einsprachigen Texte gibt; danach theoretische, historische Perspektiven und exemplarische Lektüren (Erzähltexte des 19. und frühen 20. Jahrhunderts).",
    "lektuere": [
     {
+     "titel": "Buddenbrooks (1901)",
+     "autor": "Thomas Mann",
+     "umfang": "S. 192–210 (Sitzung 2)",
+     "art": "Primärtext"
+    },
+    {
+     "titel": "Es gibt keine einsprachigen Texte! Ein Vorschlag für die Literaturwissenschaft",
+     "autor": "Till Dembeck (2020), ZiG 11 (1)",
+     "umfang": "S. 163–176 (Sitzung 3)",
+     "art": "Lektüre"
+    },
+    {
      "titel": "Literatur und Mehrsprachigkeit. Ein Handbuch",
-     "autor": "Till Dembeck, Rolf Parr (Hrsg.)",
+     "autor": "Till Dembeck, Rolf Parr (Hrsg.) (2017)",
      "umfang": "383 Seiten",
      "art": "Handbuch"
     }
    ],
    "semester": "2026-ws",
-   "ordner": "Lit. Mehrsprachigkeit"
+   "ordner": "Lit. Mehrsprachigkeit",
+   "plan": {
+    "info": [
+     [
+      "Veranstaltungsnummer",
+      "230149"
+     ],
+     [
+      "Zeit und Ort",
+      "Mittwochs 16–18 Uhr, B2-215"
+     ],
+     [
+      "Sprechstunde",
+      "Montags 14–15 Uhr (ohne Anmeldung)"
+     ],
+     [
+      "Dozent",
+      "Benedikt Wolf (aus dem Link im Seminarplan erschlossen)"
+     ],
+     [
+      "Phasen",
+      "Systematisches und Voraussetzungen (bis 11.11.); Historische Perspektive (18.11.–16.12.); Exemplarische Lektüren (ab 13.1.)"
+     ],
+     [
+      "Hinweise",
+      "Einsatz von KI für die Hausarbeit nicht gestattet (mit Passus in der Eigenständigkeitserklärung). Aufzeichnungsverbot. Semesterapparat in der Bibliothek."
+     ]
+    ],
+    "termine": [
+     {
+      "datum": "14.10.2026",
+      "iso": "2026-10-14",
+      "thema": "Einführung",
+      "nr": 1
+     },
+     {
+      "datum": "21.10.2026",
+      "iso": "2026-10-21",
+      "thema": "Ein Beispiel",
+      "nr": 2,
+      "texte": [
+       "Thomas Mann, Buddenbrooks (1901), S. 192–210"
+      ],
+      "sitzung": "litmehr-s2"
+     },
+     {
+      "datum": "28.10.2026",
+      "iso": "2026-10-28",
+      "thema": "Es gibt keine einsprachigen Texte",
+      "nr": 3,
+      "texte": [
+       "Till Dembeck, Es gibt keine einsprachigen Texte (digital)"
+      ],
+      "frist": "Mitbringen: ein kurzer einsprachiger literarischer Text",
+      "sitzung": "litmehr-s3"
+     },
+     {
+      "datum": "04.11.2026",
+      "iso": "2026-11-04",
+      "thema": "Begriffswerkzeug",
+      "nr": 4,
+      "texte": [
+       "Giulia Radaelli, Literarische Mehrsprachigkeit, S. 47 und 53–75 (digital)"
+      ]
+     },
+     {
+      "datum": "11.11.2026",
+      "iso": "2026-11-11",
+      "thema": "Voraussetzungen",
+      "nr": 5,
+      "texte": [
+       "Gen 2,4–25; Gen 3; Gen 10–11; Apg 2,1–42"
+      ]
+     },
+     {
+      "datum": "18.11.2026",
+      "iso": "2026-11-18",
+      "thema": "Die postmonolinguale Situation",
+      "nr": 6,
+      "texte": [
+       "Yasemin Yildiz, Beyond the Mother Tongue, S. 1–29 (digital)"
+      ]
+     },
+     {
+      "datum": "25.11.2026",
+      "iso": "2026-11-25",
+      "thema": "Keine Sitzung wegen Bi.Teach",
+      "entfaellt": true
+     },
+     {
+      "datum": "02.12.2026",
+      "iso": "2026-12-02",
+      "thema": "Historische Konstellation 1: Sprachreinheit und literarische Praxis im 17. Jahrhundert",
+      "nr": 7,
+      "texte": [
+       "Opitz, Buch von der Deutschen Poeterey (1624), S. 33–45",
+       "Moscherosch, Gesichte Philanders von Sittewalt, S. 88–105 und 145–151",
+       "Haberland, Opitz’ Ode Ich empfinde fast ein grawen …"
+      ]
+     },
+     {
+      "datum": "09.12.2026",
+      "iso": "2026-12-09",
+      "thema": "Historische Konstellation 2: Varietäten im Realismus",
+      "nr": 8,
+      "texte": [
+       "Weninger, Zur Dialektik des Dialekts (digital)",
+       "Freytag, Soll und Haben, Bd. 1, S. 13–26 (digital)"
+      ]
+     },
+     {
+      "datum": "16.12.2026",
+      "iso": "2026-12-16",
+      "thema": "Historische Konstellation 3: Ludische Mehrsprachigkeit in der Moderne",
+      "nr": 9,
+      "texte": [
+       "Stefan George, Ursprünge",
+       "Walter Serner, Der Schluck um die Achse",
+       "Paul Celan, Eine Gauner- und Ganovenweise … (1963)"
+      ]
+     },
+     {
+      "datum": "13.01.2027",
+      "iso": "2027-01-13",
+      "thema": "Exemplarische Lektüren",
+      "nr": 10
+     },
+     {
+      "datum": "20.01.2027",
+      "iso": "2027-01-20",
+      "thema": "Exemplarische Lektüren",
+      "nr": 11
+     },
+     {
+      "datum": "27.01.2027",
+      "iso": "2027-01-27",
+      "thema": "Exemplarische Lektüren / Auswertung",
+      "nr": 12
+     },
+     {
+      "datum": "03.02.2027",
+      "iso": "2027-02-03",
+      "thema": "Fällt aus wegen der Prüfungswoche in der Germanistik",
+      "entfaellt": true
+     }
+    ],
+    "leistungen": [
+     {
+      "titel": "Studienleistung (je nach Modul)",
+      "text": [
+       "Sitzungsprotokoll, Kurzreferat oder (im Modul 23-DAF-M-DAFGER-Glit_a) eigenständige Moderation einer Sitzung."
+      ]
+     },
+     {
+      "titel": "Prüfungsleistung (je nach Modul)",
+      "text": [
+       "Hausarbeit (ca. 15 bis 20 Seiten; bei manchen Modulen Voraussetzung: Kurzpräsentation des Themas im Seminar), Exposé vorher in der Sprechstunde besprechen.",
+       "Oder 30-minütiges Referat mit schriftlicher Ausarbeitung (7–8 Seiten), oder Sitzungsmoderation mit ca. 5-seitigem Ergebnisprotokoll."
+      ]
+     },
+     {
+      "titel": "Mögliche Texte für exemplarische Lektüren",
+      "text": [
+       "Droste-Hülshoff, Die Judenbuche (1842); Storm, Es waren zwei Königskinder (1884); Meyrink, Der Golem (1913/14); Homunkulus, Zwischen den Geschlechtern (1919); Thomas Mann, Wälsungenblut (1921); Klabund, Spuk (1922); Stratz, Der mysteriöse Cavalier (1924); Sagitta (Mackay), Der Puppenjunge (1926); Fallada, Gauner-Geschichten (1928); Thomas Mann, Der Erwählte (1951)."
+      ]
+     },
+     {
+      "titel": "Weitere Referatsthemen",
+      "text": [
+       "Bachtin, Das Wort im Roman; Schottelius, Ausführliche Arbeit Von der Teutschen HaubtSprache; Herder, Volkslieder; Arnim/Brentano, Des Knaben Wunderhorn; Nitsche, Neue österreichische Lyrik – und kein Wort Deutsch; Auerbach, Mimesis; Literaturjiddisch."
+      ]
+     }
+    ],
+    "quelle": "Seminarplan (PDF) zu Veranstaltung 230149."
+   }
   }
  ]
 }
