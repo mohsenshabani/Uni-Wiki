@@ -1,0 +1,526 @@
+<title>Uni-Wiki</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Vazirmatn:wght@400;600&display=swap">
+<style>
+/* Layout: Aktenordner-Wiki. Kopfzeile mit Suche, linke Navigation, Lesespalte.
+   Blau = Behördenblau (Navigation, Links); Rot = Stempel (Sitzungsmarken, Belege). */
+:root{
+  --bg:#E9EDF1; --surface:#F7F9FB; --ink:#172233; --muted:#566376; --line:#CBD3DC;
+  --accent:#1F4E79; --accent-soft:#DCE6F0; --stamp:#A12B2B; --quote:#EEF2F6; --hl:#F6E3A1;
+  --f-serif:"Literata",Georgia,"Times New Roman",serif;
+  --f-sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --f-fa:"Vazirmatn",Tahoma,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0F1620; --surface:#17212D; --ink:#E6EBF1; --muted:#9AA7B8; --line:#2B3949;
+    --accent:#86B8E4; --accent-soft:#22364A; --stamp:#E8827A; --quote:#1C2836; --hl:#5A4B12; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0F1620; --surface:#17212D; --ink:#E6EBF1; --muted:#9AA7B8; --line:#2B3949;
+  --accent:#86B8E4; --accent-soft:#22364A; --stamp:#E8827A; --quote:#1C2836; --hl:#5A4B12; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--f-sans);-webkit-text-size-adjust:100%}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--surface);z-index:30}
+a{color:var(--accent);text-underline-offset:.18em}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+h1,h2,h3{font-family:var(--f-serif);line-height:1.25;text-wrap:balance;margin:0}
+.fa{font-family:var(--f-fa);direction:rtl;unicode-bidi:isolate}
+
+/* Kopfzeile */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.top-in{max-width:1120px;margin:0 auto;display:flex;align-items:center;gap:.9rem;padding-block:.6rem}
+.brand{display:flex;align-items:baseline;gap:.6rem;text-decoration:none;color:var(--ink);font:600 1.05rem var(--f-serif);white-space:nowrap}
+.az{font:500 .68rem var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--stamp);border:1.5px solid var(--stamp);padding:.05rem .35rem;border-radius:2px}
+.top input[type=search]{flex:1;min-width:0;max-width:26rem;margin-left:auto;font:inherit;padding:.45rem .7rem;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
+#menu{display:none;font:500 .9rem var(--f-sans);padding:.4rem .7rem;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);cursor:pointer}
+
+/* Rahmen */
+.shell{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:240px minmax(0,1fr);gap:2.5rem;padding-block:1.75rem 4rem;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+nav#nav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 4.2rem);align-self:start;max-height:calc(100vh - 6rem);overflow:auto;font-size:.93rem}
+nav h4{font:500 .7rem var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:1.3rem 0 .4rem}
+nav h4:first-child{margin-top:0}
+nav a{display:block;padding:.32rem .6rem;margin-left:-.6rem;border-radius:4px;color:var(--ink);text-decoration:none}
+nav a:hover{background:var(--accent-soft)}
+nav a.on{background:var(--accent-soft);color:var(--accent);font-weight:600}
+nav a .nr{font:500 .75rem var(--f-mono);color:var(--stamp);margin-right:.45rem}
+main{min-width:0;font:17px/1.7 var(--f-serif)}
+main:focus{outline:none}
+main > *{max-width:46rem}
+main h1{font-size:2rem;font-weight:600}
+main h2{font-size:1.3rem;font-weight:600;margin:2.2rem 0 .6rem}
+main h3{font-size:1.05rem;font-weight:600;margin:0 0 .35rem}
+main p{margin:.6rem 0}
+.lead{font-size:1.1rem;color:var(--muted)}
+.meta{font:500 .8rem var(--f-sans);color:var(--muted);letter-spacing:.02em}
+.stamp{display:inline-block;font:500 .72rem var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--stamp);border:1.5px solid var(--stamp);padding:.12rem .5rem;border-radius:2px;transform:rotate(-1.5deg);margin-bottom:.7rem}
+
+/* Status und Navigation */
+.badge{display:inline-block;font:500 .7rem var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:.1rem .45rem;border-radius:2px;margin:0 0 .7rem .5rem;vertical-align:top}
+.badge.entwurf{color:var(--muted);border:1.5px dashed var(--muted)}
+.badge.geprueft{color:var(--surface);background:var(--accent);border:1.5px solid var(--accent)}
+nav a.sem{font-weight:600;margin-top:.3rem}
+nav a.sub{padding-left:1.1rem;font-size:.9rem}
+.semhead{font:500 .8rem var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:2rem 0 .2rem}
+.linkitem{display:block;padding:.8rem 0;border-top:1px solid var(--line)}
+.linkitem:last-child{border-bottom:1px solid var(--line)}
+.linkitem .u{font:.8rem var(--f-mono);color:var(--muted);word-break:break-all}
+.chip{display:inline-block;font:500 .72rem var(--f-mono);letter-spacing:.06em;border:1px solid var(--line);border-radius:3px;padding:0 .4rem;color:var(--muted);margin-left:.4rem}
+
+/* Reiter */
+.tabs{display:flex;gap:.1rem;overflow-x:auto;border-bottom:1px solid var(--line);margin:1.2rem 0 1.5rem}
+.tabs a{white-space:nowrap;padding:.55rem .85rem;font:500 .9rem var(--f-sans);color:var(--muted);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs a.on{color:var(--ink);border-bottom-color:var(--accent)}
+.tabs a:hover{color:var(--ink)}
+
+/* Bausteine */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:1rem 1.2rem;margin:1rem 0}
+.card.fa-box{border-left:3px solid var(--accent)}
+.card.fa-box p{font:400 1rem/1.9 var(--f-fa);direction:rtl;text-align:right;margin:.2rem 0}
+.pg{font:500 .72rem var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--stamp);margin-bottom:.3rem}
+blockquote{margin:.8rem 0;padding:.6rem 1rem;background:var(--quote);border-left:3px solid var(--line);font-size:.97rem}
+blockquote p{margin:.2rem 0}
+blockquote cite{display:block;font:500 .75rem var(--f-mono);letter-spacing:.06em;color:var(--muted);font-style:normal;margin-top:.35rem}
+.kq{font-style:italic}
+.bei{border-top:1px dashed var(--line);margin-top:.7rem;padding-top:.5rem;font-size:.96rem}
+.bei b{font:600 .72rem var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-right:.4rem}
+.hint{font:.88rem/1.5 var(--f-sans);color:var(--muted);background:var(--accent-soft);padding:.55rem .8rem;border-radius:5px;margin:.8rem 0}
+a.term{text-decoration:none;border-bottom:1px solid var(--accent)}
+a.term:hover{background:var(--accent-soft)}
+.list{list-style:none;padding:0;margin:.5rem 0}
+.list li{border-top:1px solid var(--line)}
+.list li:last-child{border-bottom:1px solid var(--line)}
+.list .row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.2rem 1rem;padding:.75rem .2rem;text-decoration:none;color:var(--ink)}
+.list a.row:hover{background:var(--accent-soft)}
+.list .t{font-weight:600;min-width:0;overflow-wrap:anywhere}
+.list .s{min-width:0;overflow-wrap:anywhere}
+.list .s{grid-column:1;font:.9rem/1.45 var(--f-sans);color:var(--muted)}
+.list .r{grid-row:1/3;grid-column:2;align-self:center;font-size:.95rem}
+.sess{display:block;text-decoration:none;color:var(--ink);padding:1rem 1.2rem;background:var(--surface);border:1px solid var(--line);border-radius:6px;margin:.8rem 0}
+.sess:hover{border-color:var(--accent)}
+.sess h3{font-size:1.2rem;margin:.1rem 0 .3rem}
+.sess p{margin:.2rem 0;font:.95rem/1.5 var(--f-sans);color:var(--muted)}
+.filter{width:100%;max-width:26rem;font:inherit;font-family:var(--f-sans);padding:.5rem .75rem;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink);margin:.4rem 0 .8rem}
+.row-tools{display:flex;gap:.8rem;flex-wrap:wrap;align-items:center;max-width:none!important}
+.row-tools select{font:inherit;font-family:var(--f-sans);padding:.5rem .6rem;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink)}
+.tablewrap{overflow-x:auto;max-width:none!important}
+table{border-collapse:collapse;width:100%;font:.95rem/1.45 var(--f-sans)}
+th{font:500 .7rem var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:left;padding:.5rem .7rem;border-bottom:1.5px solid var(--ink)}
+td{padding:.55rem .7rem;border-bottom:1px solid var(--line);vertical-align:top}
+td.fa{font-size:1.02rem;text-align:right;min-width:9rem}
+td .small{color:var(--muted);font-size:.82rem}
+tr[hidden]{display:none}
+
+/* Ebenen */
+.group{font:500 .72rem var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:1.8rem 0 .2rem;display:flex;gap:.6rem;align-items:center}
+.group::after{content:"";flex:1;border-top:1px solid var(--line)}
+.lvl{display:grid;grid-template-columns:2.4rem minmax(0,1fr);gap:0 .9rem;padding:1rem 0;border-top:1px solid var(--line)}
+.lvl .n{font:500 1.5rem var(--f-mono);color:var(--stamp);line-height:1.2}
+.lvl .fa{font-size:.95rem;color:var(--muted);margin-left:.4rem}
+ul.plain{padding-left:1.1rem;margin:.5rem 0}
+ul.plain li{margin:.35rem 0}
+
+/* Text mit Vokabelhilfe */
+.textcard{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:1.2rem 1.4rem;margin:1rem 0}
+.textcard .sec{font:500 .72rem var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--stamp);margin:1.2rem 0 .1rem}
+.textcard .sec:first-child{margin-top:0}
+.textcard p.k{font-size:1.1rem;line-height:1.85;margin:.2rem 0 .6rem}
+.v{background:var(--accent-soft);border-bottom:1.5px dotted var(--accent);cursor:pointer;border-radius:2px;padding:0 .08em}
+.nohelp .v{background:none;border-bottom:none;cursor:text}
+.gloss{position:sticky;bottom:env(safe-area-inset-bottom,0px);margin-top:1rem;padding:.6rem .9rem;background:var(--surface);border:1px solid var(--accent);border-radius:6px;font:.95rem/1.5 var(--f-sans);display:flex;gap:.8rem;align-items:baseline;flex-wrap:wrap;max-width:none!important}
+.gloss .fa{font-size:1.05rem}
+.toggle{display:inline-flex;gap:.5rem;align-items:center;font:.9rem var(--f-sans);color:var(--muted);cursor:pointer}
+
+mark.hl{background:var(--hl);color:inherit;border-radius:2px}
+.snip{font:.92rem/1.5 var(--f-sans);color:var(--muted)}
+.empty{border:1.5px dashed var(--line);border-radius:6px;padding:1.2rem 1.4rem;margin:1rem 0;font-family:var(--f-sans)}
+.empty pre{font:.85rem/1.6 var(--f-mono);background:var(--quote);padding:.7rem .9rem;border-radius:5px;overflow-x:auto;margin:.7rem 0 0;white-space:pre-wrap}
+.back{font:.88rem var(--f-sans);display:inline-block;margin-bottom:.8rem}
+footer.f{font:.8rem/1.5 var(--f-sans);color:var(--muted);margin-top:3rem;border-top:1px solid var(--line);padding-top:1rem;max-width:46rem}
+
+@media (max-width:860px){
+  .shell{grid-template-columns:minmax(0,1fr);gap:1rem;padding-block:1rem 3rem}
+  #menu{display:inline-block}
+  nav#nav{display:none;position:static;max-height:none;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:.9rem 1rem}
+  body.nav-open nav#nav{display:block}
+  .az{display:none}
+  main h1{font-size:1.65rem}
+  .lvl{grid-template-columns:1.8rem minmax(0,1fr);gap:0 .6rem}
+}
+@media (prefers-reduced-motion:no-preference){ .sess,nav a,.list a.row{transition:background .15s,border-color .15s} }
+</style>
+
+<header class="top"><div class="top-in">
+  <button id="menu" type="button" aria-expanded="false" aria-controls="nav">Menü</button>
+  <a class="brand" href="#start"><span class="az">Az. UNI</span><span>Uni-Wiki</span></a>
+  <input id="q" type="search" placeholder="Im Wiki suchen" aria-label="Im Wiki suchen" autocomplete="off">
+</div></header>
+<div class="shell">
+  <nav id="nav" aria-label="Navigation"></nav>
+  <main id="view" tabindex="-1"></main>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+"use strict";
+var D=JSON.parse(document.getElementById("data").textContent);
+var $=function(s,r){return (r||document).querySelector(s)};
+var $$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+var esc=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")};
+var rich=function(s){return String(s).replace(/\[\[([a-z0-9-]+)\|([^\]]+)\]\]/g,function(m,id,t){return '<a class="term" href="#b-'+id+'">'+t+'</a>'})};
+var strip=function(s){return String(s).replace(/\[\[[a-z0-9-]+\|([^\]]+)\]\]/g,"$1").replace(/<[^>]+>/g," ").replace(/&amp;/g,"&").replace(/\s+/g," ").trim()};
+var fa=function(t){return '<span class="fa" lang="fa" dir="rtl">'+t+'</span>'};
+var sess=function(id){return D.sitzungen.filter(function(s){return s.id===id})[0]};
+var sem=function(id){return D.seminare.filter(function(s){return s.id===id})[0]};
+var semester=function(id){return D.semester.filter(function(s){return s.id===id})[0]};
+var entry=function(id){return D.glossar.filter(function(g){return g.id===id})[0]};
+var store={get:function(k){try{return localStorage.getItem(k)}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+var query="";
+var pad=function(n){return String(n).padStart(2,"0")};
+var sessVocab=function(s){return D.vokabeln.filter(function(v){return v.sitzung===s.id})};
+var sessOf=function(cur){var m=/^([a-z0-9]+-s\d+)(?:-|$)/.exec(cur);return m?m[1]:null};
+
+function tabsFor(s){
+  var t=[["","Überblick"]];
+  if(s.inhalt&&s.inhalt.length)t.push(["inhalt","Inhalt"]);
+  if(s.text)t.push(["text","Text"]);
+  if(s.buch)t.push(["buch","Lektüre"]);
+  if(s.analyse)t.push(["analyse","Analyse"]);
+  if(sessVocab(s).length)t.push(["vokabeln","Vokabeln"]);
+  t.push(["zusatz","Zusatz"]);
+  if(s.material&&s.material.length)t.push(["material","Material"]);
+  t.push(["kommentare","Kommentare"]);
+  return t;
+}
+var tok=function(id,tab){return tab?id+"-"+tab:id};
+
+/* ---------- Navigation ---------- */
+function renderNav(cur){
+  var cs=sessOf(cur), h='<h4>Wiki</h4><a href="#start" class="'+(cur==="start"?"on":"")+'">Start</a>';
+  D.semester.forEach(function(se){
+    h+='<h4>'+esc(se.kurz)+'</h4>';
+    D.seminare.filter(function(x){return x.semester===se.id}).forEach(function(sm){
+      var inSem=(cs&&sess(cs)&&sess(cs).seminar===sm.id)||cur===sm.id;
+      h+='<a class="sem'+(cur===sm.id?" on":"")+'" href="#'+sm.id+'">'+esc(sm.name)+'</a>';
+      if(inSem){
+        D.sitzungen.filter(function(s){return s.seminar===sm.id}).forEach(function(s){
+          h+='<a class="sub'+(cs===s.id?" on":"")+'" href="#'+s.id+'"><span class="nr">S'+pad(s.nr)+'</span>'+esc(s.titel)+'</a>';
+        });
+      }
+    });
+  });
+  h+='<h4>Nachschlagen</h4>';
+  h+='<a href="#glossar" class="'+(cur==="glossar"||cur.indexOf("b-")===0?"on":"")+'">Glossar</a>';
+  h+='<a href="#vokabeln" class="'+(cur==="vokabeln"?"on":"")+'">Vokabeln</a>';
+  h+='<h4>Material</h4>';
+  h+='<a href="#kommentare" class="'+(cur==="kommentare"?"on":"")+'">Handbuch-Kommentare</a>';
+  h+='<a href="#quellen" class="'+(cur==="quellen"?"on":"")+'">Quellen</a>';
+  $("#nav").innerHTML=h;
+}
+
+/* ---------- Bausteine ---------- */
+function zitate(list){
+  return (list||[]).map(function(z){return '<blockquote><p>'+rich(z.t)+'</p><cite>'+esc(z.q||"Martínez/Scheffel")+', '+esc(z.s)+'</cite></blockquote>'}).join("");
+}
+function statusBadge(s){
+  return s.status==="geprueft"?'<span class="badge geprueft">geprüft</span>':'<span class="badge entwurf">Entwurf</span>';
+}
+function sessionHead(s,tab){
+  var h='<span class="stamp">Sitzung '+s.nr+'</span>'+statusBadge(s)+'<h1>'+esc(s.titel)+'</h1>';
+  var meta=[sem(s.seminar).name,s.autor,s.lektuere,s.thema].filter(Boolean).map(esc).join(" · ");
+  h+='<p class="meta">'+meta+'</p>';
+  h+='<div class="tabs" role="tablist">'+tabsFor(s).map(function(t){return '<a href="#'+tok(s.id,t[0])+'" class="'+(t[0]===tab?"on":"")+'">'+t[1]+'</a>'}).join("")+'</div>';
+  return h;
+}
+function kommCard(k){
+  var b=(k.bezug||[]).map(function(id){var g=entry(id);return g?'<a class="term" href="#b-'+id+'">'+esc(g.term)+'</a>':""}).join(", ");
+  return '<article class="card"><div class="pg">'+esc(k.quelle)+(k.seite?', '+esc(k.seite):'')+' · '+esc(k.art)+'</div><blockquote><p>'+rich(k.text)+'</p></blockquote>'+(b?'<p class="meta">Bezug: '+b+'</p>':'')+(k.anmerkung?'<p>'+rich(k.anmerkung)+'</p>':'')+'</article>';
+}
+function emptyKomm(){
+  return '<div class="empty"><strong>Noch keine Handbuch-Kommentare.</strong><p>Schick Auszüge aus akademischen Handbüchern mit Quelle und Seitenzahl. Sie werden hier abgelegt und mit Begriffen und Sitzungen verknüpft. Kurze Zitate oder Zusammenfassungen reichen.</p><pre>Handbuch / Autor:\nSeite:\nSitzung (Text):\nBezug (Begriff):\nAuszug oder Zusammenfassung:</pre></div>';
+}
+function vocabRows(list){
+  return list.map(function(v){return '<tr data-sem="'+esc(v.seminar||"")+'" data-art="'+esc(v.gruppe)+'"><td><strong>'+esc(v.de)+'</strong>'+(v.hinweis?'<div class="small">'+esc(v.hinweis)+'</div>':'')+'</td><td class="fa" lang="fa" dir="rtl">'+v.fa+'</td><td class="small">'+esc(v.gruppe==="text"?"Text":"Fachbegriff")+'</td></tr>'}).join("");
+}
+function vocabTable(list){
+  return '<div class="tablewrap"><table><thead><tr><th>Deutsch</th><th style="text-align:right">فارسی</th><th>Art</th></tr></thead><tbody>'+vocabRows(list)+'</tbody></table></div>';
+}
+function semOptions(){
+  return '<option value="">Alle Seminare</option>'+D.seminare.map(function(s){return '<option value="'+esc(s.id)+'">'+esc(s.name)+'</option>'}).join("");
+}
+
+/* ---------- Seiten ---------- */
+function pStart(){
+  var h='<span class="stamp">Uni-Wiki</span><h1>Seminar-Wiki</h1>';
+  h+='<p class="lead">Persönliche Wissenssammlung zu meinen Seminaren. Pro Sitzung: Überblick, Inhalt, Analyse, Vokabeln, Zusatzmaterial und Kommentare. Begriffe und Vokabeln sind über alle Seminare hinweg verknüpft.</p>';
+  D.semester.forEach(function(se){
+    h+='<div class="semhead">'+esc(se.name)+'</div>';
+    D.seminare.filter(function(x){return x.semester===se.id}).forEach(function(sm){
+      var list=D.sitzungen.filter(function(s){return s.seminar===sm.id});
+      h+='<a class="sess" href="#'+sm.id+'"><span class="meta">'+list.length+' Sitzung'+(list.length===1?"":"en")+'</span><h3>'+esc(sm.name)+'</h3><p>'+esc(sm.beschreibung||"")+'</p></a>';
+    });
+  });
+  h+='<h2>Nachschlagen</h2><ul class="list">';
+  h+='<li><a class="row" href="#glossar"><span class="t">Glossar</span><span class="s">'+D.glossar.length+' Begriffe mit Belegstellen und Beispielen</span><span class="r">→</span></a></li>';
+  h+='<li><a class="row" href="#vokabeln"><span class="t">Vokabeln</span><span class="s">'+D.vokabeln.length+' Wörter Deutsch–Persisch</span><span class="r">→</span></a></li>';
+  h+='<li><a class="row" href="#kommentare"><span class="t">Handbuch-Kommentare</span><span class="s">'+(D.kommentare.length?D.kommentare.length+' Einträge':'Noch leer')+'</span><span class="r">→</span></a></li></ul>';
+  h+='<footer class="f">Stand: '+esc(D.meta.stand)+'. Seiten mit dem Vermerk „Entwurf“ sind noch nicht geprüft. Zitate aus der Literatur sind kurz gehalten und mit Seitenzahl belegt.</footer>';
+  return h;
+}
+function pSeminar(id){
+  var sm=sem(id), se=semester(sm.semester), list=D.sitzungen.filter(function(s){return s.seminar===id});
+  var h='<span class="stamp">'+esc(se.kurz)+'</span><h1>'+esc(sm.name)+'</h1><p class="lead">'+esc(sm.beschreibung||"")+'</p><h2>Sitzungen</h2>';
+  h+=list.length?list.map(function(s){return '<a class="sess" href="#'+s.id+'"><span class="meta">Sitzung '+s.nr+(s.autor?' · '+esc(s.autor):'')+(s.lektuere?' · '+esc(s.lektuere):'')+'</span>'+statusBadge(s)+'<h3>'+esc(s.titel)+'</h3><p>'+esc(s.thema||"")+'</p></a>'}).join(""):'<div class="empty">Noch keine Sitzungen.</div>';
+  if(sm.lektuere&&sm.lektuere.length)h+='<h2>Lektüre und Material</h2><ul class="list">'+sm.lektuere.map(function(l){return '<li><div class="row"><span class="t">'+esc(l.titel)+'</span><span class="s">'+esc(l.autor)+(l.umfang?' · '+esc(l.umfang):'')+'</span><span class="r meta">'+esc(l.art)+'</span></div></li>'}).join("")+'</ul>';
+  var gl=D.glossar.filter(function(g){return (g.seminare||[]).indexOf(id)>=0});
+  h+='<h2>Begriffe dieses Seminars</h2><p>'+(gl.length?gl.map(function(g){return '<a class="term" href="#b-'+g.id+'">'+esc(g.term)+'</a>'}).join(" · "):'Noch keine Begriffe.')+'</p>';
+  return h;
+}
+function pOverview(s){
+  var o=s.ueberblick||{}, h=sessionHead(s,"");
+  if(o.kurzinhalt)h+='<h2 style="margin-top:0">Kurzinhalt</h2><p>'+rich(o.kurzinhalt)+'</p>';
+  if(o.leitfrage)h+='<h2>Leitfrage der Sitzung</h2><p>'+rich(o.leitfrage)+'</p>';
+  if(o.merksatz)h+='<div class="hint"><strong>Merksatz.</strong> '+rich(o.merksatz)+'</div>';
+  if(o.fa&&o.fa.length)h+='<h2>Zusammenfassung auf Persisch</h2><div class="card fa-box">'+o.fa.map(function(p){return '<p>'+p+'</p>'}).join("")+'</div>';
+  if(s.begriffe&&s.begriffe.length)h+='<h2>Begriffe dieser Sitzung</h2><p>'+s.begriffe.map(function(id){var g=entry(id);return g?'<a class="term" href="#b-'+id+'">'+esc(g.term)+'</a>':""}).join(" · ")+'</p>';
+  return h;
+}
+function pInhalt(s){
+  var h=sessionHead(s,"inhalt");
+  s.inhalt.forEach(function(x){
+    h+='<h2 style="margin-top:1.6rem">'+esc(x.titel)+'</h2>'+(x.quelle?'<p class="meta">Quelle: '+esc(x.quelle)+'</p>':'')+'<div>'+rich(x.html)+'</div>';
+  });
+  return h;
+}
+function markParts(parts,vocab){
+  var used={};
+  return parts.map(function(p){
+    var hits=[];
+    vocab.forEach(function(v,i){
+      if(used[i])return;
+      var best=null;
+      v.forms.forEach(function(f){
+        var re=new RegExp("(^|[^\\p{L}])("+f.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")(?![\\p{L}])","u");
+        var m=re.exec(p);
+        if(m){var st=m.index+m[1].length;if(!best||st<best.s)best={s:st,e:st+f.length,i:i}}
+      });
+      if(best)hits.push(best);
+    });
+    hits.sort(function(a,b){return a.s-b.s});
+    var out="",pos=0;
+    hits.forEach(function(h){
+      if(h.s<pos)return;
+      used[h.i]=true;
+      out+=esc(p.slice(pos,h.s))+'<span class="v" role="button" tabindex="0" data-i="'+h.i+'">'+esc(p.slice(h.s,h.e))+'</span>';
+      pos=h.e;
+    });
+    return out+esc(p.slice(pos));
+  });
+}
+function pText(s){
+  var t=s.text, vocab=D.vokabeln.filter(function(v){return v.sitzung===s.id&&v.gruppe==="text"&&v.forms});
+  var marked=markParts(t.teile.map(function(x){return x.t}),vocab);
+  var on=store.get("vokhilfe")!=="aus";
+  var h=sessionHead(s,"text");
+  h+='<p class="meta">'+esc(t.quelle)+'</p>';
+  h+='<label class="toggle"><input type="checkbox" id="helpToggle"'+(on?" checked":"")+'> Vokabelhilfe anzeigen (erste Fundstelle jedes Wortes)</label>';
+  h+='<div class="textcard'+(on?"":" nohelp")+'" id="storytext" data-s="'+s.id+'">';
+  t.teile.forEach(function(x,i){h+='<div class="sec">'+esc(x.titel)+'</div><p class="k">'+marked[i]+'</p>'});
+  h+='</div>';
+  h+='<div class="gloss" id="gloss" aria-live="polite"><span class="meta">Tippe auf ein markiertes Wort, um die Übersetzung zu sehen.</span></div>';
+  if(t.hinweis)h+='<p class="hint">'+esc(t.hinweis)+'</p>';
+  return h;
+}
+function pBuch(s){
+  var h=sessionHead(s,"buch");
+  if(s.buch.einleitung)h+='<p class="lead">'+esc(s.buch.einleitung)+'</p>';
+  s.buch.karten.forEach(function(k){
+    h+='<article class="card"><div class="pg">'+esc(k.seite)+'</div><h3>'+esc(k.titel)+'</h3><p>'+rich(k.text)+'</p>'+zitate(k.zitate)+(k.kafka?'<div class="bei"><b>Beispiel</b>'+rich(k.kafka)+'</div>':'')+'</article>';
+  });
+  return h;
+}
+function pAnalyse(s){
+  var a=s.analyse, h=sessionHead(s,"analyse");
+  if(a.einleitung)h+='<p class="lead">'+rich(a.einleitung)+'</p>';
+  var g="";
+  (a.ebenen||[]).forEach(function(e){
+    if(e.gruppe!==g){g=e.gruppe;h+='<div class="group">'+esc(g)+'</div>'}
+    h+='<div class="lvl"><div class="n">'+e.n+'</div><div><h3>'+rich(e.titel)+' '+fa(e.fa)+'</h3>'+zitate(e.zitate)+'<p>'+rich(e.kafka)+'</p></div></div>';
+  });
+  if(a.beobachtungen&&a.beobachtungen.length){h+='<h2>Weitere Beobachtungen</h2>';a.beobachtungen.forEach(function(b){h+='<div class="card"><h3>'+esc(b.titel)+'</h3><p>'+rich(b.text)+'</p></div>'})}
+  if(a.fragen&&a.fragen.length)h+='<h2>Fragen für die Seminardiskussion</h2><ul class="plain">'+a.fragen.map(function(f){return '<li>'+rich(f)+'</li>'}).join("")+'</ul>';
+  return h;
+}
+function pSVokab(s){
+  var h=sessionHead(s,"vokabeln");
+  h+='<input class="filter" id="vf" type="search" placeholder="Vokabeln filtern" aria-label="Vokabeln filtern">';
+  return h+vocabTable(sessVocab(s));
+}
+function pZusatz(s){
+  var h=sessionHead(s,"zusatz"), z=s.zusatz||[];
+  h+='<div class="hint">Zusatzmaterial gehört nicht zum Seminarmaterial. Es wird mit Quelle angegeben. Aktualität und Verlässlichkeit bitte selbst prüfen.</div>';
+  if(!z.length)return h+'<div class="empty"><strong>Noch kein Zusatzmaterial.</strong><p>Sag „such Zusatzmaterial zu Sitzung '+s.nr+'“, dann werden hier Artikel, Handbuchkapitel und Links mit Quellenangabe eingetragen.</p></div>';
+  h+=z.map(function(x){return '<div class="linkitem"><div><a href="'+esc(x.url)+'" target="_blank" rel="noopener"><strong>'+esc(x.titel)+'</strong></a><span class="chip">'+esc(x.typ||"Link")+'</span>'+(x.geprueft?'':'<span class="chip">Link noch nicht geprüft</span>')+'</div><div class="u">'+esc(x.url)+'</div>'+(x.quelle?'<div class="meta">'+esc(x.quelle)+'</div>':'')+(x.notiz?'<p>'+rich(x.notiz)+'</p>':'')+'</div>'}).join("");
+  return h;
+}
+function pMaterial(s){
+  var h=sessionHead(s,"material");
+  h+='<div class="hint">Die Originaldateien liegen lokal im Ordner <code>seminare/</code> und werden nicht auf GitHub hochgeladen.</div><ul class="list">';
+  s.material.forEach(function(m){h+='<li><div class="row"><span class="t">'+esc(m.datei)+'</span><span class="s">'+esc(m.notiz||"")+'</span><span class="r meta">'+esc(m.art)+'</span></div></li>'});
+  return h+'</ul>';
+}
+function pSKomm(s){
+  var list=D.kommentare.filter(function(k){return k.sitzung===s.id});
+  return sessionHead(s,"kommentare")+(list.length?list.map(kommCard).join(""):emptyKomm());
+}
+function pGlossar(){
+  var h='<h1>Glossar</h1><p class="lead">Begriffe aller Seminare, mit Definition, Belegstelle und Beispiel.</p>';
+  h+='<div class="row-tools"><input class="filter" id="gf" type="search" placeholder="Begriffe filtern" aria-label="Begriffe filtern"><select id="gs" aria-label="Seminar">'+semOptions()+'</select></div><ul class="list" id="glist">';
+  D.glossar.slice().sort(function(a,b){return a.term.localeCompare(b.term,"de")}).forEach(function(g){
+    h+='<li data-sem="'+esc((g.seminare||[]).join(" "))+'"><a class="row" href="#b-'+g.id+'"><span class="t">'+esc(g.term)+'</span><span class="s">'+esc(g.kurz)+'</span><span class="r fa" lang="fa" dir="rtl">'+g.fa+'</span></a></li>';
+  });
+  return h+'</ul>';
+}
+function pEntry(id){
+  var g=entry(id); if(!g)return pStart();
+  var h='<a class="back" href="#glossar">← Glossar</a><h1>'+esc(g.term)+'</h1><p style="font-size:1.1rem;margin:.3rem 0">'+fa(g.fa)+'</p>';
+  h+='<h2>Definition</h2><p>'+rich(g.def)+'</p>'+zitate(g.zitate);
+  if(g.hinweis)h+='<div class="hint"><strong>Achtung.</strong> '+rich(g.hinweis)+'</div>';
+  var bsp=g.beispiel||g.kafka;
+  if(bsp)h+='<h2>Beispiel</h2><p>'+rich(bsp)+'</p>';
+  if(g.see&&g.see.length)h+='<h2>Siehe auch</h2><p>'+g.see.map(function(i){var x=entry(i);return x?'<a class="term" href="#b-'+i+'">'+esc(x.term)+'</a>':""}).join(" · ")+'</p>';
+  if(g.sitzungen&&g.sitzungen.length)h+='<h2>Vorkommen</h2><p>'+g.sitzungen.map(function(i){var s=sess(i);return s?'<a href="#'+i+'">'+esc(sem(s.seminar).name)+', Sitzung '+s.nr+': '+esc(s.titel)+'</a>':""}).join(" · ")+'</p>';
+  var km=D.kommentare.filter(function(k){return (k.bezug||[]).indexOf(id)>=0});
+  h+='<h2>Handbuch-Kommentare</h2>'+(km.length?km.map(kommCard).join(""):'<p class="meta">Zu diesem Begriff gibt es noch keine Kommentare.</p>');
+  return h;
+}
+function pVokabeln(){
+  var h='<h1>Vokabeln</h1><p class="lead">Alle Wörter aus den Sitzungen, Deutsch–Persisch.</p><div class="row-tools"><input class="filter" id="vf" type="search" placeholder="Vokabeln filtern" aria-label="Vokabeln filtern"><select id="vs" aria-label="Seminar">'+semOptions()+'</select><select id="vg" aria-label="Art"><option value="">Alle Arten</option><option value="text">Wörter aus den Texten</option><option value="fach">Fachbegriffe</option></select></div>';
+  return h+vocabTable(D.vokabeln);
+}
+function pKomm(){
+  var h='<h1>Handbuch-Kommentare</h1><p class="lead">Auszüge und Zusammenfassungen aus akademischen Handbüchern, geordnet nach Sitzung und Begriff.</p>';
+  return h+(D.kommentare.length?D.kommentare.map(kommCard).join(""):emptyKomm());
+}
+function pQuellen(){
+  var h='<h1>Quellen</h1><p class="lead">Ausgaben, nach denen im Wiki zitiert wird.</p>';
+  D.quellen.forEach(function(q){h+='<article class="card"><h3>'+esc(q.kurz)+'</h3><p>'+esc(q.voll)+'</p>'+(q.hinweis?'<p class="meta">'+esc(q.hinweis)+'</p>':'')+'</article>'});
+  return h;
+}
+
+/* ---------- Suche ---------- */
+var INDEX=[];
+function buildIndex(){
+  var add=function(url,title,kind,text){INDEX.push({url:url,title:title,kind:kind,text:strip(text)})};
+  D.sitzungen.forEach(function(s){
+    var o=s.ueberblick||{}, n=sem(s.seminar).name+" · Sitzung "+s.nr+": "+s.titel, b="#"+s.id;
+    add(b,n,"Überblick",[o.kurzinhalt,o.leitfrage,o.merksatz].filter(Boolean).join(" "));
+    (s.inhalt||[]).forEach(function(x){add(b+"-inhalt",n+" · "+x.titel,"Inhalt",x.html)});
+    if(s.text)s.text.teile.forEach(function(x){add(b+"-text",n,"Text",x.t)});
+    if(s.buch)s.buch.karten.forEach(function(k){add(b+"-buch",n+" · "+k.titel,"Lektüre "+k.seite,[k.text,k.kafka||""].concat((k.zitate||[]).map(function(z){return z.t})).join(" "))});
+    if(s.analyse){
+      (s.analyse.ebenen||[]).forEach(function(e){add(b+"-analyse",n+" · "+e.titel,"Analyse",[e.kafka].concat((e.zitate||[]).map(function(z){return z.t})).join(" "))});
+      (s.analyse.beobachtungen||[]).forEach(function(x){add(b+"-analyse",n+" · "+x.titel,"Analyse",x.text)});
+    }
+    (s.zusatz||[]).forEach(function(z){add(b+"-zusatz",n+" · "+z.titel,"Zusatz",[z.quelle||"",z.notiz||"",z.url].join(" "))});
+  });
+  D.glossar.forEach(function(g){add("#b-"+g.id,g.term,"Glossar",[g.fa,g.kurz,g.def,g.beispiel||g.kafka||"",g.hinweis||""].concat((g.zitate||[]).map(function(z){return z.t})).join(" "))});
+  D.vokabeln.forEach(function(v){add("#vokabeln",v.de,"Vokabel",v.de+" "+v.fa)});
+  D.kommentare.forEach(function(k){add("#kommentare",k.quelle,"Kommentar",k.text+" "+(k.anmerkung||""))});
+  D.quellen.forEach(function(q){add("#quellen",q.kurz,"Quelle",q.voll)});
+}
+function pSuche(){
+  var q=query.trim(), h='<h1>Suche</h1>';
+  if(q.length<2)return h+'<p class="lead">Mindestens zwei Zeichen eingeben.</p>';
+  var ql=q.toLowerCase(), res=[];
+  INDEX.forEach(function(it){
+    var i=it.text.toLowerCase().indexOf(ql), t=it.title.toLowerCase().indexOf(ql);
+    if(i<0&&t<0)return;
+    var from=Math.max(0,i-60), snip=i<0?it.text.slice(0,140):(from>0?"…":"")+it.text.slice(from,i+q.length+90)+"…";
+    res.push({it:it,score:(t>=0?2:0)+(i>=0?1:0),snip:snip});
+  });
+  res.sort(function(a,b){return b.score-a.score});
+  var re=new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi");
+  var hl=function(s){return esc(s).replace(re,function(m){return '<mark class="hl">'+m+'</mark>'})};
+  h+='<p class="lead">'+res.length+' Treffer für „'+esc(q)+'“</p><ul class="list">';
+  res.slice(0,60).forEach(function(r){
+    h+='<li><a class="row" href="'+r.it.url+'"><span class="t">'+hl(r.it.title)+'</span><span class="s">'+hl(r.snip)+'</span><span class="r meta">'+esc(r.it.kind)+'</span></a></li>';
+  });
+  return h+'</ul>';
+}
+
+/* ---------- Routing ---------- */
+function render(){
+  var cur=(location.hash||"#start").slice(1)||"start", html, m;
+  if(cur==="suche"){html=pSuche()}
+  else if(cur==="start"){html=pStart()}
+  else if(cur==="glossar"){html=pGlossar()}
+  else if(cur.indexOf("b-")===0){html=pEntry(cur.slice(2))}
+  else if(cur==="vokabeln"){html=pVokabeln()}
+  else if(cur==="kommentare"){html=pKomm()}
+  else if(cur==="quellen"){html=pQuellen()}
+  else if(sem(cur)){html=pSeminar(cur)}
+  else if((m=/^([a-z0-9]+-s\d+)(?:-([a-z]+))?$/.exec(cur))&&sess(m[1])&&(!m[2]||tabsFor(sess(m[1])).some(function(t){return t[0]===m[2]}))){
+    var s=sess(m[1]), t=m[2]||"";
+    html={"":pOverview,inhalt:pInhalt,text:pText,buch:pBuch,analyse:pAnalyse,vokabeln:pSVokab,zusatz:pZusatz,material:pMaterial,kommentare:pSKomm}[t](s);
+  } else {cur="start";html=pStart()}
+  $("#view").innerHTML=html;
+  renderNav(cur);
+  document.body.classList.remove("nav-open");$("#menu").setAttribute("aria-expanded","false");
+  bind();
+  if(cur!=="suche")window.scrollTo(0,0);
+}
+function bind(){
+  var tx=$("#storytext");
+  if(tx){
+    var vocab=D.vokabeln.filter(function(v){return v.sitzung===tx.getAttribute("data-s")&&v.gruppe==="text"&&v.forms});
+    var show=function(el){
+      var v=vocab[+el.getAttribute("data-i")];
+      if(!v||tx.classList.contains("nohelp"))return;
+      $("#gloss").innerHTML='<strong>'+esc(v.de)+'</strong> '+fa(v.fa)+(v.hinweis?' <span class="meta">'+esc(v.hinweis)+'</span>':'');
+    };
+    tx.addEventListener("click",function(e){var el=e.target.closest(".v");if(el)show(el)});
+    tx.addEventListener("keydown",function(e){if((e.key==="Enter"||e.key===" ")&&e.target.classList.contains("v")){e.preventDefault();show(e.target)}});
+    $("#helpToggle").addEventListener("change",function(e){tx.classList.toggle("nohelp",!e.target.checked);store.set("vokhilfe",e.target.checked?"an":"aus")});
+  }
+  var vf=$("#vf");
+  if(vf){
+    var vg=$("#vg"), vs=$("#vs"), rows=$$("tbody tr");
+    var apply=function(){
+      var q=vf.value.toLowerCase(), g=vg?vg.value:"", sm=vs?vs.value:"";
+      rows.forEach(function(r){
+        var ok=r.textContent.toLowerCase().indexOf(q)>=0;
+        if(ok&&g)ok=r.getAttribute("data-art")===g;
+        if(ok&&sm)ok=r.getAttribute("data-sem")===sm;
+        r.hidden=!ok;
+      });
+    };
+    vf.addEventListener("input",apply); if(vg)vg.addEventListener("change",apply); if(vs)vs.addEventListener("change",apply);
+  }
+  var gf=$("#gf");
+  if(gf){
+    var gs=$("#gs"), items=$$("#glist li");
+    var ap2=function(){var q=gf.value.toLowerCase(), sm=gs.value;items.forEach(function(li){var ok=li.textContent.toLowerCase().indexOf(q)>=0;if(ok&&sm)ok=(" "+li.getAttribute("data-sem")+" ").indexOf(" "+sm+" ")>=0;li.hidden=!ok})};
+    gf.addEventListener("input",ap2); gs.addEventListener("change",ap2);
+  }
+}
+
+$("#menu").addEventListener("click",function(){var o=document.body.classList.toggle("nav-open");this.setAttribute("aria-expanded",o?"true":"false")});
+$("#q").addEventListener("input",function(e){
+  query=e.target.value;
+  if(query.trim().length>=2){ if(location.hash!=="#suche")location.hash="suche"; else render(); }
+  else if(location.hash==="#suche"){render()}
+});
+window.addEventListener("hashchange",render);
+buildIndex();
+render();
+})();
+</script>

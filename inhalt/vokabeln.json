@@ -1,0 +1,1129 @@
+[
+ {
+  "de": "das Gesetz",
+  "fa": "قانون",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Gesetz"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "der Türhüter",
+  "fa": "دربان",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Türhüter"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "der Mann vom Lande",
+  "fa": "مرد روستایی",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Mann vom Lande"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "der Eintritt (um Eintritt bitten)",
+  "fa": "ورود (اجازه‌ی ورود خواستن)",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Eintritt"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "gewähren",
+  "fa": "اجازه دادن، روا داشتن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "gewähren"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "das Tor",
+  "fa": "دروازه",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Tor"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "beiseite treten",
+  "fa": "کنار رفتن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "beiseite tritt"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "sich bücken",
+  "fa": "خم شدن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "bückt"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "das Innere",
+  "fa": "درون، داخل",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Innere"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "locken",
+  "fa": "وسوسه کردن، به سوی خود کشیدن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "lockt"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "das Verbot",
+  "fa": "منع، ممنوعیت",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Verbotes"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "mächtig",
+  "fa": "قدرتمند",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "mächtig"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "der unterste",
+  "fa": "پایین‌ترین (از نظر رتبه)",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "unterste"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "der Saal",
+  "fa": "تالار",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Saal"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "der Anblick",
+  "fa": "دیدن، منظره",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Anblick"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "ertragen",
+  "fa": "تحمل کردن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "ertragen"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "zugänglich",
+  "fa": "در دسترس",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "zugänglich"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "der Pelzmantel",
+  "fa": "پالتوی پوست",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Pelzmantel"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "die Spitznase",
+  "fa": "بینی نوک‌تیز",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Spitznase"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "tatarisch",
+  "fa": "تاتاری",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "tatarischen"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "der Schemel",
+  "fa": "چهارپایه",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Schemel"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "seitwärts",
+  "fa": "در کنار، پهلو",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "seitwärts"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "einlassen (eingelassen werden)",
+  "fa": "راه دادن (راه داده شدن)",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "eingelassen"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "ermüden",
+  "fa": "خسته کردن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "ermüdet"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "öfters",
+  "fa": "بارها، اغلب",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "öfters"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "das Verhör",
+  "fa": "بازجویی",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Verhöre"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "teilnahmslos",
+  "fa": "بی‌اعتنا، بی‌احساس",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "teilnahmslose"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "sich ausrüsten mit",
+  "fa": "با خود برداشتن، مجهز شدن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "ausgerüstet"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "bestechen",
+  "fa": "رشوه دادن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "bestechen"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "versäumen",
+  "fa": "از دست دادن، کوتاهی کردن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "versäumt"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "ununterbrochen",
+  "fa": "بی‌وقفه",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "ununterbrochen"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "das Hindernis",
+  "fa": "مانع",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Hindernis"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "verfluchen",
+  "fa": "نفرین کردن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "verflucht"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "der Zufall",
+  "fa": "بخت، اتفاق",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Zufall"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "rücksichtslos",
+  "fa": "بی‌پروا",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "rücksichtslos"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "brummen",
+  "fa": "زیر لب غر زدن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "brummt"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "kindisch",
+  "fa": "بچگانه، کودک‌صفت",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "kindisch"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "der Floh (Plural: die Flöhe)",
+  "fa": "کک (جمع: کک‌ها)",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Flöhe"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "der Pelzkragen",
+  "fa": "یقه‌ی پوستی",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Pelzkragen"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "umstimmen",
+  "fa": "نظر کسی را برگرداندن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "umzustimmen"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "das Augenlicht",
+  "fa": "بینایی",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Augenlicht"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "täuschen",
+  "fa": "فریب دادن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "täuschen"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "der Glanz",
+  "fa": "درخشش",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Glanz"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "unverlöschlich",
+  "fa": "خاموش‌نشدنی",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "unverlöschlich"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "erstarren",
+  "fa": "خشک و بی‌حس شدن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "erstarrenden"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "sich aufrichten",
+  "fa": "راست کردن بدن، بلند شدن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "aufrichten"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "sich hinunterneigen",
+  "fa": "به پایین خم شدن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "hinunterneigen"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "der Größenunterschied",
+  "fa": "اختلاف قد",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Größenunterschied"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "zu ungunsten",
+  "fa": "به زیانِ",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "ungunsten"
+  ],
+  "hinweis": "mit Genitiv",
+  "seminar": "erz"
+ },
+ {
+  "de": "unersättlich",
+  "fa": "سیری‌ناپذیر",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "unersättlich"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "streben nach",
+  "fa": "در پی چیزی بودن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "streben"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "der Einlaß (Einlass verlangen)",
+  "fa": "ورود (درخواست ورود کردن)",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Einlaß"
+  ],
+  "hinweis": "neue Schreibung: Einlass",
+  "seminar": "erz"
+ },
+ {
+  "de": "vergehend",
+  "fa": "رو به نابودی",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "vergehendes"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "das Gehör",
+  "fa": "شنوایی",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "Gehör"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "anbrüllen",
+  "fa": "سر کسی فریاد زدن",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "brüllt"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "bestimmt für",
+  "fa": "مخصوصِ، تعیین‌شده برای",
+  "gruppe": "text",
+  "sitzung": "erz-s1",
+  "forms": [
+   "bestimmt"
+  ],
+  "seminar": "erz"
+ },
+ {
+  "de": "das Erzählte",
+  "fa": "آنچه روایت می‌شود",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "das Erzählen",
+  "fa": "روایت‌کردن، شیوه‌ی روایت",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "die erzählte Welt (Diegese)",
+  "fa": "جهان روایت‌شده",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "die Handlung",
+  "fa": "کنش (رویدادهای مهم برای داستان)",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "die Darstellung",
+  "fa": "شیوه‌ی ارائه",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "das Ereignis (das Motiv)",
+  "fa": "رویداد (موتیف)",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "das Geschehen",
+  "fa": "رخدادها به ترتیب زمانی",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "die Geschichte",
+  "fa": "داستان (با رابطه‌ی علّی)",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "das Handlungsschema",
+  "fa": "الگوی کلیِ کنش",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "das Erzähltempo",
+  "fa": "سرعت روایت",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "die Rückwendung",
+  "fa": "بازگشت به گذشته",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "die Vorausdeutung",
+  "fa": "پیش‌نمایی",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "kausal",
+  "fa": "علّی",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "hinweis": "Ursache und Folge",
+  "seminar": "erz"
+ },
+ {
+  "de": "chronologisch",
+  "fa": "زمانی، به ترتیب زمان",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "fiktional",
+  "fa": "داستانی، تخیلی",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "faktual",
+  "fa": "واقعی، غیرداستانی",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "hinweis": "Gegenteil von fiktional",
+  "seminar": "erz"
+ },
+ {
+  "de": "die Vermittlung",
+  "fa": "میانجی‌گری، شیوه‌ی انتقال",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "die Fassung",
+  "fa": "نسخه، روایت (از یک اثر)",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "die Erzählsituation",
+  "fa": "موقعیت روایی",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "die Perspektive",
+  "fa": "زاویه‌ی دید",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "unzählig",
+  "fa": "بی‌شمار",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "abstrahieren",
+  "fa": "انتزاع کردن",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "aneinanderreihen",
+  "fa": "پشت سر هم ردیف کردن",
+  "gruppe": "fach",
+  "sitzung": "erz-s1",
+  "seminar": "erz"
+ },
+ {
+  "de": "die summative Evaluation",
+  "fa": "ارزیابی پایانی",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die formative Evaluation",
+  "fa": "ارزیابی تکوینی",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Beurteilung",
+  "fa": "ارزشیابی، سنجش",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "benoten",
+  "fa": "نمره دادن",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Prüfung",
+  "fa": "آزمون",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "der Prüfungszweck",
+  "fa": "هدف آزمون",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Testspezifikation",
+  "fa": "مشخصات آزمون",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Gewichtung",
+  "fa": "وزن‌دهی",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "das Aufgabenformat",
+  "fa": "قالب تکلیف",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Authentizität",
+  "fa": "اصالت، واقع‌نمایی",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Transparenz",
+  "fa": "شفافیت",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "reliabel",
+  "fa": "پایا",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Fairness",
+  "fa": "انصاف",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "das Bewertungsraster",
+  "fa": "جدول ارزیابی",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Bestehensgrenze",
+  "fa": "حد قبولی",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "kriterienorientiert",
+  "fa": "معیارمحور",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "normativ",
+  "fa": "هنجارمحور",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Auswirkung",
+  "fa": "پیامد، اثر",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Qualitätssicherung",
+  "fa": "تضمین کیفیت",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Begleitforschung",
+  "fa": "پژوهش همراه",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Validierung",
+  "fa": "اعتبارسنجی",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "der Hochschulzugang",
+  "fa": "ورود به دانشگاه",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Zertifizierung",
+  "fa": "گواهی‌دهی",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Standardisierung",
+  "fa": "استانداردسازی",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "das Bildungsmonitoring",
+  "fa": "پایش نظام آموزشی",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "der Lehrplan",
+  "fa": "برنامه‌ی درسی",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "das Feedback",
+  "fa": "بازخورد",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Vereinfachung",
+  "fa": "ساده‌سازی",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "verwoben",
+  "fa": "در هم تنیده",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Leistungsbeurteilung",
+  "fa": "ارزیابی عملکرد",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "high stakes",
+  "fa": "پیامد سنگین",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "low stakes",
+  "fa": "پیامد کم",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "washback",
+  "fa": "اثر بازگشتی آزمون",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s1",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Schreibkompetenz",
+  "fa": "توانایی نوشتن",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "die Teilkompetenz",
+  "fa": "مهارت جزئی",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "die Schreibmotorik",
+  "fa": "مهارت حرکتی نوشتن",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben",
+  "hinweis": "Handschrift und Tastatur"
+ },
+ {
+  "de": "die Orthographie",
+  "fa": "املا، رسم‌الخط",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "das Schriftsystem",
+  "fa": "نظام خط",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "die Alphabetschrift",
+  "fa": "خط الفبایی",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "die logographische Schrift",
+  "fa": "خط واژه‌نگار",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben",
+  "hinweis": "z. B. Chinesisch"
+ },
+ {
+  "de": "die Textkonvention",
+  "fa": "قاعده‌ی متنی",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "die Textsorte",
+  "fa": "گونه‌ی متنی",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "die Schriftsprache",
+  "fa": "زبان نوشتاری",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "die Umgangssprache",
+  "fa": "زبان محاوره",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "die Textproduktion",
+  "fa": "تولید متن",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "das Schreibprozessmanagement",
+  "fa": "مدیریت فرایند نوشتن",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "der Textproduzent",
+  "fa": "تولیدکننده‌ی متن",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "der Deskriptor",
+  "fa": "توصیف‌گر (در مقیاس GER)",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "die Skala",
+  "fa": "مقیاس",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "das Niveau",
+  "fa": "سطح",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben",
+  "hinweis": "A1 bis C2"
+ },
+ {
+  "de": "die Kohärenz",
+  "fa": "انسجام معنایی",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "die Kohäsion",
+  "fa": "پیوستگی ساختاری",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "der Konnektor",
+  "fa": "رابط، حرف ربط",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "das Spektrum sprachlicher Mittel",
+  "fa": "گستره‌ی امکانات زبانی",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "die Wortschatzbeherrschung",
+  "fa": "تسلط بر واژگان",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "die grammatische Korrektheit",
+  "fa": "درستی دستوری",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "zusammenhängend",
+  "fa": "پیوسته، منسجم",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s1",
+  "seminar": "schreiben"
+ }
+]

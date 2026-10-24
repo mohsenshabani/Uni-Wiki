@@ -1,0 +1,769 @@
+[
+ {
+  "id": "erzaehlen-erzaehltes",
+  "term": "das Erzählte und das Erzählen",
+  "fa": "آنچه روایت می‌شود و روایت‌کردن",
+  "kurz": "Die Grundunterscheidung: Was wird erzählt, und wie?",
+  "def": "Das Erzählte ist die Geschichte mit ihrer Welt. Das Erzählen ist die Art, wie sie vermittelt wird: Sprache, Stil, Reihenfolge, Perspektive. Man trennt beides, auch wenn man bei Fiktion nur über den Text Zugang zur Welt hat.",
+  "zitate": [
+   {
+    "t": "Wenn und solange wir eine solche Lesehaltung einnehmen, konzentrieren wir uns auf das, was uns erzählt wird, und blenden die Art und Weise, wie die Geschichte vermittelt wird, aus dem Bereich unserer Aufmerksamkeit aus.",
+    "s": "S. 22"
+   },
+   {
+    "t": "Eine Geschichte, die wir als dieselbe Geschichte wiedererkennen, kann auf unzählige verschiedene Weisen präsentiert werden.",
+    "s": "S. 23"
+   }
+  ],
+  "kafka": "Erzählt wird: Ein Mann wartet vor einem Tor, bis er stirbt. Das Erzählen ist ein Erzähler in der dritten Person, im Präsens, mit knappen Sätzen.",
+  "see": [
+   "erzaehlte-welt",
+   "darstellung",
+   "handlung"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": null,
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "erzaehlte-welt",
+  "term": "die erzählte Welt (Diegese)",
+  "fa": "جهان روایت‌شده",
+  "kurz": "Alles, was in der Geschichte existiert, nicht nur das für die Handlung Wichtige.",
+  "def": "Die erzählte Welt umfasst Figuren, Orte und die Regeln der Geschichte. Sie ist weiter gefasst als die Handlung. Der Begriff „Diegese“ kommt aus der Filmtheorie und wurde von Genette übernommen (Fußnote S. 26).",
+  "zitate": [
+   {
+    "t": "… dem engeren Begriff der Handlung, der sich nur auf die Gesamtheit der handlungsfunktionalen Elemente der dargestellten Welt bezieht.",
+    "s": "S. 26"
+   }
+  ],
+  "kafka": "Zur Welt gehören auch Dinge, die nie ins Geschehen eingreifen: <span class=\"kq\">„Von Saal zu Saal stehn aber Türhüter, einer mächtiger als der andere.“</span> Ob es diese Türhüter gibt, wissen wir nur durch die Worte des Türhüters.",
+  "see": [
+   "handlung",
+   "erzaehlen-erzaehltes"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": null,
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "handlung",
+  "term": "die Handlung",
+  "fa": "کنش (رویدادهای مهم برای داستان)",
+  "kurz": "Nur die handlungsfunktionalen Elemente der erzählten Welt.",
+  "def": "Zur Handlung zählt, was für den Verlauf des Geschehens wichtig ist. Das Buch gliedert sie in vier Ebenen: Ereignis, Geschehen, Geschichte, Handlungsschema.",
+  "zitate": [
+   {
+    "t": "… dem engeren Begriff der Handlung, der sich nur auf die Gesamtheit der handlungsfunktionalen Elemente der dargestellten Welt bezieht.",
+    "s": "S. 26"
+   }
+  ],
+  "kafka": "Handlungsfunktional ist der Anblick des Türhüters, denn der Mann entscheidet sich seinetwegen zu warten: <span class=\"kq\">„entschließt er sich, doch lieber zu warten“</span>.",
+  "see": [
+   "erzaehlte-welt",
+   "ereignis",
+   "geschehen",
+   "geschichte",
+   "handlungsschema"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": null,
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "darstellung",
+  "term": "die Darstellung",
+  "fa": "شیوه‌ی ارائه",
+  "kurz": "Die Seite des „Wie“: die Art der Vermittlung der erzählten Welt.",
+  "def": "Das Buch teilt die Darstellung in zwei Ebenen: die Erzählung (Reihenfolge und Tempo der Ereignisse) und das Erzählen (Sprache, Medium, Erzählsituation, Stil).",
+  "zitate": [
+   {
+    "t": "Die andere Seite der Opposition, also die Art und Weise der Vermittlung der erzählten Welt, bezeichnen wir als Darstellung.",
+    "s": "S. 26"
+   }
+  ],
+  "kafka": "Darstellung bei Kafka: Zeitraffer, Präsens, ein Erzähler, der in den Mann hineinsieht, aber den Türhüter von außen zeigt.",
+  "see": [
+   "erzaehlung",
+   "erzaehlen"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": null,
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "fiktionale-behauptungssaetze",
+  "term": "fiktionale Behauptungssätze",
+  "fa": "جمله‌های ادعایی در متن داستانی",
+  "kurz": "Sätze im Text beziehen sich auf Tatsachen der erzählten Welt.",
+  "def": "In einem fiktionalen Text stellen Sätze etwas als Tatsache hin. Diese Tatsachen gelten in der erzählten Welt, unabhängig davon, ob der Leser sie für wirklich hält.",
+  "zitate": [
+   {
+    "t": "Fiktionale Behauptungssätze enthalten eine Referenz auf Tatsachen der durch sie erzählten Welt, unabhängig davon, ob der Leser diese zeitweise für Gegebenheiten seiner objektiven Wirklichkeit nimmt oder nicht.",
+    "s": "S. 24"
+   }
+  ],
+  "kafka": "In der erzählten Welt steht das Tor offen: <span class=\"kq\">„Da das Tor zum Gesetz offensteht wie immer“</span>. Das ist dort eine Tatsache, obwohl wir die Geschichte als Gleichnis lesen.",
+  "see": [
+   "erzaehlte-welt"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": null,
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "fabula-sjuzet",
+  "term": "fabula und sjužet (Tomaševskij)",
+  "fa": "فابولا و سیوژت",
+  "kurz": "Russischer Formalismus: Die Ereignisse selbst (fabula) und ihre Anordnung im Werk (sjužet).",
+  "def": "Die fabula ordnet die Motive logisch und nach Ursache und Zeit. Das sjužet betrifft nur die Reihenfolge, in der die Motive im Werk stehen.",
+  "zitate": [
+   {
+    "t": "die Gesamtheit der Motive in ihrer logischen, kausal-temporalen Verknüpfung",
+    "s": "S. 25",
+    "q": "Tomaševskij über die fabula, zitiert bei Martínez/Scheffel"
+   },
+   {
+    "t": "die Gesamtheit derselben Motive in derjenigen Reihenfolge und Verknüpfung, in der sie im Werk vorliegen",
+    "s": "S. 25",
+    "q": "Tomaševskij über das sjužet, zitiert bei Martínez/Scheffel"
+   }
+  ],
+  "kafka": "Die Reihenfolge ist chronologisch (kommen, bitten, warten, fragen, sterben). fabula und sjužet sind daher fast gleich.",
+  "see": [
+   "histoire-discours",
+   "genette"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": null,
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "histoire-discours",
+  "term": "histoire und discours (Todorov, Benveniste)",
+  "fa": "histoire: خودِ داستان · discours: شیوه‌ی روایتِ آن",
+  "kurz": "Todorov: das Erzählte (histoire) und die Art, wie der Erzähler es uns vermittelt (discours).",
+  "def": "Todorov übernimmt das Paar der Formalisten. Der discours ist weiter gefasst als das sjužet: Er umfasst auch Perspektive, Stil und Modus. Benveniste hatte ursprünglich einen sprachlichen Unterschied gemeint: Erzählformen ohne und mit deutlich hervortretender Sprecherinstanz (S. 25).",
+  "zitate": [
+   {
+    "t": "Dieselbe Geschichte hätte uns auch auf andere Weise vermittelt werden können, beispielsweise durch einen Film",
+    "s": "S. 25",
+    "q": "Todorov über die histoire, zitiert bei Martínez/Scheffel"
+   },
+   {
+    "t": "… umfasst Todorovs ‹discours› stattdessen den gesamten Bereich der literarischen Vermittlung eines Geschehens (d. h. außer der Anordnung der Ereignisse auch Perspektive, Stil, Modus usw.)",
+    "s": "S. 25"
+   }
+  ],
+  "kafka": "Als histoire könnte man „Vor dem Gesetz“ auch als Film erzählen. Zum discours gehört, dass wir die Ereignisse mit dem Mann zusammen erleben und seine Gedanken kennen.",
+  "see": [
+   "fabula-sjuzet",
+   "genette",
+   "darstellung"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": null,
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "genette",
+  "term": "Genettes Dreiteilung: Geschichte, Erzählung, Narration",
+  "fa": "سه‌گانه‌ی ژنت",
+  "kurz": "Gérard Genette unterscheidet histoire, récit und narration.",
+  "def": "Die Geschichte (histoire) ist der narrative Inhalt. Die Erzählung (récit) ist der Text selbst. Die Narration ist der produzierende narrative Akt, also das Erzählen, auch in seiner (realen oder fiktiven) Situation. Martínez/Scheffel nehmen diese Idee als Anregung, die Seite der Darstellung weiter zu unterteilen.",
+  "zitate": [
+   {
+    "t": "das Signifikat oder den narrativen Inhalt",
+    "s": "S. 26",
+    "q": "Genette über die Geschichte, zitiert bei Martínez/Scheffel"
+   },
+   {
+    "t": "den Signifikanten, die Aussage [‹énoncé›], den narrativen Text oder Diskurs",
+    "s": "S. 26",
+    "q": "Genette über die Erzählung, zitiert bei Martínez/Scheffel"
+   },
+   {
+    "t": "produzierenden narrativen Akt",
+    "s": "S. 26",
+    "q": "Genette über die Narration, zitiert bei Martínez/Scheffel"
+   }
+  ],
+  "kafka": "Geschichte: das Geschehen um Mann und Türhüter. Erzählung: der Text „Vor dem Gesetz“. Narration: das Erzählen selbst, etwa der Erzähler, der „sagt“ und „denkt er“ berichtet.",
+  "see": [
+   "histoire-discours",
+   "erzaehlung",
+   "erzaehlen"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": "Das Wort „Erzählung“ steht bei Genette (récit, der Text) und bei Martínez/Scheffel (Ebene 5, die Reihenfolge der Ereignisse) in ähnlichen Positionen, wird aber nicht automatisch gleich verwendet. Die Tabelle auf S. 28 zeigt, wie unterschiedlich die Autoren ihre Wörter verteilen.",
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "ereignis",
+  "term": "das Ereignis (Motiv)",
+  "fa": "رویداد (موتیف)",
+  "kurz": "Ebene 1: die kleinste Einheit der Handlung.",
+  "def": "Ein Ereignis oder Motiv ist die elementare Einheit eines narrativen Textes im Bereich der Handlung.",
+  "zitate": [
+   {
+    "t": "Die elementare Einheit eines narrativen Textes im Bereich der Handlung ist das Ereignis oder Motiv.",
+    "s": "S. 27"
+   }
+  ],
+  "kafka": "<span class=\"kq\">„Der Türhüter gibt ihm einen Schemel“</span> ist ein Ereignis, ebenso das Bestechen oder das Winken kurz vor dem Tod.",
+  "see": [
+   "geschehen",
+   "handlung"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": null,
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "geschehen",
+  "term": "das Geschehen",
+  "fa": "رخدادها (ردیفِ زمانی)",
+  "kurz": "Ebene 2: Ereignisse, die nur zeitlich aufeinander folgen.",
+  "def": "Ein Geschehen entsteht, wenn Ereignisse chronologisch aneinandergereiht werden. Es gibt noch keinen Grund-Folge-Zusammenhang.",
+  "zitate": [
+   {
+    "t": "Auf einer ersten Integrationsstufe erscheinen Ereignisse zu einem Geschehen aneinandergereiht, indem sie chronologisch aufeinander folgen.",
+    "s": "S. 27"
+   }
+  ],
+  "kafka": "Der Mann kommt, bittet, wartet, fragt, stirbt: ein „und dann“.",
+  "see": [
+   "ereignis",
+   "geschichte"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": "In der Tabelle auf S. 28 heißt bei Forster das Geschehen „story“ und die Geschichte „plot“. Gleiche Wörter können in anderen Theorien etwas anderes bedeuten.",
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "geschichte",
+  "term": "die Geschichte",
+  "fa": "داستان (با رابطه‌ی علّی)",
+  "kurz": "Ebene 3: Ereignisse mit kausalem Zusammenhang.",
+  "def": "Zur Geschichte wird das Geschehen, wenn die Ereignisse nicht nur aufeinander, sondern auch auseinander folgen. Es gibt also ein „weil“.",
+  "zitate": [
+   {
+    "t": "… wenn die Ereignisfolge zusätzlich zum chronologischen auch einen kausalen Zusammenhang aufweist, so dass die Ereignisse nicht nur aufeinander, sondern auch auseinander folgen.",
+    "s": "S. 27"
+   }
+  ],
+  "kafka": "Weil der Mann den Türhüter genauer ansieht, <span class=\"kq\">„entschließt er sich, doch lieber zu warten“</span>. Weil er wartet, stirbt er vor dem Tor.",
+  "see": [
+   "geschehen",
+   "handlungsschema"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": "Nicht mit „Geschichte“ im Sinne von Genette (histoire) verwechseln: Dort ist der ganze narrative Inhalt gemeint. Bei Martínez/Scheffel ist es eine bestimmte Ebene der Handlung (Tabelle S. 28).",
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "handlungsschema",
+  "term": "das Handlungsschema",
+  "fa": "الگوی کلیِ کنش",
+  "kurz": "Ebene 4: ein abstraktes Muster, das für Textgruppen typisch sein kann.",
+  "def": "Das Handlungsschema ist ein aus allen erzählten Ereignissen abstrahiertes globales Schema. Es kann für ganze Textgruppen wie Gattungen charakteristisch sein und gibt der Geschichte Anfang, Mitte, Ende und eine sinnhafte Struktur.",
+  "zitate": [
+   {
+    "t": "Durch die Integration in ein Handlungsschema erhält die Geschichte eine abgeschlossene (Anfang, Mitte, Ende) und sinnhafte (z. B. archetypische) Struktur.",
+    "s": "S. 27"
+   }
+  ],
+  "kafka": "Mögliches Schema: Ein Suchender kommt an eine Schwelle, wartet und scheitert (eigene Deutung).",
+  "see": [
+   "geschichte",
+   "handlung"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": null,
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "erzaehlung",
+  "term": "die Erzählung (Ebene 5)",
+  "fa": "روایت (ترتیب و زمان‌بندی)",
+  "kurz": "Die Ereignisse in der Reihenfolge, in der der Text sie darstellt.",
+  "def": "Die Erzählung unterscheidet sich von der chronologisch rekonstruierten Handlung durch die Gestaltung und zeitliche Umgruppierung der Ereignisse im Text, etwa durch Erzähltempo, Rückwendung und Vorausdeutung.",
+  "zitate": [
+   {
+    "t": "Die erzählten Ereignisse in der Reihenfolge ihrer Darstellung im Text.",
+    "s": "S. 27"
+   }
+  ],
+  "kafka": "Beginn ohne Einleitung, Jahre in einem Satz (<span class=\"kq\">„Dort sitzt er Tage und Jahre.“</span>), eine kleine Vorausdeutung (<span class=\"kq\">„Nun lebt er nicht mehr lange.“</span>).",
+  "see": [
+   "erzaehltempo",
+   "erzaehlen",
+   "genette"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": null,
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "erzaehlen",
+  "term": "das Erzählen (Ebene 6)",
+  "fa": "روایت‌کردن (زبان، سبک، موقعیت)",
+  "kurz": "Die Präsentation der Geschichte in Sprache, Medium und Darstellungsverfahren.",
+  "def": "Zum Erzählen gehören die Sprache, das Medium (z. B. rein sprachlich oder audio-visuell) und Darstellungsverfahren wie Erzählsituation oder Sprachstil.",
+  "zitate": [
+   {
+    "t": "Die Präsentation der Geschichte und die Art und Weise dieser Präsentation in bestimmten Sprachen, Medien (z. B. rein sprachliche oder audio-visuelle) und Darstellungsverfahren (z. B. Erzählsituation oder Sprachstil).",
+    "s": "S. 28"
+   }
+  ],
+  "kafka": "Ein Erzähler in der dritten Person, Präsens (eigene Beobachtung), Einblick in die Gedanken des Mannes: <span class=\"kq\">„denkt er“</span>.",
+  "see": [
+   "erzaehlung",
+   "darstellung"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": null,
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "erzaehltempo",
+  "term": "Erzähltempo, Rückwendung, Vorausdeutung",
+  "fa": "سرعت روایت، بازگشت به گذشته، پیش‌نمایی",
+  "kurz": "Drei Möglichkeiten, die Zeit im Text zu gestalten (genannt bei Ebene 5).",
+  "def": "Das Buch nennt diese Begriffe auf S. 27 als Beispiele für die zeitliche Umgruppierung der Ereignisse. Kurz gesagt: das Tempo, mit dem erzählt wird, der Sprung zurück und der Hinweis auf Späteres. Ausführlich folgen sie im Kapitel zum „Wie“.",
+  "zitate": [
+   {
+    "t": "(Erzähltempo, Rückwendung, Vorausdeutung)",
+    "s": "S. 27"
+   }
+  ],
+  "kafka": "Tempo: viele Jahre in einem Satz (<span class=\"kq\">„Dort sitzt er Tage und Jahre.“</span>). Vorausdeutung: <span class=\"kq\">„Nun lebt er nicht mehr lange.“</span> Eine Rückwendung gibt es kaum.",
+  "see": [
+   "erzaehlung"
+  ],
+  "sitzungen": [
+   "erz-s1"
+  ],
+  "hinweis": null,
+  "seminare": [
+   "erz"
+  ]
+ },
+ {
+  "id": "summative-evaluation",
+  "term": "summative Evaluation",
+  "fa": "ارزیابی پایانی (تراکمی)",
+  "kurz": "Misst im Nachhinein, was erreicht wurde, und dient der Benotung.",
+  "def": "Formelle, geplante Bewertung am Ende einer Unterrichtseinheit (Woche, Monat, Semester oder Jahr). Neuere Bezeichnung: Assessment of Learning.",
+  "zitate": [
+   {
+    "t": "Die summative Evaluation misst im Nachhinein, was von Einzelpersonen oder auch Gruppen erreicht wurde",
+    "s": "S. 83",
+    "q": "Moser-Frötscher 2025"
+   }
+  ],
+  "beispiel": "Abitur, Sprachzertifikate und Klassenarbeiten sind summative Prüfungen.",
+  "see": [
+   "formative-evaluation",
+   "high-low-stakes"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s1"
+  ],
+  "hinweis": null
+ },
+ {
+  "id": "formative-evaluation",
+  "term": "formative Evaluation",
+  "fa": "ارزیابی تکوینی (در جریان آموزش)",
+  "kurz": "Prüft den Fortschritt während des Lernens, um Unterricht und Feedback anzupassen.",
+  "def": "Neuere Bezeichnung: Assessment for Learning. Ziel ist, den nachfolgenden Unterricht abzustimmen und den Schüler:innen Feedback zu geben.",
+  "zitate": [
+   {
+    "t": "Die kontrastive Unterscheidung zwischen summativer und formativer Evaluation stellt jedoch eine starke Vereinfachung dieser beiden Konstrukte sowie ihrer Beziehung zueinander dar",
+    "s": "S. 83",
+    "q": "Moser-Frötscher 2025"
+   }
+  ],
+  "beispiel": "Nach Harlen kann dieselbe Information formativ oder summativ sein, je nach Zweck.",
+  "see": [
+   "summative-evaluation",
+   "learning-oriented-assessment"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s1"
+  ],
+  "hinweis": null
+ },
+ {
+  "id": "learning-oriented-assessment",
+  "term": "Learning-Oriented Assessment",
+  "fa": "سنجش یادگیری‌محور",
+  "kurz": "Modell, in dem formative und summative Zugänge eng verwoben sind.",
+  "def": "Nach Jones/Saville (2016) steht das erfolgreiche Sprachenlernen im Fokus jeglicher Prüfungsaktivitäten.",
+  "zitate": [
+   {
+    "t": "Im Modell des lerner:innenorientierten Prüfens (Learning-Oriented Assessment, Jones/ Saville 2016) sind formative und summative Zugänge eng miteinander verwoben",
+    "s": "S. 83",
+    "q": "Moser-Frötscher 2025"
+   }
+  ],
+  "beispiel": "Der Text stellt es als Antwort auf die starre Gegenüberstellung summativ/formativ vor.",
+  "see": [
+   "formative-evaluation",
+   "summative-evaluation"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s1"
+  ],
+  "hinweis": null
+ },
+ {
+  "id": "ealta-leitfragen",
+  "term": "EALTA-Leitfragen",
+  "fa": "پرسش‌های راهنمای EALTA",
+  "kurz": "Leitfragen für gute Prüfungspraxis in drei Bereichen.",
+  "def": "Die Richtlinien der European Association for Language Testing and Assessment (EALTA 2006) betreffen (1) Prüfungszweck und Spezifikation, (2) Prüfungsverfahren und (3) Konsequenzen.",
+  "zitate": [
+   {
+    "t": "Diese betreffen (1) Prüfungszweck und Spezifikation; (2) Prüfungsverfahren, und (3) Konsequenzen.",
+    "s": "S. 85",
+    "q": "Moser-Frötscher 2025"
+   }
+  ],
+  "beispiel": "Die Seminar-Textarbeit nutzt die Leitfragen als Analyseraster für Hochschulzugangsprüfungen.",
+  "see": [
+   "testspezifikationen",
+   "reliabilitaet",
+   "high-low-stakes",
+   "washback"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s1"
+  ],
+  "hinweis": null
+ },
+ {
+  "id": "testspezifikationen",
+  "term": "Testspezifikationen",
+  "fa": "مشخصات آزمون",
+  "kurz": "Zentrale Informationen über eine Prüfung.",
+  "def": "Sie enthalten laut Text die Art der überprüften Kompetenzen, die Gewichtung der Komponenten und die Aufgabenformate (Green 2013).",
+  "zitate": [
+   {
+    "t": "Testspezifikationen enthalten zentrale Informationen über die Prüfung, wie die Art der überprüften Kompetenzen, die Gewichtung der einzelnen Komponenten oder die verwendeten Aufgabenformate",
+    "s": "S. 85",
+    "q": "Moser-Frötscher 2025"
+   }
+  ],
+  "beispiel": "Gehört zum EALTA-Bereich „Prüfungszweck und Spezifikation“.",
+  "see": [
+   "ealta-leitfragen"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s1"
+  ],
+  "hinweis": null
+ },
+ {
+  "id": "reliabilitaet",
+  "term": "Reliabilität",
+  "fa": "پایایی",
+  "kurz": "Ergebnisse hängen konsistent von der Sprachkompetenz ab.",
+  "def": "Instrumente sind laut Text reliabel, wenn ihre Ergebnisse konsistent von der Sprachkompetenz abhängen und nicht von anderen Faktoren, z. B. unklaren Anweisungen oder missverständlichen Fragen (Green 2013).",
+  "zitate": [
+   {
+    "t": "wenn deren Ergebnisse konsistent von der Sprachkompetenz der Schüler:innen abhängen und nicht von anderen Faktoren wie unklaren Anweisungen oder missverständlichen Fragen/Antwortoptionen beeinträchtigt werden",
+    "s": "S. 86",
+    "q": "Moser-Frötscher 2025"
+   }
+  ],
+  "beispiel": "Gehört zum EALTA-Bereich „Prüfungsverfahren“.",
+  "see": [
+   "ealta-leitfragen"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s1"
+  ],
+  "hinweis": null
+ },
+ {
+  "id": "high-low-stakes",
+  "term": "low stakes und high stakes",
+  "fa": "آزمون با پیامد کم / پیامد سنگین",
+  "kurz": "Unterscheidung nach den Folgen der Prüfungsentscheidung.",
+  "def": "Bei low stakes sind die Auswirkungen gering. Bei high stakes hat das Nichtbestehen weitreichende Folgen, für Lernende (z. B. Verwehrung einer Ausbildung) und für Schulen (z. B. Personalabbau, behördliche Kontrolle).",
+  "zitate": [
+   {
+    "t": "Je weitreichender die Auswirkungen einer Prüfung sind, desto wichtiger ist eine rigorose Qualitätssicherung und umfassende Begleitforschung zur Validierung",
+    "s": "S. 87",
+    "q": "Moser-Frötscher 2025"
+   }
+  ],
+  "beispiel": "Hochschulzugangsprüfungen sind typische high-stakes-Prüfungen (eigene Einordnung).",
+  "see": [
+   "washback",
+   "ealta-leitfragen"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s1"
+  ],
+  "hinweis": null
+ },
+ {
+  "id": "washback",
+  "term": "washback",
+  "fa": "اثر بازگشتی آزمون بر آموزش",
+  "kurz": "Rückwirkung einer Prüfung auf Unterricht und Lernen.",
+  "def": "Vor allem bei high stakes konzentrieren sich Lehrende und Lernende auf das, was vermutlich geprüft wird. Der Effekt kann negativ oder positiv sein.",
+  "zitate": [
+   {
+    "t": "indem sich Lehrende und Lernende auf jene Kenntnisse, Fertigkeiten oder Fähigkeiten konzentrieren, von denen sie glauben, dass sie in der Prüfung behandelt werden",
+    "s": "S. 87",
+    "q": "Moser-Frötscher 2025"
+   }
+  ],
+  "beispiel": "Positives Beispiel im Text: Hören wird nach einer Prüfungsreform im Unterricht stärker gewichtet.",
+  "see": [
+   "high-low-stakes",
+   "summative-evaluation"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s1"
+  ],
+  "hinweis": null
+ },
+ {
+  "id": "language-assessment-literacy",
+  "term": "Language Assessment Literacy",
+  "fa": "سواد سنجش زبان",
+  "kurz": "Leistungsbeurteilungskompetenz von Lehrpersonen.",
+  "def": "Sie umfasst laut Text Fach- und Anwendungswissen in der fremdsprachlichen Leistungsbeurteilung sowie sprachlich-fachliche Kompetenzen (Fulcher 2010).",
+  "zitate": [
+   {
+    "t": "die sowohl Fach- und Anwendungswissen in der fremdsprachlichen Leistungsbeurteilung als auch sprachlich-fachliche Kompetenzen umfasst",
+    "s": "S. 85",
+    "q": "Moser-Frötscher 2025"
+   }
+  ],
+  "beispiel": "Voraussetzung dafür, Aufgaben auszuwählen und Leistungen fair zu beurteilen.",
+  "see": [
+   "ealta-leitfragen"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s1"
+  ],
+  "hinweis": null
+ },
+ {
+  "id": "schreibkompetenz",
+  "term": "fremdsprachliche Schreibkompetenz",
+  "fa": "توانایی نوشتن در زبان خارجی",
+  "kurz": "Besteht aus fünf Teilkompetenzen.",
+  "def": "Krings unterscheidet Schreibmotorik, Orthographie, fremdsprachliches Schriftsystem, das Verfassen von Texten nach Textkonventionen und das Schreibprozessmanagement.",
+  "zitate": [
+   {
+    "t": "Die fremdsprachliche Schreibkompetenz umfasst eine Reihe von Teilkompetenzen, die in der fachdidaktischen Diskussion nicht immer deutlich genug voneinander getrennt werden.",
+    "s": "S. 107",
+    "q": "Krings 2016"
+   }
+  ],
+  "beispiel": "Die Teilkompetenzen werden in der Diskussion oft vermischt, deshalb trennt Krings sie.",
+  "see": [
+   "schreibprozessmanagement",
+   "textkonventionen",
+   "ger-skalen"
+  ],
+  "seminare": [
+   "schreiben"
+  ],
+  "sitzungen": [
+   "schreiben-s1"
+  ],
+  "hinweis": null
+ },
+ {
+  "id": "schreibprozessmanagement",
+  "term": "Schreibprozessmanagement",
+  "fa": "مدیریت فرایند نوشتن",
+  "kurz": "Planen und Steuern der mentalen Teilprozesse der Textproduktion.",
+  "def": "Krings bezeichnet es als am häufigsten übersehene Teilkompetenz. Je umfangreicher und anspruchsvoller der Text, desto wichtiger wird sie.",
+  "zitate": [
+   {
+    "t": "die am häufigsten übersehene Teilkompetenz des Schreibens",
+    "s": "S. 107",
+    "q": "Krings 2016"
+   }
+  ],
+  "beispiel": "Bei einem langen Text, etwa einer Hausarbeit, entscheidet es mit über den Erfolg (eigenes Beispiel).",
+  "see": [
+   "schreibkompetenz"
+  ],
+  "seminare": [
+   "schreiben"
+  ],
+  "sitzungen": [
+   "schreiben-s1"
+  ],
+  "hinweis": null
+ },
+ {
+  "id": "textkonventionen",
+  "term": "Textkonventionen und Textsortenkonventionen",
+  "fa": "قواعد و هنجارهای متنی",
+  "kurz": "Regeln, nach denen Texte einer Sorte verfasst werden.",
+  "def": "Textsortenkonventionen können nicht nur zwischen Textsorten, sondern auch für gleiche Textsorten von Sprache zu Sprache verschieden sein. Das Verfassen von Texten nach gültigen Konventionen ist laut Krings die Kernkompetenz des Schreibens.",
+  "zitate": [
+   {
+    "t": "Dies ist zweifellos die Kernkompetenz des Schreibens.",
+    "s": "S. 107",
+    "q": "Krings 2016"
+   }
+  ],
+  "beispiel": "Ein Brief oder eine Hausarbeit folgt je nach Sprache anderen Konventionen (eigenes Beispiel).",
+  "see": [
+   "schreibkompetenz"
+  ],
+  "seminare": [
+   "schreiben"
+  ],
+  "sitzungen": [
+   "schreiben-s1"
+  ],
+  "hinweis": null
+ },
+ {
+  "id": "ger-skalen",
+  "term": "GER-Skalen zum Schreiben",
+  "fa": "مقیاس‌های GER برای نوشتن",
+  "kurz": "Niveaubeschreibungen von A1 bis C2 für verschiedene Aspekte des Schreibens.",
+  "def": "Im Anhang bei Grotjahn (2017) stehen sieben Skalen: Schriftliche Produktion allgemein, Schriftliche Interaktion allgemein, Spektrum sprachlicher Mittel, Wortschatzbeherrschung, Grammatische Korrektheit, Beherrschung der Orthographie, Kohärenz und Kohäsion (zitiert nach Europarat 2001).",
+  "zitate": [
+   {
+    "t": "Kann einfache, isolierte Wendungen und Sätze schreiben.",
+    "s": "Anhang 1, S. 113",
+    "q": "Grotjahn 2017"
+   }
+  ],
+  "beispiel": "Niveau A1 der Produktionsskala: Kann einfache, isolierte Wendungen und Sätze schreiben.",
+  "see": [
+   "kohaerenz-kohaesion",
+   "schreibkompetenz"
+  ],
+  "seminare": [
+   "schreiben"
+  ],
+  "sitzungen": [
+   "schreiben-s1"
+  ],
+  "hinweis": "GER = Gemeinsamer europäischer Referenzrahmen für Sprachen. Die Skalen stammen aus der Fassung von 2001."
+ },
+ {
+  "id": "kohaerenz-kohaesion",
+  "term": "Kohärenz und Kohäsion (GER-Skala)",
+  "fa": "انسجام و پیوستگی متن (مقیاس GER)",
+  "kurz": "Skala zur Gliederung und Verknüpfung von Texten.",
+  "def": "Die Skala beschreibt, wie gut Gliederung und Verknüpfung gelingen, von einfachen Konnektoren wie „und“ auf A1 bis zu einer Vielfalt an Mitteln auf C2 (Anhang 7).",
+  "zitate": [
+   {
+    "t": "Kann Wortgruppen durch einfache Konnektoren wie und, aber und weil verknüpfen.",
+    "s": "Anhang 7, S. 116",
+    "q": "Grotjahn 2017"
+   }
+  ],
+  "beispiel": "A2: Konnektoren wie und, aber, weil. Auf C2 wird eine Vielfalt an Mitteln für Gliederung und Verknüpfung erwartet.",
+  "see": [
+   "ger-skalen"
+  ],
+  "seminare": [
+   "schreiben"
+  ],
+  "sitzungen": [
+   "schreiben-s1"
+  ],
+  "hinweis": null
+ }
+]

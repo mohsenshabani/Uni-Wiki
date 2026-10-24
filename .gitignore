@@ -1,0 +1,4 @@
+# Originalmaterial (Urheberrecht, große Dateien) bleibt nur auf dem Mac
+seminare/*
+!seminare/LIESMICH.md
+.DS_Store
