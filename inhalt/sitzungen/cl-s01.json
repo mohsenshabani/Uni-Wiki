@@ -1,0 +1,98 @@
+{
+ "id": "cl-s1",
+ "nr": 1,
+ "seminar": "cl",
+ "titel": "Einführung in die Computerlinguistik",
+ "autor": "Sina Zarrieß, Bastian Bunzeck (AG Computerlinguistik)",
+ "lektuere": "Folien Sitzung 1 (51 Folien)",
+ "thema": "Organisation, Grundbegriffe (Algorithmus, Programmiersprache), sprachliche Ebenen und was Computerlinguistik ist",
+ "status": "entwurf",
+ "ueberblick": {
+  "kurzinhalt": "Die erste Sitzung klärt die Organisation und stellt die Frage, was [[computerlinguistik|Computerlinguistik]] ist. Dazu werden zuerst die Grundbegriffe [[algorithmus|Algorithmus]] und [[programmiersprache|Programmiersprache]] geklärt, dann [[natuerliche-sprache|natürliche Sprache]] und die [[sprachliche-ebenen|sprachlichen Ebenen]] (Phonetik/Phonologie, Morphologie, Syntax, Semantik, Pragmatik). Die Computerlinguistik modelliert Sprachverstehen und Sprachproduktion mit Algorithmen, klassisch regelbasiert, heute vor allem mit [[sprachmodell|Sprachmodellen]].",
+  "leitfrage": "Was ist Computerlinguistik, und worin unterscheiden sich natürliche Sprache und Programmiersprachen auf den sprachlichen Ebenen?",
+  "merksatz": "Computerlinguistik = Sprache formal beschreiben und mit Algorithmen verarbeiten, zwischen Linguistik und Informatik, aber mit eigenen Theorien und Methoden.",
+  "fa": [
+   "زبان‌شناسی رایانشی (Computerlinguistik) یعنی توصیف دقیق و صوری زبان طبیعی و مدل‌سازی درک و تولید زبان با الگوریتم‌ها. این رشته بین زبان‌شناسی و علوم کامپیوتر است، ولی نظریه‌ها و روش‌های خودش را دارد.",
+   "الگوریتم یک دستورالعمل بی‌ابهام برای حل یک مسئله است که یک ورودی مشخص را به یک خروجی مشخص تبدیل می‌کند. زبان برنامه‌نویسی یک زبان صوری برای نوشتن الگوریتم‌هاست (مثلاً Python).",
+   "سطح‌های زبانی: آواشناسی/واج‌شناسی (صداها)، ساختواژه (واژه‌ها)، نحو (جمله)، معنی‌شناسی (معنی) و کاربردشناسی (ارتباط)."
+  ]
+ },
+ "inhalt": [
+  {
+   "titel": "1. Organisation der Veranstaltung",
+   "quelle": "Folien Sitzung 1 (vl01), Folien 3–12",
+   "html": "<div class=\"tablewrap\"><table><thead><tr><th></th><th>Seminar (vorlesungsartig)</th><th>Übung/Tutorium</th></tr></thead><tbody><tr><td>Wer</td><td>Sina Zarrieß</td><td>Hannah Bultmann</td></tr><tr><td>Wann</td><td>Do, 10–12, S1-209</td><td>Di, 8–10, Hörsaal 11</td></tr><tr><td>Inhalt</td><td>Folien auf Moodle, Mitarbeit erwünscht, 2 Anwesenheitsübungen (je 15 Minuten)</td><td>wöchentliche Hausaufgaben mit Frist, Besprechung in der Übung, oft Laptop/Tablet nötig</td></tr><tr><td>Bewertung</td><td>Anwesenheitsübungen: bestanden/nicht bestanden</td><td>Hausaufgaben: bestanden/nicht bestanden</td></tr></tbody></table></div><p>Materialien, Hausaufgaben und Fragen laufen über Moodle.</p><blockquote><p>„Folien sind kein vollständiges/ausformuliertes Skript!“</p><cite>Folien Sitzung 1 (vl01), Folie 7</cite></blockquote><blockquote><p>„Mini-Probeklausur mit Fragen, wie sie in der Klausur vorkommen werden“</p><cite>Folien Sitzung 1 (vl01), Folie 8</cite></blockquote><blockquote><p>„mehr als 50% der Punkte wurden erreicht“</p><cite>Folien Sitzung 1 (vl01), Folie 8 (Kriterium für „bestanden“ bei den Anwesenheitsübungen)</cite></blockquote><blockquote><p>„sinnvolle Auseinandersetzung mit der Aufgabe ist erkennbar“</p><cite>Folien Sitzung 1 (vl01), Folie 9 (Kriterium für „bestanden“ bei den Hausaufgaben)</cite></blockquote><h4>Studienleistung und Prüfung</h4><ul class=\"plain\"><li>23-CL-BaCL1: 3 LP Seminar + 3 LP Übung. 23-MeWi-Einf-II: 3 LP Seminar.</li><li>Alle Hausaufgaben müssen bis zum Ende der Vorlesungszeit (05.02.2027) eingereicht und bestanden sein, beide Anwesenheitsübungen bestanden.</li><li>Klausur, 1. Termin: 11.02.2027, 10–12 Uhr, X-E0-001.</li><li>Klausur, 2. Termin: laut Folie 22.03.2026, 10–12 Uhr, X-E0-001. <strong>Die Jahreszahl 2026 liegt vor dem Semester und ist vermutlich ein Tippfehler (2027?). Bitte in Moodle prüfen.</strong></li></ul>"
+  },
+  {
+   "titel": "2. Was machen Computerlinguist:innen?",
+   "quelle": "Folien Sitzung 1 (vl01), Folien 13–19",
+   "html": "<p><strong>Anwendungen im Alltag</strong> (Folie 15): Chatbots und andere Dialogsysteme, Sprachmodelle (Large Language Models), Suchmaschinen, Recommendersysteme, automatische Übersetzung, Spamfilter, Rechtschreibkorrekturprogramme, Sprachlernprogramme, Robot Journalists, Informationsextraktionssysteme.</p><p><strong>Andere Bezeichnungen</strong> (Folie 16): Maschinelle Sprachverarbeitung, Sprachtechnologie, sprachliche Informationsverarbeitung, Digital Humanities, Natural Language Processing, Computational Linguistics.</p><p><strong>Verhältnis zu anderen Wissenschaften</strong> (Folien 17–18): Die Folien fragen zuerst, ob Computerlinguistik = Linguistik + Informatik + Psychologie ist, und antworten dann:</p><blockquote><p>„Computerlinguisten entwickeln eigene Theorien, Modelle und Methoden, die nicht Teil der Kern-Informatik oder Kern-Linguistik sind.“</p><cite>Folien Sitzung 1 (vl01), Folie 18</cite></blockquote>"
+  },
+  {
+   "titel": "3. Grundbegriffe: Computer, Algorithmus, Programmiersprache",
+   "quelle": "Folien Sitzung 1 (vl01), Folien 20–24",
+   "html": "<p><strong>Computer</strong> (Folie 20): Die Folie benennt Bauteile und ihre Aufgaben, z. B. Prozessor (CPU) verarbeitet Bits, Arbeitsspeicher (RAM) und Festplatte speichern Bits, der Monitor zeigt Pixel an.</p><blockquote><p>„Ein Algorithmus ist eine eindeutige Handlungsvorschrift zur Lösung eines Problems oder einer Klasse von Problemen. Bei der Problemlösung wird eine bestimmte Eingabe in eine bestimmte Ausgabe überführt.“</p><cite>Folien Sitzung 1 (vl01), Folie 21</cite></blockquote><p>Algorithmen lassen sich in natürlicher Sprache, Pseudocode oder Programmiersprachen formulieren. Maschinell ausführbare Algorithmen sind außerdem <em>finit</em> (endlicher Programmcode und Speicherbedarf) und <em>terminieren</em> nach endlich vielen Schritten.</p><blockquote><p>„Eine Programmiersprache ist eine formale Sprache zur Formulierung von Algorithmen, die auf einem Computer ausgeführt werden können.“</p><cite>Folien Sitzung 1 (vl01), Folie 22</cite></blockquote><p>Ein Compiler oder Interpreter übersetzt den Programmcode in Befehle, die der Prozessor ausführt. <strong>Python</strong> ist das Beispiel der Folien:</p><blockquote><p>„Wird in der Computerlinguistik und im maschinellen Lernen viel verwendet“</p><cite>Folien Sitzung 1 (vl01), Folie 23</cite></blockquote>"
+  },
+  {
+   "titel": "4. Natürliche Sprache und sprachliches Wissen",
+   "quelle": "Folien Sitzung 1 (vl01), Folien 26–38",
+   "html": "<p>Ausgangspunkt ist ein Alltagsgespräch (Hassan, Espresso). Die Folien fragen: Was wissen und können Sprecher einer natürlichen Sprache?</p><blockquote><p>„Die Sprache, die von Menschen gelernt, gesprochen, geschrieben oder gebärdet wird“</p><cite>Folien Sitzung 1 (vl01), Folie 27 (Definition natürliche Sprache)</cite></blockquote><p>Beispiele für Wissen auf verschiedenen Stufen:</p><ul class=\"plain\"><li><strong>Einheiten</strong>: Buchstaben/Laute, Silben, Wortteile, Wort, Phrase, Satz, Text.</li><li><strong>Strukturen und Regeln</strong>: „Kannst du mir Kaffee machen?“ ist möglich, „Machst du Kaffee können?“ oder „Kannst du Offee machen?“ nicht.</li><li><strong>Bedeutung und Intention</strong>: Warum stellt der Sprecher diese Frage, was versteht der Hörer, wie reagiert er?</li></ul><blockquote><p>„Bisherige Erkenntnis: Sprache ist systematisch!“</p><cite>Folien Sitzung 1 (vl01), Folie 34</cite></blockquote><p>Die Erforschung dieser Regelmäßigkeiten ist Gegenstand der Sprachwissenschaft.</p><h4>Sprachliche Ebenen (Folie 35)</h4><div class=\"tablewrap\"><table><thead><tr><th>Ebene</th><th>Gegenstand</th></tr></thead><tbody><tr><td>Phonetik und Phonologie</td><td>Ebene der sprachlichen Laute</td></tr><tr><td>Morphologie</td><td>Ebene der Wörter</td></tr><tr><td>Syntax</td><td>Ebene des Satzes</td></tr><tr><td>Semantik</td><td>Ebene der Bedeutung</td></tr><tr><td>Pragmatik</td><td>Ebene der Kommunikation</td></tr></tbody></table></div><p>Die Folien fordern auf, zu jeder Ebene ein Phänomen zu finden und zu vergleichen, auf welchen Ebenen sich natürliche Sprache und Programmiersprachen unterscheiden (Folien 36–37).</p><blockquote><p>„Sprache ist die Fähigkeit lautliche Äußerungen (oder Gebärden) zu produzieren, wahrzunehmen und diese mit Bedeutung zu assoziieren.“</p><cite>Folien Sitzung 1 (vl01), Folie 38 (Zusammenfassung)</cite></blockquote>"
+  },
+  {
+   "titel": "5. Was ist Computerlinguistik?",
+   "quelle": "Folien Sitzung 1 (vl01), Folien 39–47",
+   "html": "<p>Die Folien verbinden die beiden Begriffe: Ein Modell oder Algorithmus bildet Sprache auf Bedeutung/Intention ab (Sprachverstehen) oder Bedeutung/Intention auf Sprache (Sprachgenerierung). Leitfragen der Computerlinguistik (Folie 42):</p><blockquote><p>„Wie kann man natürliche Sprache und sprachliches Wissen formal präzise beschreiben?“</p><cite>Folien Sitzung 1 (vl01), Folie 42</cite></blockquote><blockquote><p>„Wie kann man Sprachverstehen und -produktion mit Algorithmen modellieren?“</p><cite>Folien Sitzung 1 (vl01), Folie 42</cite></blockquote><p><strong>Offizielle Definition (Association for Computational Linguistics, Folie 43):</strong></p><blockquote><p lang=\"en\">“Simply put, computational linguistics is the scientific study of language from a computational perspective.”</p><cite>ACL, zitiert auf Folien Sitzung 1 (vl01), Folie 43</cite></blockquote><p>Die Definition nennt zwei Arten von Modellen (wissensbasiert/handgemacht und datengetrieben/statistisch) und zwei Motivationen (wissenschaftliche Erklärung eines Phänomens oder technische Komponente eines Sprachsystems).</p><h4>Zwei Beispiele für Systeme</h4><blockquote><p>„Regelbasierte oder sog. „symbolische“ Systeme zerlegen den Sprachverarbeitungsprozess in verschiedene Komponenten mit entsprechenden Repräsentationen für sprachliche Struktur und Bedeutung“</p><cite>Folien Sitzung 1 (vl01), Folie 45 („klassisches“ Dialogsystem, nach J&M, S. 503)</cite></blockquote><blockquote><p>„Neuere Ansätze und Technologien basieren auf sehr einfachen aber riesigen Sprachmodellen, die auf großen Datenmengen Lernen, Wortsequenzen vorherzusagen“</p><cite>Folien Sitzung 1 (vl01), Folie 46 (Beispiel ChatGPT)</cite></blockquote>"
+  },
+  {
+   "titel": "6. Lernziele und Lektüre",
+   "quelle": "Folien Sitzung 1 (vl01), Folien 47–50",
+   "html": "<p>Die Veranstaltung vermittelt: linguistisches Grundwissen („Linguistic Essentials“), wie Sprache mit formalen oder statistischen Methoden beschrieben wird, welche Grenzen diese Methoden haben, welche Typen von Methoden und Algorithmen es gibt, und eine Hinführung zum Programmieren (sehr basic).</p><blockquote><p>„Welche Herausforderungen ergeben sich bei der formalen Beschreibung von Sprache, wo stoßen unsere Methoden an ihre Grenzen?“</p><cite>Folien Sitzung 1 (vl01), Folie 47</cite></blockquote><p><strong>Lektüreempfehlungen:</strong> Jurafsky/Martin, Speech and Language Processing, 2. Auflage 2009 (Abkürzung J&M, die Folie nennt sie eine sehr gute Einführung), sowie die 3. Edition (Fokus auf maschinelles Lernen und Deep Learning), die in späteren Semestern eine große Rolle spielen wird.</p><blockquote><p>„Diese Edition wird in späteren Semestern eine große Rolle spielen“</p><cite>Folien Sitzung 1 (vl01), Folie 50</cite></blockquote>"
+  }
+ ],
+ "zusatz": [
+  {
+   "titel": "Speech and Language Processing, 3. Edition (Jurafsky/Martin)",
+   "url": "https://web.stanford.edu/~jurafsky/slp3/",
+   "typ": "Lehrbuch (online)",
+   "quelle": "Stanford, Folie 50",
+   "geprueft": false,
+   "notiz": "Link steht auf der Folie. Nicht von mir geöffnet."
+  },
+  {
+   "titel": "ACL: What is Computational Linguistics?",
+   "url": "http://www.aclweb.org/archive/misc/what.html",
+   "typ": "Definition",
+   "quelle": "Association for Computational Linguistics, Folie 43",
+   "geprueft": false,
+   "notiz": "Quelle der zitierten Definition. Link steht auf der Folie. Nicht von mir geöffnet."
+  },
+  {
+   "titel": "AG Computerlinguistik Bielefeld",
+   "url": "https://clause-bielefeld.github.io",
+   "typ": "Webseite der Gruppe",
+   "quelle": "Folie 2",
+   "geprueft": false,
+   "notiz": "Link steht auf der Folie. Nicht von mir geöffnet."
+  }
+ ],
+ "material": [
+  {
+   "datei": "vl01.pdf",
+   "art": "Folien",
+   "notiz": "Sitzung 1: Einführung, 51 Folien"
+  },
+  {
+   "datei": "Hausaufgabe_Algorithmen.pdf",
+   "art": "Eigene Arbeit",
+   "notiz": "Hausaufgabe 1: Rechtschreibkorrektur und Simultandolmetschen. Noch nicht in das Wiki übernommen. Die zugehörige Aufgabe stammt vermutlich aus der Übung."
+  }
+ ],
+ "begriffe": [
+  "computerlinguistik",
+  "algorithmus",
+  "programmiersprache",
+  "natuerliche-sprache",
+  "sprachliche-ebenen",
+  "sprachmodell"
+ ]
+}

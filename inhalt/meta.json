@@ -32,8 +32,14 @@
   {
    "id": "pruefen",
    "name": "Prüfen und Testen in DaF/DaZ",
-   "beschreibung": "Prüfen und Testen in DaF/DaZ und der sprachliche Zugang zum Studium.",
+   "beschreibung": "Prüfen und Testen in DaF/DaZ und der sprachliche Zugang zum Studium. Sitzung 2: Funktionen von Assessment, Testtypen und High-Stakes-Tests.",
    "lektuere": [
+    {
+     "titel": "Folien zur Sitzung 2 (Funktionen von Assessment, Testtypen, High-Stakes-Tests)",
+     "autor": "Berthelé (Seminarfolien)",
+     "umfang": "Folien",
+     "art": "Folien"
+    },
     {
      "titel": "Summative Evaluation (3.2)",
      "autor": "Doris Moser-Frötscher (2025)",
@@ -53,8 +59,32 @@
   {
    "id": "schreiben",
    "name": "Schreiben in der L2",
-   "beschreibung": "Prozesse, Förderung und die Rolle von KI.",
+   "beschreibung": "Prozesse, Förderung und die Rolle von KI. Sitzung 2: Schreibprozesse in L1 und Fremdsprache (Breuer). Sitzung 3: Schreibprozessmodelle und Schreibentwicklung.",
    "lektuere": [
+    {
+     "titel": "Schreibprozesse in der Erst- und in der Fremdsprache",
+     "autor": "Esther Odilia Breuer (2020), FLuL 49 (1)",
+     "umfang": "S. 22–31 (Sitzung 2)",
+     "art": "Lektüre"
+    },
+    {
+     "titel": "Working memory in written composition (Modell von 1996)",
+     "autor": "Kellogg et al.",
+     "umfang": "S. 161–165 (Sitzung 3)",
+     "art": "Lektüre"
+    },
+    {
+     "titel": "A Writer's Discipline: The Development of Self-Regulatory Skill",
+     "autor": "Zimmerman/Kitsantas (2006)",
+     "umfang": "S. 53–59 (Sitzung 3)",
+     "art": "Lektüre"
+    },
+    {
+     "titel": "Schreibprozesse und Schreibentwicklung in der Fremdsprache",
+     "autor": "Schnell (2020)",
+     "umfang": "S. 40–51 und 70–75 (Sitzung 3)",
+     "art": "Lektüre"
+    },
     {
      "titel": "Schreiben (Kap. 23, Auszug)",
      "autor": "Krings (2016), in: Handbuch Fremdsprachenunterricht",
@@ -72,10 +102,49 @@
    "ordner": "Schreiben in der L2- Prozesse, Förderung und die Rolle von KI"
   },
   {
+   "id": "ki",
+   "semester": "2026-ws",
+   "name": "Feedback und generative KI (DaF/DaZ)",
+   "beschreibung": "Empirische Studien zu KI-Feedback und Konsequenzen für den DaF- und DaZ-Unterricht (Prof. Dr. Claudia Riemer). Drei Blöcke: Grundlagen, empirische Forschung, didaktisierte Lerneinheit.",
+   "lektuere": [
+    {
+     "titel": "Einstieg: Seminarplan und Übung zu KI-Feedback",
+     "autor": "Riemer (Seminarfolien)",
+     "umfang": "4 Folien",
+     "art": "Folien"
+    },
+    {
+     "titel": "Generative Artificial Intelligence and Language Teaching",
+     "autor": "Moorhouse/Wong (2025)",
+     "umfang": "Teil I: Kap. 1–4, S. 1–40 (20.10.); Teil II: Kap. 5–8 (27.10.)",
+     "art": "Buch"
+    },
+    {
+     "titel": "Lektüre und Diskussion Moorhouse/Wong 2025, Teil 1",
+     "autor": "Riemer (Seminarfolien)",
+     "umfang": "16 Folien",
+     "art": "Folien"
+    }
+   ],
+   "ordner": "KI Feedback Forschung"
+  },
+  {
    "id": "cl",
    "name": "Computerlinguistik",
-   "beschreibung": "Seminar zur Computerlinguistik. Noch keine Sitzungen angelegt.",
+   "beschreibung": "Einführung in die Computerlinguistik (Sina Zarrieß, Bastian Bunzeck, AG Computerlinguistik). Sitzungen 1 und 2 nach den Folien, dazu Hausaufgaben und Bücher.",
    "lektuere": [
+    {
+     "titel": "Folien Sitzung 1: Einführung",
+     "autor": "Zarrieß, Bunzeck",
+     "umfang": "vl01.pdf",
+     "art": "Folien"
+    },
+    {
+     "titel": "Folien Sitzung 2: Input und Output der Sprachverarbeitung",
+     "autor": "Zarrieß, Bunzeck",
+     "umfang": "vl02.pdf",
+     "art": "Folien"
+    },
     {
      "titel": "Linguistic Fundamentals for Natural Language Processing: 100 Essentials from Morphology and Syntax",
      "autor": "Emily M. Bender",

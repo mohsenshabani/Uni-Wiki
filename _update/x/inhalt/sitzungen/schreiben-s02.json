@@ -1,0 +1,92 @@
+{
+ "id": "schreiben-s2",
+ "nr": 2,
+ "seminar": "schreiben",
+ "titel": "Schreibprozesse in der Erst- und in der Fremdsprache",
+ "autor": "Esther Odilia Breuer",
+ "lektuere": "Breuer 2020, S. 22–31 (Abschnitte 2–6, Auszug)",
+ "thema": "Ideen generieren, Planen, sprachliche Transformation, Ausführung und Revision in L1 und Fremdsprache",
+ "status": "entwurf",
+ "ueberblick": {
+  "kurzinhalt": "Breuer vergleicht, wie fünf [[schreibsubprozesse|Schreibsubprozesse]] in der Erstsprache (L1) und in der Fremdsprache (FS) ablaufen: Ideen generieren, Text planen, sprachliche Transformation, Ausführung und Revision. Durchgehend zeigt sich: Die FS belastet das [[arbeitsgedaechtnis|Arbeitsgedächtnis]] stärker, die Sprachkompetenz entscheidet mit, und die L1 dient als [[l1-entlastung|Entlastung]]. Der Beitrag stellt viele Einzelstudien vor, etwa zu [[freewriting|freewriting]], [[pre-task-planning|Planung vor dem Schreiben]], zur [[copy-task|copy task]] und zur [[revision|Revision]].",
+  "leitfrage": "Was unterscheidet die einzelnen Schreibsubprozesse in der FS von denen in der L1, und welche Rolle spielt die Sprachkompetenz dabei?",
+  "merksatz": "Auch Prozesse, die als sprachunabhängig gelten (Ideen, Planen), laufen in der Fremdsprache anders ab, weil die Sprache Arbeitsgedächtnis bindet.",
+  "fa": [
+   "برِویِر پنج زیرفرایند نوشتن را در زبان اول و زبان خارجی مقایسه می‌کند: تولید ایده، برنامه‌ریزی متن، تبدیل زبانی، اجرا (تایپ/نوشتن) و بازبینی.",
+   "نتیجه‌ی تکرارشونده: نوشتن در زبان خارجی حافظه‌ی کاری را بیشتر درگیر می‌کند و توانایی زبانی نقش تعیین‌کننده دارد. زبان اول می‌تواند باری را سبک کند (مثلاً برای ایده‌پردازی).",
+   "در بازبینی، نویسندگان زبان خارجی بیشتر خطاهای سطحی (مثلاً غلط تایپی) را اصلاح می‌کنند؛ تغییرات ساختاری کمتر دیده می‌شود."
+  ]
+ },
+ "inhalt": [
+  {
+   "titel": "1. Überblick: fünf Subprozesse im Auszug",
+   "quelle": "Breuer 2020, S. 22–31",
+   "html": "<p>Der Auszug umfasst die Abschnitte 2 bis 6 des Beitrags (Abschnitt 1 liegt nicht vor):</p><div class=\"tablewrap\"><table><thead><tr><th>Abschnitt</th><th>Subprozess</th><th>Seiten</th></tr></thead><tbody><tr><td>2</td><td>Ideen generieren</td><td>22–24</td></tr><tr><td>3</td><td>Text planen</td><td>24–26</td></tr><tr><td>4</td><td>Sprachliche Transformation</td><td>26–27</td></tr><tr><td>5</td><td>Ausführung</td><td>27–28</td></tr><tr><td>6</td><td>Revision</td><td>29–31</td></tr></tbody></table></div><p class=\"meta\">Abkürzungen im Text: L1 = Erstsprache, FS = Fremdsprache.</p>"
+  },
+  {
+   "titel": "2. Ideen generieren",
+   "quelle": "Breuer 2020, S. 22–24",
+   "html": "<p>Ideengenerierung ist laut Flower/Hayes (1981) der Startpunkt des Schreibprozesses.</p><blockquote><p>„Dieser Subprozess kann in weiten Teilen sprachunabhängig ablaufen, da viele Informationen in unserem Gehirn in anderen als sprachlichen Modalitäten gespeichert werden“</p><cite>Breuer 2020, S. 22</cite></blockquote><p>Zugleich ist abstraktes Denken stark an Sprache gebunden. Daraus folgt ein Paradoxon:</p><blockquote><p>„dass wir einerseits Probleme beim Formulieren von Ideen in der FS haben, wir andererseits aber bei dem Versuch, dies in unserer L1 zu tun, feststellen, dass das nötige Fachvokabular fehlt“</p><cite>Breuer 2020, S. 22</cite></blockquote><p><strong>L1 als Entlastung:</strong> Jugendliche (Gunnarson 2019) nutzten die L1 zum Ideengenerieren, Strukturieren und bei Wortfindungsproblemen, die FS beim Lesen der Aufgabe, Formulieren und Revidieren. Bei Li (2008) hing der Erfolg von der FS-Kompetenz ab:</p><blockquote><p>„Gute FS-Schreibende verwendeten die L1 sehr viel erfolgreicher für das Ideengenerieren als schlechte FS-Schreibende“</p><cite>Breuer 2020, S. 22</cite></blockquote><p><strong>Schreiben als Denken:</strong> Schreiben dient auch dazu, Wissen zu transformieren oder neues zu erzeugen (Bereiter/Scardamalia 1987, Galbraith 1999).</p><blockquote><p>„Die körperlichen Prozesse aktivieren die mentalen, und das Schreiben wird zum Denken.“</p><cite>Breuer 2020, S. 22 (zu Menary 2007: 622)</cite></blockquote><blockquote><p>„so hemmt dies das Schreiben als Denken.“</p><cite>Breuer 2020, S. 23 (wenn Sprachsuche zu viel Arbeitsgedächtnis beansprucht)</cite></blockquote><p><strong>Studie Breuer (2016a):</strong> Studierende mit L1 Deutsch schrieben vier akademische Texte (zwei Deutsch, zwei Englisch), geplant mit Notizen oder mit freewriting.</p><blockquote><p>„Die meisten Ideen wurden im L1 freewriting festgehalten, die wenigsten in den L1-Notizen.“</p><cite>Breuer 2020, S. 23</cite></blockquote><blockquote><p>„Die kognitive Entlastung durch das Nicht-Verwenden der FS hatte hier langfristig keinen positiven Effekt.“</p><cite>Breuer 2020, S. 23</cite></blockquote><p><strong>Abrams/Byrd (2016)</strong> und <strong>Bloch (2007)</strong>: Wenn Ideen losgelöst vom Schreiben entwickelt werden (bei Bloch durch einen Genrewechsel zum Bloggen), steigen Zahl und Komplexität der Ideen.</p><blockquote><p>„Die Teilnehmenden, die komplexe sowie besonders viele Ideen in den inhaltszentrierten Planungsepisoden generierten, schrieben am Ende längere und bessere Texte als diejenigen, die dies nicht taten.“</p><cite>Breuer 2020, S. 23</cite></blockquote><blockquote><p>„Die Sprachkompetenz spielt dabei eine entscheidende Rolle.“</p><cite>Breuer 2020, S. 24 (Fazit des Abschnitts)</cite></blockquote>"
+  },
+  {
+   "titel": "3. Text planen",
+   "quelle": "Breuer 2020, S. 24–26",
+   "html": "<p>Planen heißt: Ideen auf Aufgabenadäquatheit prüfen und eine Struktur wählen. Das kann sprachungebunden mit Stichwörtern oder visuellen Mitteln geschehen (pre-task planning).</p><blockquote><p>„Werden aufgrund von Sprachproblemen nur wenige Ideen generiert, hat dies für die Textplanung die Konsequenz, dass die Pläne simpel sind“</p><cite>Breuer 2020, S. 24 (= knowledge telling)</cite></blockquote><blockquote><p>„Allgemein wird angenommen, dass FS-Schreibende nicht zu viele Prozesse parallel ausführen, sondern sich besser auf die jeweils aktuellen Aspekte konzentrieren sollten“</p><cite>Breuer 2020, S. 24</cite></blockquote><p>Die L1 kann auch beim Planen entlasten: Bei Lally (2000) beeinflusste die Planungssprache Organisation und globalen Texteindruck, nicht das Vokabular. Bei Li (2008) nutzten Schreibende mit hohem FS-Niveau die L1 verstärkt für strategische höherrangige Prozesse.</p><p><strong>Abrams/Byrd (2016):</strong> Deutschlernende schrieben Zusammenfassungen ohne Planung, mit Mindmapping und mit chronologischer Stichwortliste.</p><blockquote><p>„Die Ergebnisse demonstrieren, dass der Text ohne vorherige Planung derjenige war, der in den Bereichen Grammatik, Wortkorrektheit und Wortwahl am besten funktionierte.“</p><cite>Breuer 2020, S. 25</cite></blockquote><blockquote><p>„Dagegen waren Inhalt, lexikalische Komplexität und Textfluss wesentlich besser, wenn die Teilnehmenden den Text planten.“</p><cite>Breuer 2020, S. 25</cite></blockquote><p><strong>Ong (2014):</strong> Gruppen planten 0, 10 oder 20 Minuten bei 30 Minuten Gesamtzeit, mit einfacher, mittlerer oder komplexer Aufgabenstellung.</p><blockquote><p>„Die Resultate belegen, dass die Aufgabenumgebung einen großen Effekt auf die metakognitiven Prozesse hatte, dass die Zeit für das Planen aber nur einen Einfluss darauf hatte, wie oft die Teilnehmenden über sprachliche Aspekte nachdachten.“</p><cite>Breuer 2020, S. 25</cite></blockquote><p>Ziegler (2018): Auch bei nur drei Minuten Planung dachten die Teilnehmenden vor allem über Formulierungen und Grammatik nach.</p><blockquote><p>„Wie man diesen Anforderungen begegnen kann, ist bisher aber noch nicht zufriedenstellend beantwortet worden.“</p><cite>Breuer 2020, S. 26 (Fazit des Abschnitts)</cite></blockquote>"
+  },
+  {
+   "titel": "4. Sprachliche Transformation",
+   "quelle": "Breuer 2020, S. 26–27",
+   "html": "<p>Hier werden Gedanken in Text umgesetzt: Wörter generieren, syntaktische Strukturen aktivieren, das passende Register wählen.</p><blockquote><p>„Bei der Transformation der Gedanken in Text müssen Wörter generiert und syntaktische Strukturen aktiviert werden, was stark mit der Sprachkompetenz in der Zielsprache zusammenhängt“</p><cite>Breuer 2020, S. 26</cite></blockquote><p><strong>Lee (2018)</strong> verglich englische Abstracts koreanischer Akademiker:innen mit professionellen Übersetzungen:</p><blockquote><p>„LEE geht darum davon aus, dass die Übersetzung von der Idee zum Text noch über eine weitere Übersetzung abläuft – die von der L1 in die FS.“</p><cite>Breuer 2020, S. 26</cite></blockquote><p><strong>Breuer (2015):</strong> Deutsche Schreibende mit Englisch auf C1-Niveau machten die meisten Fehler bei L1-Interferenzen.</p><blockquote><p>„Die Analyse der Texte zeigt, dass die Fehlerquote am höchsten im Bereich der L1-Interferenzen war – vor allem im Bereich der Syntax, aber auch in phonemisch-orthographischen Aspekten.“</p><cite>Breuer 2020, S. 26</cite></blockquote><p><strong>Van Gelderen et al. (2011):</strong> Flüssigkeits- und Worttraining erhöhte die Nutzung der Zielwörter, auch auf Textebene. Eine zweite Gruppe mit Fachwissen-Unterricht profitierte ebenfalls, weil sie Ideen besser generierte.</p><blockquote><p>„ein weiterer Indikator dafür, dass die Schreibsubprozesse sich gegenseitig beeinflussen“</p><cite>Breuer 2020, S. 27</cite></blockquote><p>Der New-Literacies-Ansatz (Kress 2009) und Hunma (2016) sehen Mehrsprachigkeit positiv. Vor unkritischem Einsatz warnt Gevers:</p><blockquote><p>„GEVERS (2018) warnt jedoch davor, translanguaging – also das Vermischen mehrerer Sprachen – unkritisch im Unterricht einzusetzen“</p><cite>Breuer 2020, S. 27</cite></blockquote>"
+  },
+  {
+   "titel": "5. Ausführung (motorische Umsetzung)",
+   "quelle": "Breuer 2020, S. 27–28",
+   "html": "<p>Ausführung heißt: Tippen oder Handschreiben. Dieser Prozess wurde bisher wenig als eigener Gegenstand erforscht.</p><blockquote><p>„Dabei hat die reine Tippfähigkeit einen großen Einfluss auf die Erfolgsaussichten der anderen Schreibprozesse“</p><cite>Breuer 2020, S. 28</cite></blockquote><p>Die <em>copy task</em> (Van Waes et al. 2019) misst per Keylogging reine Ausführungsprozesse beim Abschreiben. In einer laufenden, unveröffentlichten Studie von Breuer schrieben bisher 323 Studierende je einen deutschen und einen englischen Text ab, aufgeteilt in vier Gruppen:</p><div class=\"tablewrap\"><table><thead><tr><th>Gruppe</th><th>Beschreibung</th></tr></thead><tbody><tr><td>1</td><td>monolinguale deutsche Studierende</td></tr><tr><td>2</td><td>bilinguale Studierende mit Deutsch als einer der beiden L1</td></tr><tr><td>3</td><td>Studierende mit Migrationshintergrund (mündliche L1 nicht Deutsch, erste Schriftsprache Deutsch)</td></tr><tr><td>4</td><td>FS-Studierende (Deutsch weder mündlich noch schriftlich L1)</td></tr></tbody></table></div><p>Gruppen 1 und 2 waren in beiden Sprachen wesentlich schneller als 3 und 4. Tiryakioglu/Hilton (2018) fanden bei türkisch-französisch bilingualen Schüler:innen die höchste Geschwindigkeit in der dominanten Bildungssprache Französisch.</p><blockquote><p>„Die ersten Ergebnisse im Bereich der reinen Ausführungsanalyse belegen somit, dass selbst die motorische Umsetzung des geplanten Textes in der FS nicht so automatisiert abläuft, wie sie es in der L1 tut.“</p><cite>Breuer 2020, S. 28</cite></blockquote>"
+  },
+  {
+   "titel": "6. Revision",
+   "quelle": "Breuer 2020, S. 29–31",
+   "html": "<p>Revision ist der Abgleich des Textes mit den sprachlichen, semantischen und pragmatischen Besonderheiten des Schreibziels (Alamargot/Chanquoy 2001). Sie beginnt schon bei der Ideenwahl.</p><blockquote><p>„Er findet nicht ausschließlich nach dem Erstellen eines Textes statt, sondern beginnt bereits bei der Generierung und der Auswahl von Ideen“</p><cite>Breuer 2020, S. 29</cite></blockquote><p><strong>Zeitpunkt (Chenoweth/Hayes 2001):</strong></p><blockquote><p>„Für diese war es am effektivsten, den Text erst nach der Fertigstellung zu überarbeiten.“</p><cite>Breuer 2020, S. 29 (für FS-Schreibende; L1-Schreibende profitierten von aktiver Revision während der Produktion)</cite></blockquote><p><strong>Ebene der Revision:</strong> Bereiter/Scardamalia (1987: 22) beobachten bei Anfänger:innen, unsicheren Schreibenden und FS-Schreibenden eine Überarbeitung auf einem „cosmetic level of little more than proofreading“. Xu (2018) fand bei niedriger FS-Kompetenz mehr kleine, oberflächliche Revisionen.</p><blockquote><p>„Der Großteil der durchgeführten Korrekturen betraf orthographische Fehler, die meisten davon waren reine Tippfehler: bis zu 53,5% im FS-Text und 60,43% im L1-Text.“</p><cite>Breuer 2020, S. 29–30 (Studie Breuer 2017)</cite></blockquote><p><strong>Feedback unter Studierenden (Breuer 2016b, Fallstudie):</strong> Eine FS-Gruppe, eine L1-Peerberaterin und eine FS-Peerberaterin gaben je einer FS-Studierenden Feedback.</p><blockquote><p>„Einzig der FS-Peerberaterin gelang es, den Fokus auf die eigentlichen Schwachpunkte zu setzen und dies konstruktiv-kooperativ zu tun, sodass nach dem Gespräch über den Text eine echte (selbstständige) Überarbeitung stattfand.“</p><cite>Breuer 2020, S. 30</cite></blockquote><p><strong>Förderung (Van Steendam et al. 2014):</strong> Modelling (Strategie vorführen, dann anwenden) half beiden Gruppen, das Learning-to-write-Prinzip vor allem den weniger kompetenten Schreibenden.</p><blockquote><p>„Die kollaborative Überarbeitung in der Fremdsprache funktionierte durch das Auseinanderziehen der Prozesse (Methode separat lernen, beobachten, anwenden) generell besser als ein paralleles Arbeiten mit Selbstmonitoring“</p><cite>Breuer 2020, S. 31</cite></blockquote><blockquote><p>„Alle vorgestellten Studien demonstrieren, dass es Unterschiede in L1- und FS-Revision gibt, dass hier aber schon Ansätze für Methoden zur besseren Unterstützung existieren.“</p><cite>Breuer 2020, S. 31</cite></blockquote>"
+  },
+  {
+   "titel": "7. Vergleich auf einen Blick (eigene Zusammenfassung)",
+   "quelle": "Eigene Zusammenfassung der Abschnitte 2–6, nicht im Text enthalten",
+   "html": "<div class=\"tablewrap\"><table><thead><tr><th>Subprozess</th><th>Befund in der FS (laut Breuer)</th><th>Was hilft</th></tr></thead><tbody><tr><td>Ideen generieren</td><td>weniger und einfachere Ideen, abhängig von der FS-Kompetenz</td><td>L1 als Entlastung, freewriting, Ideenentwicklung getrennt vom Schreiben</td></tr><tr><td>Planen</td><td>einfache Pläne bei Sprachproblemen, Planen und Formulieren konkurrieren</td><td>Pre-task planning, Fokus auf einen Aspekt zur Zeit</td></tr><tr><td>Sprachliche Transformation</td><td>zusätzlicher Übersetzungsweg L1 → FS, L1-Interferenzen auch bei C1</td><td>Wort- und Flüssigkeitstraining, Fachwissen, metakognitives Wissen über die Übersetzung</td></tr><tr><td>Ausführung</td><td>langsamer und weniger automatisiert als in der L1</td><td>Tippfertigkeit, Schreibübung</td></tr><tr><td>Revision</td><td>überwiegend lokal und oberflächlich, Textstruktur bleibt meist unberührt</td><td>Revision nach der Fertigstellung, Modelling, Peerberatung mit Fokus auf Schwachpunkte</td></tr></tbody></table></div><p>Verknüpfung mit anderen Texten: Das knappe Arbeitsgedächtnis steht auch im [[kellogg-modell|Kellogg-Modell]] im Zentrum, und die Unterscheidung zwischen einfachem und transformierendem Schreiben ([[knowledge-telling|knowledge telling]]) wird bei Schnell ausführlich erklärt (Sitzung 3).</p>"
+  }
+ ],
+ "zusatz": [],
+ "material": [
+  {
+   "datei": "Breuer 2020_L2-Schreiben Ideen generieren.pdf",
+   "art": "Lektüre",
+   "notiz": "Abschnitt 2, S. 22–24"
+  },
+  {
+   "datei": "Breuer 2020_ L2-Schreiben Text planen.pdf",
+   "art": "Lektüre",
+   "notiz": "Abschnitt 3, S. 24–26"
+  },
+  {
+   "datei": "Breuer 2020_L2-Schreiben Sprachliche Transformation u. Ausführung.pdf",
+   "art": "Lektüre",
+   "notiz": "Abschnitte 4 und 5, S. 26–28"
+  },
+  {
+   "datei": "Breuer 2020_L2-Schreiben Revision.pdf",
+   "art": "Lektüre",
+   "notiz": "Abschnitt 6, S. 29–31"
+  }
+ ],
+ "begriffe": [
+  "schreibsubprozesse",
+  "arbeitsgedaechtnis",
+  "l1-entlastung",
+  "freewriting",
+  "pre-task-planning",
+  "copy-task",
+  "revision",
+  "translanguaging",
+  "schreiben-als-denken",
+  "knowledge-telling"
+ ]
+}
