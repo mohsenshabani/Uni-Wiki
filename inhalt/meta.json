@@ -1,5 +1,5 @@
 {
- "stand": "24.10.2026",
+ "stand": "25.10.2026",
  "semester": [
   {
    "id": "2026-ws",
@@ -891,6 +891,12 @@
      "autor": "Till Dembeck, Rolf Parr (Hrsg.) (2017)",
      "umfang": "383 Seiten",
      "art": "Handbuch"
+    },
+    {
+     "titel": "Handout zur zweiten Sitzung",
+     "autor": "Baßler (2022) und Gobard (1976), im Handout zitiert",
+     "umfang": "1 Seite (Sitzung 2)",
+     "art": "Handout"
     }
    ],
    "semester": "2026-ws",
@@ -1069,6 +1075,14 @@
     ],
     "quelle": "Seminarplan (PDF) zu Veranstaltung 230149."
    }
+  },
+  {
+   "id": "gv",
+   "name": "Grammatische Variation (korpusbasiert)",
+   "beschreibung": "Seminar zur grammatischen Variation, untersucht an Korpusdaten (Titel laut deinem Ordner). Bisher liegt nur deine Notiz vom 22.10.2026 vor (Rudi Keller zum Sprachwandel). Dozent, Raum, Termine, Seminarplan und Literatur fehlen noch: leg Syllabus und Folien in „Folien und Aufgaben“, dann trage ich sie ein.",
+   "lektuere": [],
+   "semester": "2026-ws",
+   "ordner": "Grammatische Variation korpusbasiert"
   }
  ]
 }

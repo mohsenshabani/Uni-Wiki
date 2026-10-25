@@ -3002,5 +3002,137 @@
   "sitzung": "litmehr-s2",
   "seminar": "litmehr",
   "hinweis": "Plattdeutsch"
+ },
+ {
+  "de": "gespüren",
+  "fa": "حس کردن، دیده شدن",
+  "gruppe": "text",
+  "sitzung": "litmehr-s2",
+  "seminar": "litmehr",
+  "hinweis": "veraltet, im Handout (Scheffel) für „spüren, wahrnehmen“"
+ },
+ {
+  "de": "landflüchtig",
+  "fa": "گریخته از سرزمین",
+  "gruppe": "text",
+  "sitzung": "litmehr-s2",
+  "seminar": "litmehr",
+  "hinweis": "veraltet"
+ },
+ {
+  "de": "das Waldweib",
+  "fa": "زن جنگلی (موجود افسانه‌ای)",
+  "gruppe": "text",
+  "sitzung": "litmehr-s2",
+  "seminar": "litmehr"
+ },
+ {
+  "de": "die Wetterhexe",
+  "fa": "جادوگر طوفان",
+  "gruppe": "text",
+  "sitzung": "litmehr-s2",
+  "seminar": "litmehr"
+ },
+ {
+  "de": "verdorren",
+  "fa": "خشک شدن",
+  "gruppe": "text",
+  "sitzung": "litmehr-s2",
+  "seminar": "litmehr",
+  "hinweis": "„Daß ihr die Zunge im Mund verdorre!“"
+ },
+ {
+  "de": "der Archaismus",
+  "gruppe": "fach",
+  "sitzung": "litmehr-s2",
+  "seminar": "litmehr",
+  "glossar": "archaismus"
+ },
+ {
+  "de": "die Tetraglossie",
+  "gruppe": "fach",
+  "sitzung": "litmehr-s2",
+  "seminar": "litmehr",
+  "glossar": "tetraglossie-gobard"
+ },
+ {
+  "de": "vernakulär, vehikulär, referentiell, mythisch",
+  "gruppe": "fach",
+  "sitzung": "litmehr-s2",
+  "seminar": "litmehr",
+  "glossar": "tetraglossie-gobard"
+ },
+ {
+  "de": "der Sprachwandel",
+  "gruppe": "fach",
+  "sitzung": "gv-s1",
+  "seminar": "gv",
+  "glossar": "sprachwandel"
+ },
+ {
+  "de": "die unsichtbare Hand",
+  "gruppe": "fach",
+  "sitzung": "gv-s1",
+  "seminar": "gv",
+  "glossar": "unsichtbare-hand"
+ },
+ {
+  "de": "das Phänomen der dritten Art",
+  "gruppe": "fach",
+  "sitzung": "gv-s1",
+  "seminar": "gv",
+  "glossar": "phaenomen-dritter-art"
+ },
+ {
+  "de": "die Mikroebene",
+  "gruppe": "fach",
+  "sitzung": "gv-s1",
+  "seminar": "gv"
+ },
+ {
+  "de": "die Makroebene",
+  "gruppe": "fach",
+  "sitzung": "gv-s1",
+  "seminar": "gv"
+ },
+ {
+  "de": "die Maxime",
+  "gruppe": "fach",
+  "sitzung": "gv-s1",
+  "seminar": "gv"
+ },
+ {
+  "de": "das Artefakt",
+  "gruppe": "fach",
+  "sitzung": "gv-s1",
+  "seminar": "gv"
+ },
+ {
+  "de": "der Trampelpfad",
+  "fa": "کوره‌راهی که با رفت‌وآمد پدید می‌آید",
+  "gruppe": "text",
+  "sitzung": "gv-s1",
+  "seminar": "gv"
+ },
+ {
+  "de": "die Wiese",
+  "fa": "چمنزار",
+  "gruppe": "text",
+  "sitzung": "gv-s1",
+  "seminar": "gv"
+ },
+ {
+  "de": "unbeabsichtigt",
+  "fa": "ناخواسته",
+  "gruppe": "text",
+  "sitzung": "gv-s1",
+  "seminar": "gv"
+ },
+ {
+  "de": "sich durchsetzen",
+  "fa": "جا افتادن، رایج شدن",
+  "gruppe": "text",
+  "sitzung": "gv-s1",
+  "seminar": "gv"
  }
 ]

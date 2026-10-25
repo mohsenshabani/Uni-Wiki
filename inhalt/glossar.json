@@ -3332,5 +3332,235 @@
     ]
    }
   ]
+ },
+ {
+  "id": "archaismus",
+  "term": "Archaismus (Archaisierung)",
+  "kurz": "Absichtlich eingesetzte altertümliche Ausdrücke.",
+  "def": "Ein Archaismus ist ein sprachliches Mittel, das als veraltet gilt. In literarischen Texten wird er eingesetzt, um Altertümlichkeit anzuzeigen. Historische Romane des 19. Jahrhunderts tun das mit wenigen Einsprengseln, ohne die Sprache der dargestellten Zeit nachzubilden.",
+  "zitate": [
+   {
+    "t": "Hier findet man die Lösung, das Fremde der historischen Wirklichkeit über ein homöopathisches Einstreuen von altertümlich wirkenden Sprachelementen (Archaismen) in den ansonsten gut lesbaren Text anzuzeigen",
+    "s": "S. 1 (Baßler 2022, S. 42)",
+    "q": "Handout Sitzung 2 (Baßler 2022)"
+   },
+   {
+    "t": "Stattdessen reicht Scheffel eine leicht archaisierende Einfärbung der Sprache hin, um eine Art ‚Mittelalterlichkeit‘ zu suggerieren, die tatsächlich rein künstlich bleibt.",
+    "s": "S. 1 (Baßler 2022, S. 42)",
+    "q": "Handout Sitzung 2 (Baßler 2022)"
+   }
+  ],
+  "beispiel": "In Scheffels <em>Ekkehard</em> sagt der Großknecht: „Seit das Waldweib am Krähen drüben landflüchtig geworden, läßt sich keine mehr gespüren.“ Das Partizip „geworden“ ohne Hilfsverb und das Wort „gespüren“ klingen alt, sind aber weder das Deutsch des 19. noch des 10. Jahrhunderts (nach dem Handout).",
+  "see": [
+   "heterolinguismus"
+  ],
+  "seminare": [
+   "litmehr"
+  ],
+  "sitzungen": [
+   "litmehr-s2"
+  ],
+  "hinweis": "Archaismen zeigen Altertümlichkeit nur an. Das Reallexikon trennt sie von Anachronismen, Historismen und Sprachfossilien (PDF-S. 147).",
+  "lexikon": [
+   {
+    "t": "Stilfigur der Verwendung von sprachlichen Mitteln, die als veraltet gelten.",
+    "q": "Reallexikon der deutschen Literaturwissenschaft, s. v. Archaismus",
+    "s": "PDF-S. 147"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Handout Sitzung 2 (Baßler 2022)",
+    "s": [
+     "S. 1 (Baßler 2022, S. 42)"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tetraglossie-gobard",
+  "term": "Tetraglossie (Gobard)",
+  "kurz": "Vier Sprachtypen: vernakulär, vehikulär, referentiell, mythisch.",
+  "def": "Henri Gobard unterscheidet vier Typen von Sprache. Die vernakuläre ist lokal, wird spontan gesprochen und ist die einzige, die als Muttersprache gelten kann. Die vehikuläre ist national oder regional und wird aus Notwendigkeit gelernt. Die referentielle ist an kulturelle Traditionen und Werke der Vergangenheit gebunden. Die mythische ist letzter Zufluchtsort, magisches Sprechen. (Das ist eine deutsche Kurzfassung des französischen Auszugs im Handout.)",
+  "zitate": [
+   {
+    "t": "Un langage vernaculaire, local, parlé spontanément, moins fait pour communiquer que pour communier et qui seul peut être considéré comme langue maternelle (ou langue natale).",
+    "s": "S. 34",
+    "q": "Handout Sitzung 2 (Gobard 1976)"
+   },
+   {
+    "t": "Un langage véhiculaire, national ou régional, appris par nécessité, destiné aux communications à l’échelle de villes.",
+    "s": "S. 34",
+    "q": "Handout Sitzung 2 (Gobard 1976)"
+   },
+   {
+    "t": "Un langage référentiaire, lié aux traditions culturelle, orales ou écrites, assurant la continuité des valeurs par une référence systématique aux œuvres du passé pérennisées […].",
+    "s": "S. 34",
+    "q": "Handout Sitzung 2 (Gobard 1976)"
+   },
+   {
+    "t": "Un langage mythique, qui fonctionne comme ultime recours, magie verbale dont on comprend l’incompréhensibilité comme preuve irréfutable du sacré […].",
+    "s": "S. 34",
+    "q": "Handout Sitzung 2 (Gobard 1976)"
+   }
+  ],
+  "beispiel": "Deine Randnotizen im Handout: bei „vernaculaire“ „vgl. Dialekt“, bei „véhiculaire“ „z. B. Hochdeutsch“, unter dem Buchtitel „sprachliche Entfremdung“. Als Lesehilfe (eigene Zuordnung, nicht im Handout): In Buddenbrooks wäre Trinas Platt vernakulär und das Hochdeutsch der Bürger vehikulär.",
+  "see": [
+   "dialekt",
+   "plattdeutsch-figurenrede"
+  ],
+  "seminare": [
+   "litmehr"
+  ],
+  "sitzungen": [
+   "litmehr-s2"
+  ],
+  "hinweis": "Der Auszug im Handout ist gekürzt ([…]). Die Handschrift neben dem dritten Typ konnte ich nicht lesen. Der Text ist unverändert so übernommen, auch „traditions culturelle“.",
+  "herkunft": [
+   {
+    "q": "Handout Sitzung 2 (Gobard 1976)",
+    "s": [
+     "S. 34"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sprachwandel",
+  "term": "Sprachwandel",
+  "kurz": "Veränderung von Sprachen in der Zeit.",
+  "def": "Sprachwandel heißt, dass sich Sprachen im Lauf der Zeit verändern. Er betrifft alle Ebenen des Sprachsystems. Nach Keller entsteht er unbeabsichtigt aus dem Handeln vieler Sprecher.",
+  "zitate": [
+   {
+    "t": "Sprachwandel entsteht durch das Handeln vieler einzelner Menschen, ohne dass diese bewusst die Sprache verändern wollen.",
+    "s": "Notizen/22.10.2026.md",
+    "q": "Deine Notiz vom 22.10.2026 (zu Keller)"
+   },
+   {
+    "t": "Sprache verändert sich durch ihren Gebrauch.",
+    "s": "Notizen/22.10.2026.md",
+    "q": "Deine Notiz vom 22.10.2026 (zu Keller)"
+   }
+  ],
+  "beispiel": "Wenn viele Sprecher einen Ausdruck häufig verwenden und andere ihn übernehmen, kann er sich durchsetzen (deine Notiz).",
+  "see": [
+   "unsichtbare-hand",
+   "phaenomen-dritter-art"
+  ],
+  "seminare": [
+   "gv"
+  ],
+  "sitzungen": [
+   "gv-s1"
+  ],
+  "lexikon": [
+   {
+    "t": "Veränderungen in Sprachen in der Zeit werden als S. bezeichnet. Jede natürl. Spr. ist dem Prozess des S. unterworfen",
+    "q": "Metzler Lexikon Sprache, s. v. Sprachwandel",
+    "s": "PDF-S. 684"
+   },
+   {
+    "t": "S. erfasst alle Ebenen eines Sprachsystems",
+    "q": "Metzler Lexikon Sprache, s. v. Sprachwandel",
+    "s": "PDF-S. 684"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Deine Notiz vom 22.10.2026 (zu Keller)",
+    "s": [
+     "Notizen/22.10.2026.md"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "unsichtbare-hand",
+  "term": "Theorie der unsichtbaren Hand (Keller)",
+  "kurz": "Viele einzelne Handlungen führen zu einem Ergebnis, das niemand geplant hat.",
+  "def": "Rudi Keller erklärt Sprachwandel mit der unsichtbaren Hand: Sprecher wollen sich verständigen, nicht die Sprache verändern. Auf der Mikroebene treffen sie einzelne Entscheidungen. Auf der Makroebene entsteht daraus ein Wandel, den niemand geplant hat.",
+  "zitate": [
+   {
+    "t": "Die unsichtbare Hand: Viele individuelle Sprachhandlungen führen gemeinsam zu einem Ergebnis, das niemand geplant hat.",
+    "s": "Notizen/22.10.2026.md",
+    "q": "Deine Notiz vom 22.10.2026 (zu Keller)"
+   },
+   {
+    "t": "Mikro- und Makroebene: Auf der Mikroebene treffen Menschen einzelne sprachliche Entscheidungen. Auf der Makroebene entsteht daraus ein allgemeiner Sprachwandel.",
+    "s": "Notizen/22.10.2026.md",
+    "q": "Deine Notiz vom 22.10.2026 (zu Keller)"
+   }
+  ],
+  "beispiel": "Der Trampelpfad: Menschen laufen über eine Wiese, weil sie den kürzesten Weg nehmen wollen. Nach einiger Zeit entsteht ein Trampelpfad. Niemand wollte bewusst einen Weg bauen, trotzdem ist einer entstanden (deine Notiz; die Skizze steht in der Sitzung).",
+  "see": [
+   "sprachwandel",
+   "phaenomen-dritter-art"
+  ],
+  "seminare": [
+   "gv"
+  ],
+  "sitzungen": [
+   "gv-s1"
+  ],
+  "hinweis": "Deine Notiz nennt kein Buch und keine Seite. Das Metzler Lexikon Sprache verzeichnet bei „Sprachwandel“ (PDF-S. 685): R. Keller, S[prachwandel]. Von der unsichtbaren Hand in der Spr[ache]. Mchn. 1990, sowie Tübingen 2003.",
+  "lexikon": [
+   {
+    "t": "das durch eine Vielzahl gleichförmiger, voneinander unabhängiger einzelner Akte zustande kommt und nicht planbar ist (Theorie der »unsichtbaren Hand«)",
+    "q": "Metzler Lexikon Sprache, s. v. Sprachwandel",
+    "s": "PDF-S. 685"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Deine Notiz vom 22.10.2026 (zu Keller)",
+    "s": [
+     "Notizen/22.10.2026.md"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "phaenomen-dritter-art",
+  "term": "Phänomen der dritten Art",
+  "kurz": "Weder Naturereignis noch geplantes Menschenwerk.",
+  "def": "Keller ordnet Sprachwandel weder den Naturphänomenen noch den Artefakten zu. Er entsteht durch menschliches Handeln, aber nicht durch einen gemeinsamen Plan. Deshalb spricht er von einem Phänomen der dritten Art.",
+  "zitate": [
+   {
+    "t": "Sprachwandel ist weder Naturereignis noch geplantes Menschenwerk. Keller bezeichnet ihn als ein Phänomen der dritten Art: Er entsteht durch menschliches Handeln, aber nicht durch einen gemeinsamen Plan.",
+    "s": "Notizen/22.10.2026.md",
+    "q": "Deine Notiz vom 22.10.2026 (zu Keller)"
+   },
+   {
+    "t": "Naturphänomene vs. Artefakte -> Sprache ist aber ein Phänomen von dritter Art (Ist von beiden Seiten beeinflusst)",
+    "s": "Notizen/22.10.2026.md",
+    "q": "Deine Notiz vom 22.10.2026 (zu Keller)"
+   }
+  ],
+  "beispiel": "Der Trampelpfad ist kein Naturereignis (Menschen sind gegangen) und kein Bauwerk (niemand hat ihn geplant).",
+  "see": [
+   "unsichtbare-hand",
+   "sprachwandel"
+  ],
+  "seminare": [
+   "gv"
+  ],
+  "sitzungen": [
+   "gv-s1"
+  ],
+  "lexikon": [
+   {
+    "t": "Keller (1990) erklärt Sprachwandel zu einem »Phänomen der dritten Art« (weder »natürlich« noch sozial beabsichtigt)",
+    "q": "Metzler Lexikon Sprache, s. v. Sprachwandel",
+    "s": "PDF-S. 685"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Deine Notiz vom 22.10.2026 (zu Keller)",
+    "s": [
+     "Notizen/22.10.2026.md"
+    ]
+   }
+  ]
  }
 ]
