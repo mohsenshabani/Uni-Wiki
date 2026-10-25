@@ -3134,5 +3134,325 @@
   "gruppe": "text",
   "sitzung": "gv-s1",
   "seminar": "gv"
+ },
+ {
+  "de": "das Gütekriterium",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "guetekriterien"
+ },
+ {
+  "de": "die Validität (Gültigkeit)",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "validitaet"
+ },
+ {
+  "de": "die Konstruktvalidität",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "validitaetsarten"
+ },
+ {
+  "de": "die Inhaltsvalidität",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "validitaetsarten"
+ },
+ {
+  "de": "die Augenscheinvalidität",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "validitaetsarten"
+ },
+ {
+  "de": "die Kriteriumsvalidität",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "validitaetsarten"
+ },
+ {
+  "de": "die Reliabilität (Zuverlässigkeit)",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "reliabilitaet"
+ },
+ {
+  "de": "die Objektivität",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "objektivitaet"
+ },
+ {
+  "de": "die Praktikabilität",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "praktikabilitaet"
+ },
+ {
+  "de": "die Testfairness",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "testfairness"
+ },
+ {
+  "de": "die Authentizität",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "authentizitaet"
+ },
+ {
+  "de": "die Interaktivität",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "interaktivitaet"
+ },
+ {
+  "de": "der washback (Rückwirkungseffekt)",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "washback"
+ },
+ {
+  "de": "die Konsequenzvalidität",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "impact-konsequenzvaliditaet"
+ },
+ {
+  "de": "die Nützlichkeit (test usefulness)",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen",
+  "glossar": "test-usefulness"
+ },
+ {
+  "de": "der Nachteilsausgleich",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "der Halo-Effekt",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Interrater-Reliabilität",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "teaching to the test",
+  "gruppe": "fach",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Folgewirkung",
+  "fa": "پیامد",
+  "gruppe": "text",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Benachteiligung",
+  "fa": "محروم‌سازی، زیان‌دیدگی",
+  "gruppe": "text",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Befangenheit",
+  "fa": "جانب‌داری",
+  "gruppe": "text",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Zumutbarkeit",
+  "fa": "قابل‌انتظار بودن (از کسی)",
+  "gruppe": "text",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Ermüdung",
+  "fa": "خستگی",
+  "gruppe": "text",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "die Gültigkeit",
+  "fa": "اعتبار",
+  "gruppe": "text",
+  "sitzung": "pruefen-s3",
+  "seminar": "pruefen"
+ },
+ {
+  "de": "self-directed learning (SDL)",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "glossar": "sdl"
+ },
+ {
+  "de": "AI literacy",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "glossar": "ai-literacy"
+ },
+ {
+  "de": "understanding, accessing, prompting, corroborating, incorporating",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "glossar": "ai-literacy"
+ },
+ {
+  "de": "die Standardisierung (der Sprache)",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "glossar": "sprachstandardisierung-ki"
+ },
+ {
+  "de": "rich get richer",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "glossar": "rich-get-richer"
+ },
+ {
+  "de": "der Bias",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "glossar": "bias-genki"
+ },
+ {
+  "de": "GenAI interactional competence",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "glossar": "genai-interaktionskompetenz"
+ },
+ {
+  "de": "das Kontextfenster (context window)",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "glossar": "kontextfenster-temperatur"
+ },
+ {
+  "de": "die Temperatur (temperature)",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "glossar": "kontextfenster-temperatur"
+ },
+ {
+  "de": "die Trainingsdaten",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki"
+ },
+ {
+  "de": "der Parameter",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki"
+ },
+ {
+  "de": "corroborating",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "glossar": "korroborieren"
+ },
+ {
+  "de": "Micro-Learning",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "glossar": "mikrolernen"
+ },
+ {
+  "de": "practitioner research",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki"
+ },
+ {
+  "de": "cultures of use",
+  "gruppe": "fach",
+  "sitzung": "ki-s3",
+  "seminar": "ki"
+ },
+ {
+  "de": "a crutch",
+  "fa": "عصای زیر بغل، تکیه‌گاه",
+  "gruppe": "text",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "hinweis": "englisch; im Buch: KI nicht als Krücke nutzen"
+ },
+ {
+  "de": "overreliance",
+  "fa": "اتکای بیش از حد",
+  "gruppe": "text",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "hinweis": "englisch"
+ },
+ {
+  "de": "to homogenise",
+  "fa": "یکدست کردن",
+  "gruppe": "text",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "hinweis": "englisch"
+ },
+ {
+  "de": "the carbon footprint",
+  "fa": "ردپای کربن",
+  "gruppe": "text",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "hinweis": "englisch"
+ },
+ {
+  "de": "to tailor",
+  "fa": "متناسب ساختن",
+  "gruppe": "text",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "hinweis": "englisch"
+ },
+ {
+  "de": "the copyright",
+  "fa": "حق نشر",
+  "gruppe": "text",
+  "sitzung": "ki-s3",
+  "seminar": "ki",
+  "hinweis": "englisch"
  }
 ]

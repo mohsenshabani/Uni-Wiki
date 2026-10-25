@@ -733,17 +733,24 @@
   "id": "reliabilitaet",
   "term": "Reliabilität",
   "kurz": "Ergebnisse hängen konsistent von der Sprachkompetenz ab.",
-  "def": "Instrumente sind laut Text reliabel, wenn ihre Ergebnisse konsistent von der Sprachkompetenz abhängen und nicht von anderen Faktoren, z. B. unklaren Anweisungen oder missverständlichen Fragen (Green 2013).",
+  "def": "Reliabilität ist die Genauigkeit bzw. Fehlerfreiheit einer Messung. Instrumente sind reliabel, wenn ihre Ergebnisse konsistent von der Sprachkompetenz abhängen und nicht von anderen Faktoren wie unklaren Anweisungen (Moser-Frötscher). Fehler können von Prüfenden, Geprüften, Dritten, Aufgaben, Bewertungsbögen und äußeren Umständen kommen (Rumlich).",
   "zitate": [
    {
     "t": "wenn deren Ergebnisse konsistent von der Sprachkompetenz der Schüler:innen abhängen und nicht von anderen Faktoren wie unklaren Anweisungen oder missverständlichen Fragen/Antwortoptionen beeinträchtigt werden",
     "s": "S. 86",
     "q": "Moser-Frötscher 2025"
+   },
+   {
+    "t": "bezeichnet Reliabilität den Grad der Genauigkeit bzw. Fehlerfreiheit im Vergleich zur tatsächlichen Ausprägung",
+    "s": "S. 35",
+    "q": "Vogt/Rossa 2025, Kap. 2.2 (Rumlich)"
    }
   ],
   "beispiel": "Gehört zum EALTA-Bereich „Prüfungsverfahren“.",
   "see": [
-   "ealta-leitfragen"
+   "ealta-leitfragen",
+   "objektivitaet",
+   "guetekriterien"
   ],
   "seminare": [
    "pruefen",
@@ -751,7 +758,8 @@
   ],
   "sitzungen": [
    "pruefen-s2",
-   "ki-s2"
+   "ki-s2",
+   "pruefen-s3"
   ],
   "hinweis": null,
   "herkunft": [
@@ -760,6 +768,19 @@
     "s": [
      "S. 86"
     ]
+   },
+   {
+    "q": "Vogt/Rossa 2025, Kap. 2.2 (Rumlich)",
+    "s": [
+     "S. 35"
+    ]
+   }
+  ],
+  "lexikon": [
+   {
+    "t": "Die Reliabilität eines T.s drückt dessen Konsistenz bzw. Zuverlässigkeit aus.",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Test",
+    "s": "PDF-S. 468"
    }
   ]
  },
@@ -800,24 +821,31 @@
   "id": "washback",
   "term": "washback",
   "kurz": "Rückwirkung einer Prüfung auf Unterricht und Lernen.",
-  "def": "Vor allem bei high stakes konzentrieren sich Lehrende und Lernende auf das, was vermutlich geprüft wird. Der Effekt kann negativ oder positiv sein.",
+  "def": "Washback ist die Rückwirkung einer Prüfung auf Lehren und Lernen. Er kann positiv, negativ oder neutral sein, beabsichtigt oder unbeabsichtigt, und ist umso stärker, je wichtiger die Prüfung ist. Washback gilt als Teil des weiteren Begriffs impact.",
   "zitate": [
    {
     "t": "indem sich Lehrende und Lernende auf jene Kenntnisse, Fertigkeiten oder Fähigkeiten konzentrieren, von denen sie glauben, dass sie in der Prüfung behandelt werden",
     "s": "S. 87",
     "q": "Moser-Frötscher 2025"
+   },
+   {
+    "t": "Alderson und Wall (1993) sehen eine proportionale Beziehung zwischen der Wichtigkeit (stakes) eines Tests bzw. einer Evaluation und der Intensität des washback.",
+    "s": "S. 71",
+    "q": "Vogt/Rossa 2025, Kap. 2.7 (Vogt)"
    }
   ],
   "beispiel": "Positives Beispiel im Text: Hören wird nach einer Prüfungsreform im Unterricht stärker gewichtet.",
   "see": [
    "high-low-stakes",
-   "summative-evaluation"
+   "summative-evaluation",
+   "impact-konsequenzvaliditaet"
   ],
   "seminare": [
    "pruefen"
   ],
   "sitzungen": [
-   "pruefen-s2"
+   "pruefen-s2",
+   "pruefen-s3"
   ],
   "hinweis": null,
   "herkunft": [
@@ -826,6 +854,19 @@
     "s": [
      "S. 87"
     ]
+   },
+   {
+    "q": "Vogt/Rossa 2025, Kap. 2.7 (Vogt)",
+    "s": [
+     "S. 71"
+    ]
+   }
+  ],
+  "lexikon": [
+   {
+    "t": "Tests starke Auswirkungen auf das Lernverhalten der SuS haben (washback-Effekt): Wenn ein Test z. B. Wörter in Listen von Wortgleichungen fordert, so werden die SuS vermutlich auch mit Listen lernen",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Wortschatz und Wortschatzvermittlung",
+    "s": "PDF-S. 519"
    }
   ]
  },
@@ -2479,14 +2520,16 @@
   "see": [
    "genki",
    "halluzination",
-   "sprachmodell"
+   "sprachmodell",
+   "kontextfenster-temperatur"
   ],
   "seminare": [
    "ki",
    "cl"
   ],
   "sitzungen": [
-   "ki-s2"
+   "ki-s2",
+   "ki-s3"
   ],
   "hinweis": null,
   "herkunft": [
@@ -2519,7 +2562,8 @@
    "ki"
   ],
   "sitzungen": [
-   "ki-s2"
+   "ki-s2",
+   "ki-s3"
   ],
   "hinweis": null,
   "herkunft": [
@@ -2573,18 +2617,26 @@
     "t": "Achtung: Die Antworten müssen wegen möglicher Halluzinationen und Ungenauigkeiten überprüft werden.",
     "s": "Folie 9",
     "q": "Folien Moorhouse/Wong Teil I (Riemer)"
+   },
+   {
+    "t": "Hallucinations occur when AI generates incorrect, fabricated, or contradictory information, leading users to mistakenly trust ﬂawed outputs",
+    "s": "S. 57",
+    "q": "Moorhouse/Wong 2025"
    }
   ],
   "beispiel": "Ein erfundenes Fest in einer Liste „interessanter Feste“ (Beispiel aus Kapitel 2, eigene Erinnerung der Folie).",
   "see": [
    "llm",
-   "human-in-the-loop"
+   "human-in-the-loop",
+   "korroborieren",
+   "bias-genki"
   ],
   "seminare": [
    "ki"
   ],
   "sitzungen": [
-   "ki-s2"
+   "ki-s2",
+   "ki-s3"
   ],
   "hinweis": null,
   "herkunft": [
@@ -2593,6 +2645,19 @@
     "s": [
      "Folie 9"
     ]
+   },
+   {
+    "q": "Moorhouse/Wong 2025",
+    "s": [
+     "S. 57"
+    ]
+   }
+  ],
+  "lexikon": [
+   {
+    "t": "Die bekannten Grenzen und Risiken von KI-Modellen in der Sprachverarbeitung, wie z. B. Halluzinieren und Unzuverlässigkeit",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. E-Learning",
+    "s": "PDF-S. 94"
    }
   ]
  },
@@ -2639,18 +2704,25 @@
     "t": "Experimentieren Sie mit unterschiedlichen Prompts und lassen sich Feedback auf Ihren Text geben.",
     "s": "Folie 4",
     "q": "Folien Einstieg (Riemer)"
+   },
+   {
+    "t": "Be speciﬁc: be as detailed as possible.",
+    "s": "S. 63",
+    "q": "Moorhouse/Wong 2025 (erste von fünf Regeln nach Moorhouse 2024)"
    }
   ],
   "beispiel": "Prompt-Idee für Feedback: „Gib mir Feedback auf Niveau B1, nenne drei Stärken und zwei Verbesserungen, ohne den Text umzuschreiben“ (eigenes Beispiel).",
   "see": [
-   "ki-feedback"
+   "ki-feedback",
+   "genai-interaktionskompetenz"
   ],
   "seminare": [
    "ki"
   ],
   "sitzungen": [
    "ki-s1",
-   "ki-s2"
+   "ki-s2",
+   "ki-s3"
   ],
   "hinweis": null,
   "herkunft": [
@@ -2659,32 +2731,46 @@
     "s": [
      "Folie 4"
     ]
+   },
+   {
+    "q": "Moorhouse/Wong 2025 (erste von fünf Regeln nach Moorhouse 2024)",
+    "s": [
+     "S. 63"
+    ]
    }
   ]
  },
  {
   "id": "validitaet",
   "term": "Validität",
-  "kurz": "Geprüft wird das, was geprüft werden soll, und nichts anderes.",
-  "def": "Neben Transparenz und Reliabilität ein Qualitätskriterium für Bewertung. Es gilt auch beim Einsatz von genKI.",
+  "kurz": "Misst der Test, was er messen soll? Heute: Gültigkeit der Interpretation der Ergebnisse.",
+  "def": "Validität (Gültigkeit) fragt, ob ein Test misst, was er messen soll. Nach heutigem Verständnis ist sie keine feste Eigenschaft des Tests, sondern betrifft die Interpretation und Verwendung der Ergebnisse. Sie ist graduell und muss fortlaufend mit Belegen gestützt werden. Im KI-Seminar gilt sie auch für Bewertungen mit genKI.",
   "zitate": [
    {
     "t": "Validität (geprüft wird das, was geprüft werden soll, und nichts anderes)",
     "s": "Folie 14",
     "q": "Folien Moorhouse/Wong Teil I (Riemer)"
+   },
+   {
+    "t": "hängt die Validität, d. h. die Gültigkeit der Evaluation, grundlegend ab von der Güte der zur Leistungsmessung eingesetzten Aufgaben, Texte, Materialien und Bewertungsvorgaben",
+    "s": "S. 30",
+    "q": "Vogt/Rossa 2025, Kap. 2.1 (Rossa)"
    }
   ],
   "beispiel": "Ein Leseverstehenstest, bei dem die KI vor allem Rechtschreibung bewertet, ist nicht valide.",
   "see": [
    "reliabilitaet",
-   "human-in-the-loop"
+   "human-in-the-loop",
+   "validitaetsarten",
+   "impact-konsequenzvaliditaet"
   ],
   "seminare": [
    "ki",
    "pruefen"
   ],
   "sitzungen": [
-   "ki-s2"
+   "ki-s2",
+   "pruefen-s3"
   ],
   "hinweis": null,
   "herkunft": [
@@ -2693,6 +2779,19 @@
     "s": [
      "Folie 14"
     ]
+   },
+   {
+    "q": "Vogt/Rossa 2025, Kap. 2.1 (Rossa)",
+    "s": [
+     "S. 30"
+    ]
+   }
+  ],
+  "lexikon": [
+   {
+    "t": "In neuerer Zeit hat sich jedoch die Ansicht durchgesetzt, dass Validität keine Eigenschaft eines T.s ist, sondern dass sie sich auf die Interpretation von Ergebnissen eines T.s bezieht.",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Test",
+    "s": "PDF-S. 469"
    }
   ]
  },
@@ -3559,6 +3658,751 @@
     "q": "Deine Notiz vom 22.10.2026 (zu Keller)",
     "s": [
      "Notizen/22.10.2026.md"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "guetekriterien",
+  "term": "Gütekriterien (Qualitätskriterien)",
+  "kurz": "Kriterien, an denen die Qualität einer Prüfung gemessen wird.",
+  "def": "Traditionelle Hauptgütekriterien sind Validität, Reliabilität und, vor allem im deutschsprachigen Raum, Objektivität. Weitere Kriterien wie Fairness, Transparenz, Ökonomie, Praktikabilität, Authentizität, Interaktivität und Wirkung werden oft Nebengütekriterien genannt. Sie hängen voneinander ab und lassen sich nicht alle zugleich maximieren.",
+  "zitate": [
+   {
+    "t": "ist Reliabilität neben Validität … (und im deutschsprachigen Raum der Objektivität) eines der traditionellen Hauptgütekriterien, die aus der Psychometrie abgeleitet werden",
+    "s": "S. 35",
+    "q": "Vogt/Rossa 2025, Kap. 2.2 (Rumlich)"
+   }
+  ],
+  "beispiel": "Ein standardisierter Multiple-Choice-Test ist reliabel und praktikabel, aber wenig authentisch (Berger, S. 46).",
+  "see": [
+   "validitaet",
+   "reliabilitaet",
+   "objektivitaet",
+   "test-usefulness"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s3"
+  ],
+  "lexikon": [
+   {
+    "t": "Die am häufigsten genannten Qualitätskriterien sind Validität und Reliabilität sowie Durchführbarkeit/Praktikabilität (vgl. Europarat 2001). Daneben gibt es weitere (interdependente) Kriterien, die in der Zahl variieren, wie z. B. Objektivität, Authentizität, Interaktivität, Washback und Fairness.",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Test",
+    "s": "PDF-S. 468"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Vogt/Rossa 2025, Kap. 2.2 (Rumlich)",
+    "s": [
+     "S. 35"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "validitaetsarten",
+  "term": "Validitätsarten",
+  "kurz": "Konstrukt-, Inhalts-, Augenschein- und Kriteriumsvalidität.",
+  "def": "Die ältere Forschung unterschied mehrere Arten von Validität. Heute gilt ein integratives Verständnis, aber Konstrukt- und Inhaltsvalidität bleiben für die Praxis hilfreiche Prüffragen.",
+  "zitate": [
+   {
+    "t": "Konstruktvalidität: Lassen sich die Testergebnisse als Indikatoren für das erfasste Konstrukt nutzen?",
+    "s": "S. 31",
+    "q": "Vogt/Rossa 2025, Kap. 2.1 (Rossa)"
+   },
+   {
+    "t": "Inhaltsvalidität: Entsprechen die Inhalte des Tests den einschlägigen Inhalten der authentischen Situation der Sprachverwendung?",
+    "s": "S. 31",
+    "q": "Vogt/Rossa 2025, Kap. 2.1 (Rossa)"
+   },
+   {
+    "t": "Augenscheinvalidität: Wird der Test von den Teilnehmenden und weiteren Nutzenden akzeptiert?",
+    "s": "S. 31",
+    "q": "Vogt/Rossa 2025, Kap. 2.1 (Rossa)"
+   }
+  ],
+  "beispiel": "Wird bei einem Lesetest die Orthografie mitbewertet, leidet die Konstruktvalidität (Rossa, S. 31).",
+  "see": [
+   "validitaet",
+   "konstrukt"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s3"
+  ],
+  "lexikon": [
+   {
+    "t": "Inhaltsvalidität würde sich etwa darauf beziehen, dass der T. Aufgaben enthält, die relevant sind und die bereits behandelten Inhalte auch repräsentieren.",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Test",
+    "s": "PDF-S. 469"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Vogt/Rossa 2025, Kap. 2.1 (Rossa)",
+    "s": [
+     "S. 31"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "objektivitaet",
+  "term": "Objektivität",
+  "kurz": "Das Ergebnis hängt nicht von der Person ab, die prüft oder bewertet.",
+  "def": "Objektivität meint, dass Durchführung, Auswertung und Interpretation unabhängig von der prüfenden Person sind. Im Handbuch hat sie kein eigenes Kapitel: Rumlich behandelt sie als Beitrag zur Reliabilität, die wiederum zur Validität beiträgt.",
+  "zitate": [
+   {
+    "t": "Objektivität leistet somit einen Beitrag zu Reliabilität und beide wiederum zu Validität; sie stellen sozusagen Teilmengen voneinander dar",
+    "s": "S. 35",
+    "q": "Vogt/Rossa 2025, Kap. 2.2 (Rumlich)"
+   },
+   {
+    "t": "findet sich häufig eine Ausdifferenzierung der Objektivität (Durchführungs-, Auswertungs- und Interpretationsobjektivität), während in englischsprachigen Publikationen verstärkt auf Reliabilität rekurriert wird.",
+    "s": "S. 36",
+    "q": "Vogt/Rossa 2025, Kap. 2.2 (Rumlich)"
+   }
+  ],
+  "beispiel": "Zwei Prüfende bewerten dieselbe mündliche Prüfung unabhängig voneinander (Vier-Augen-Prinzip, S. 38).",
+  "see": [
+   "reliabilitaet",
+   "guetekriterien"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s3"
+  ],
+  "hinweis": "Für lernbegleitende Diagnosen halten Weinert/Schrader (1986) neutrale Objektivität für wenig sinnvoll; sie plädieren für „pädagogisch günstige Voreingenommenheiten“ (zitiert bei Rumlich, S. 40).",
+  "lexikon": [
+   {
+    "t": "Objektivität meint, dass die Bewertung einer Leistung unabhängig von der Person erfolgt, die an der Ermittlung der Leistung beteiligt ist. Objektivität als Gütekriterium wird bisweilen als Teil von Reliabilität gesehen",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Test",
+    "s": "PDF-S. 469"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Vogt/Rossa 2025, Kap. 2.2 (Rumlich)",
+    "s": [
+     "S. 35",
+     "S. 36"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "praktikabilitaet",
+  "term": "Praktikabilität",
+  "kurz": "Ist die Prüfung mit den vorhandenen Mitteln umsetzbar?",
+  "def": "Praktikabilität bezieht sich auf die Umsetzbarkeit einer Prüfung im jeweiligen Kontext. Sie ist gegeben, wenn die vorhandenen personellen, materiellen und zeitlichen Ressourcen den benötigten entsprechen oder sie übersteigen. Zu ihr gehört auch die Zumutbarkeit für die Geprüften.",
+  "zitate": [
+   {
+    "t": "Die erforderlichen Schritte sind daher nur dann praktikabel, wenn das Verhältnis zwischen den benötigten Mitteln und den vorhandenen Mitteln ausgewogen ist.",
+    "s": "S. 42",
+    "q": "Vogt/Rossa 2025, Kap. 2.3 (Berger)"
+   },
+   {
+    "t": "Bachman und Palmer (2010, S. 262) sprechen von positiver Praktikabilität, wenn die vorhandenen Ressourcen gleich oder größer sind als die benötigten Ressourcen.",
+    "s": "S. 42",
+    "q": "Vogt/Rossa 2025, Kap. 2.3 (Berger)"
+   }
+  ],
+  "beispiel": "Aussprache über Transkriptionsaufgaben zu prüfen spart Zeit, senkt aber Augenschein- und Konstruktvalidität (S. 45).",
+  "see": [
+   "guetekriterien",
+   "authentizitaet",
+   "test-usefulness"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s3"
+  ],
+  "hinweis": "Praktikabilitätsdilemma (Berger, S. 46): Mehr Authentizität und positiver washback bedeuten meist weniger Praktikabilität und Reliabilität, und umgekehrt.",
+  "lexikon": [
+   {
+    "t": "Praktikabilität zielt in finanzieller und ressourcenorientierter Hinsicht auf die Machbarkeit ab, den T. mit den zur Verfügung stehenden Mitteln durchzuführen.",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Test",
+    "s": "PDF-S. 469"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Vogt/Rossa 2025, Kap. 2.3 (Berger)",
+    "s": [
+     "S. 42"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "testfairness",
+  "term": "Fairness (Testfairness)",
+  "kurz": "Keine systematische Benachteiligung bestimmter Personen oder Gruppen.",
+  "def": "Ein Test ist fair, wenn seine Werte keine Personen oder Gruppen systematisch benachteiligen. Dafür muss der ganze Prozess betrachtet werden: die Getesteten, der Test selbst und die Testenden. Fairness verlangt manchmal ungleiche Behandlung, z. B. Nachteilsausgleiche.",
+  "zitate": [
+   {
+    "t": "Ausmaß, in dem die aus einem Test resultierenden Werte zu keiner systematischen Benachteiligung best[immter] Testpersonen bzw. Gruppen von Testpersonen führen",
+    "s": "S. 49",
+    "q": "Vogt/Rossa 2025, Kap. 2.4 (Hambach/Settinieri), zitiert nach Krampen 2022"
+   },
+   {
+    "t": "Die Herausforderung besteht somit darin, dass Fairness nicht immer dadurch hergestellt wird, alle Getesteten genau gleich zu behandeln, sondern manchmal auch darin, jede Person individuell anders zu behandeln.",
+    "s": "S. 51",
+    "q": "Vogt/Rossa 2025, Kap. 2.4 (Hambach/Settinieri)"
+   }
+  ],
+  "beispiel": "Bei einer Lese-Rechtschreib-Schwäche ist unklar, wie viel mehr Bearbeitungszeit ein fairer Ausgleich wäre (S. 51).",
+  "see": [
+   "validitaet",
+   "guetekriterien"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s3"
+  ],
+  "hinweis": "Nicht dasselbe wie Gerechtigkeit (justice): Fairness fragt, ob ein Test unvoreingenommen misst; Gerechtigkeit, ob sein Einsatz überhaupt zu rechtfertigen ist (S. 49–50).",
+  "herkunft": [
+   {
+    "q": "Vogt/Rossa 2025, Kap. 2.4 (Hambach/Settinieri), zitiert nach Krampen 2022",
+    "s": [
+     "S. 49"
+    ]
+   },
+   {
+    "q": "Vogt/Rossa 2025, Kap. 2.4 (Hambach/Settinieri)",
+    "s": [
+     "S. 51"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "authentizitaet",
+  "term": "Authentizität (Testaufgaben)",
+  "kurz": "Wie nah ist die Testaufgabe an echter Sprachverwendung?",
+  "def": "Authentizität fragt, wie weit Testaufgaben lebensweltliche Situationen abbilden und realitätsnahe Sprachhandlungen hervorrufen. Bachman (1991) unterscheidet situative Authentizität (Merkmale der Aufgabe) und interaktionale Authentizität (Prozesse beim Bearbeiten). Sie ist ein Kontinuum, kein Entweder-oder.",
+  "zitate": [
+   {
+    "t": "Authentizität nicht in erster Linie ein Charakteristikum des Inputmaterials, sondern ein Charakteristikum der Interaktion zwischen den Lernenden und dem Inputmaterial darstellt",
+    "s": "S. 55",
+    "q": "Vogt/Rossa 2025, Kap. 2.5 (Berger)"
+   },
+   {
+    "t": "Zum einen bezieht sich die situative Authentizität auf die Übereinstimmung zwischen den Merkmalen einer Testaufgabe und den Merkmalen einer kommunikativen Sprachhandlungsaufgabe außerhalb der Testsituation.",
+    "s": "S. 56",
+    "q": "Vogt/Rossa 2025, Kap. 2.5 (Berger)"
+   }
+  ],
+  "beispiel": "Eine Bedienungsanleitung ist genuines Material, als Multiple-Choice-Übung zu Imperativen aber nicht authentisch im Sinne Widdowsons (S. 56).",
+  "see": [
+   "interaktivitaet",
+   "validitaet",
+   "praktikabilitaet"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s3"
+  ],
+  "hinweis": "Das Metzler Lexikon Fremdsprachendidaktik behandelt Authentizität vor allem bei Texten und Materialien (zielkulturell vs. lernkontextbezogen). Im Testkontext geht es um Aufgaben und ihre Nähe zur Sprachverwendung.",
+  "lexikon": [
+   {
+    "t": "Authentizität wird als Konzept fremdsprachlichen Lehrens und Lernens in unterschiedlicher Weise verstanden, wobei sich eine zielkulturell orientierte und eine lernkontextbezogene A. unterscheiden lassen.",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Authentizität",
+    "s": "PDF-S. 28"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Vogt/Rossa 2025, Kap. 2.5 (Berger)",
+    "s": [
+     "S. 55",
+     "S. 56"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "interaktivitaet",
+  "term": "Interaktivität (Testaufgaben)",
+  "kurz": "Wie viele Wissenssysteme und Kompetenzen eine Aufgabe zugleich verlangt.",
+  "def": "Interaktivität ist das Ausmaß, in dem eine Aufgabe unterschiedliche kognitive Systeme einbezieht: Sprachwissen, Fach- und Weltwissen, strategische Kompetenz, kognitive Strategien, persönliche Merkmale und affektive Schemata. Je mehr davon zusammenwirken, desto interaktiver die Aufgabe.",
+  "zitate": [
+   {
+    "t": "Das Ausmaß, in dem eine kommunikative Aufgabe die Einbeziehung unterschiedlicher kognitiver Systeme und Kompetenzen voraussetzt, wird als Interaktivität bezeichnet",
+    "s": "S. 63",
+    "q": "Vogt/Rossa 2025, Kap. 2.6 (Bärenfänger)"
+   },
+   {
+    "t": "Als Faustregel kann gelten, dass Testaufgaben, die natürliche Sprachverwendungssituationen detailgetreu nachbilden, auch einen hohen Interaktivitätsgrad aufweisen.",
+    "s": "S. 68",
+    "q": "Vogt/Rossa 2025, Kap. 2.6 (Bärenfänger)"
+   }
+  ],
+  "beispiel": "Hoch interaktiv: ein Referat. Wenig interaktiv: eine DSH-Aufgabe, die ein Partizip-I-Attribut in einen Relativsatz umformen lässt (S. 68).",
+  "see": [
+   "authentizitaet",
+   "validitaet"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s3"
+  ],
+  "hinweis": "Bachman/Palmer (1996) trennen Interaktivität von Authentizität; sie ersetzt bei ihnen die „interaktionale Authentizität“ (Berger, S. 57).",
+  "herkunft": [
+   {
+    "q": "Vogt/Rossa 2025, Kap. 2.6 (Bärenfänger)",
+    "s": [
+     "S. 63",
+     "S. 68"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "impact-konsequenzvaliditaet",
+  "term": "impact und Konsequenzvalidität",
+  "kurz": "Folgen von Tests für Personen, Bildungssysteme und Gesellschaft.",
+  "def": "Test impact meint die Wirkung von Tests auf Individuen, Testsysteme und die Gesellschaft. Washback ist der engere Begriff für die Wirkung auf Lehren und Lernen. Nach Messick gehören die sozialen Folgen eines Tests zur Validität (Konsequenzvalidität).",
+  "zitate": [
+   {
+    "t": "Test impact wird von ihnen als Effekt bezeichnet, den Testen für Individuen (Lernende, Lehrpersonen, Eltern), Testsysteme und die Gesellschaft im Allgemeinen hat.",
+    "s": "S. 70",
+    "q": "Vogt/Rossa 2025, Kap. 2.7 (Vogt)"
+   },
+   {
+    "t": "Consequential validity bzw. Konsequenzvalidität meint, dass die sozialen Konsequenzen von Tests einen Teil des allgemeineren Konzeptes von Validität ausmachen",
+    "s": "S. 74",
+    "q": "Vogt/Rossa 2025, Kap. 2.7 (Vogt)"
+   }
+  ],
+  "beispiel": "Ein Sprachtest entscheidet über Einbürgerung oder Studienzulassung (vgl. Rossa, S. 31; Hambach/Settinieri, S. 50).",
+  "see": [
+   "washback",
+   "validitaet",
+   "high-low-stakes"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s3"
+  ],
+  "herkunft": [
+   {
+    "q": "Vogt/Rossa 2025, Kap. 2.7 (Vogt)",
+    "s": [
+     "S. 70",
+     "S. 74"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "test-usefulness",
+  "term": "Nützlichkeit eines Tests (test usefulness)",
+  "kurz": "Sechs Kriterien nach Bachman/Palmer, die gemeinsam abgewogen werden.",
+  "def": "Bachman/Palmer (1996) bündeln sechs Kriterien zur Nützlichkeit eines Tests: Reliabilität, Konstruktvalidität, Authentizität, Interaktivität, impact und Praktikabilität. Sie werden im jeweiligen Kontext gegeneinander abgewogen, statt jedes für sich maximiert zu werden.",
+  "zitate": [
+   {
+    "t": "Demzufolge ist Praktikabilität gemeinsam mit Reliabilität … im jeweiligen Kontext zu prüfen und abzuwägen, um Aussagen über die Nützlichkeit eines Tests (engl. test usefulness) machen zu können.",
+    "s": "S. 43",
+    "q": "Vogt/Rossa 2025, Kap. 2.3 (Berger)"
+   }
+  ],
+  "beispiel": "Ein Sprachtest ist nur so weit nützlich, als er unter den gegebenen Bedingungen auch praktikabel ist (Berger, S. 43).",
+  "see": [
+   "guetekriterien",
+   "praktikabilitaet",
+   "interaktivitaet"
+  ],
+  "seminare": [
+   "pruefen"
+  ],
+  "sitzungen": [
+   "pruefen-s3"
+  ],
+  "lexikon": [
+   {
+    "t": "T.s müssen daher wirksam und nützlich sein (test usefulness; vgl. Bachman/Palmer 2010).",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Test",
+    "s": "PDF-S. 468"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Vogt/Rossa 2025, Kap. 2.3 (Berger)",
+    "s": [
+     "S. 43"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sdl",
+  "term": "selbstgesteuertes Lernen (SDL)",
+  "kurz": "Lernende steuern ihren Lernprozess selbst.",
+  "def": "Beim self-directed learning übernehmen die Lernenden die Kontrolle über ihr Lernen; die Lehrkraft fördert diese Fähigkeit. Beim personalisierten Lernen passt dagegen die Lehrkraft die Angebote an. Ein Kernelement ist Selbstregulation: Ziele setzen, Fortschritt verfolgen, Strategien anpassen. GenAI unterstützt SDL mit eigenen Übungen, sofortigem Feedback und simulierten Gesprächen.",
+  "zitate": [
+   {
+    "t": "SDL focuses on empowering students to take control over their learning process, shifting the teacher’s role to fostering students’ ability to learn independently and engage in shaping their own learning path",
+    "s": "S. 42",
+    "q": "Moorhouse/Wong 2025"
+   },
+   {
+    "t": "A key element of SDL is self-regulation, which requires students to set clear objectives, track progress, and reﬁne their strategies.",
+    "s": "S. 43",
+    "q": "Moorhouse/Wong 2025"
+   }
+  ],
+  "beispiel": "Eine Schülerin lässt sich von genKI ein Quiz zu Zeitformen und phrasal verbs erstellen, mit Erklärungen auf Spanisch (S. 43).",
+  "see": [
+   "ai-literacy",
+   "affordanz",
+   "mikrolernen"
+  ],
+  "seminare": [
+   "ki"
+  ],
+  "sitzungen": [
+   "ki-s3"
+  ],
+  "lexikon": [
+   {
+    "t": "In der ↗ Fremdsprachendidaktik versteht man unter a. L. das möglichst eigenständige Fremdsprachenlernen ohne Lehrperson. Oft wird a. L. auch als Synonym zum Selbstlernen und zum selbstgesteuerten …",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Autonomes Lernen",
+    "s": "PDF-S. 29"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Moorhouse/Wong 2025",
+    "s": [
+     "S. 42",
+     "S. 43"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ai-literacy",
+  "term": "AI literacy (Lernende)",
+  "kurz": "Wissen, wie, warum und wann man KI-Werkzeuge sinnvoll nutzt.",
+  "def": "AI literacy umfasst technische Fertigkeiten und den kritischen Umgang mit KI-Ausgaben. Moorhouse/Wong stützen sich auf fünf Kompetenzen nach Warschauer u. a. (2023): understanding, accessing, prompting, corroborating, incorporating. Ohne sie verlassen sich Lernende zu sehr auf die KI oder nutzen sie nicht sinnvoll.",
+  "zitate": [
+   {
+    "t": "students must develop AI literacy – a nuanced understanding of how, why, and when to use these tools effectively",
+    "s": "S. 45",
+    "q": "Moorhouse/Wong 2025"
+   },
+   {
+    "t": "Warschauer and colleagues (2023) offer a helpful ﬁve-part pedagogical framework for AI literacy, which includes competencies of understanding, accessing, prompting, corroborating, and incorporating when using AI.",
+    "s": "S. 45",
+    "q": "Moorhouse/Wong 2025"
+   }
+  ],
+  "beispiel": "Eine Schülerin verfeinert ihren Prompt, bis die Beispielsätze zu ihrem Interesse passen (prompting), prüft sie (corroborating) und bildet eigene Sätze (incorporating) (Fallstudie 1, S. 47–48).",
+  "see": [
+   "sdl",
+   "prompt",
+   "korroborieren",
+   "p-genai-c"
+  ],
+  "seminare": [
+   "ki"
+  ],
+  "sitzungen": [
+   "ki-s3"
+  ],
+  "herkunft": [
+   {
+    "q": "Moorhouse/Wong 2025",
+    "s": [
+     "S. 45"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sprachstandardisierung-ki",
+  "term": "Standardisierung der Sprache durch genKI",
+  "kurz": "genKI bevorzugt Standardvarietäten und macht Lernertexte gleichförmig.",
+  "def": "Weil die Trainingsdaten vor allem Standard-Englisch enthalten, liefern genKI-Werkzeuge einheitliche Vorbilder. Das hilft etwa bei standardisierten Prüfungen, kann aber regionale und nicht standardsprachliche Varietäten an den Rand drängen, sprachliche Hierarchien verstärken und die eigene Stimme der Lernenden verdrängen.",
+  "zitate": [
+   {
+    "t": "the dominance of standardised English in GenAI training datasets poses risks of marginalising regional dialects, cultural expressions, and non-standard varieties of English",
+    "s": "S. 53",
+    "q": "Moorhouse/Wong 2025"
+   }
+  ],
+  "beispiel": "Werkzeuge verwenden Ausdrücke wie „delve“ oder „commendable“ auffällig oft, was Lernertexte vereinheitlichen kann (S. 53).",
+  "see": [
+   "bias-genki",
+   "dialekt"
+  ],
+  "seminare": [
+   "ki"
+  ],
+  "sitzungen": [
+   "ki-s3"
+  ],
+  "hinweis": "Nicht zu verwechseln mit [[standardisierung|Standardisierung bei high-stakes-Tests]] im Prüfen-Seminar.",
+  "herkunft": [
+   {
+    "q": "Moorhouse/Wong 2025",
+    "s": [
+     "S. 53"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rich-get-richer",
+  "term": "‚rich get richer‘-Widerspruch",
+  "kurz": "Technik nützt vor allem denen, die schon gut dastehen.",
+  "def": "Nach Warschauer u. a. (2023) profitieren von Technologie vor allem diejenigen, die ohnehin erfolgreich sind. Motivierte und sprachlich starke Lernende nutzen genKI zur Verfeinerung; schwächere oder weniger motivierte neigen zu Überabhängigkeit und oberflächlicher Bearbeitung.",
+  "zitate": [
+   {
+    "t": "‘rich get richer’ contradiction, which suggests that technological tools often beneﬁt those already positioned to succeed, while potentially leaving others behind",
+    "s": "S. 54",
+    "q": "Moorhouse/Wong 2025"
+   }
+  ],
+  "beispiel": "Das Buch schlägt vor, genKI nur für bestimmte Schritte wie Brainstorming einzusetzen und klarzustellen, dass das Endprodukt eigene Arbeit ist (S. 55).",
+  "see": [
+   "sdl",
+   "ai-literacy"
+  ],
+  "seminare": [
+   "ki"
+  ],
+  "sitzungen": [
+   "ki-s3"
+  ],
+  "herkunft": [
+   {
+    "q": "Moorhouse/Wong 2025",
+    "s": [
+     "S. 54"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bias-genki",
+  "term": "Bias in genKI",
+  "kurz": "Verzerrungen und Stereotype aus den Trainingsdaten.",
+  "def": "Die Trainingsdaten spiegeln historische Ungleichheiten und kulturelle Stereotype. Deshalb können genKI-Ausgaben rassistische, geschlechtsbezogene oder kulturelle Vorurteile weitertragen und westliche Normen oder Standardvarietäten bevorzugen.",
+  "zitate": [
+   {
+    "t": "The biases inherent in GenAI tools stem from the datasets used to train them, which often reﬂect systemic historical inequities and problematic cultural stereotypes.",
+    "s": "S. 55",
+    "q": "Moorhouse/Wong 2025"
+   },
+   {
+    "t": "AI-generated outputs disproportionately associated leadership roles with men and caregiving roles with women",
+    "s": "S. 55",
+    "q": "Moorhouse/Wong 2025 (Studie von Al-khresheh 2024)"
+   }
+  ],
+  "beispiel": "Ein genKI-Dialog für den Unterricht zeigt nur westliche Normen und keine regionalen Varietäten (S. 56).",
+  "see": [
+   "sprachstandardisierung-ki",
+   "halluzination"
+  ],
+  "seminare": [
+   "ki"
+  ],
+  "sitzungen": [
+   "ki-s3"
+  ],
+  "lexikon": [
+   {
+    "t": "Die bekannten Grenzen und Risiken von KI-Modellen in der Sprachverarbeitung, wie z. B. Halluzinieren und Unzuverlässigkeit, aber auch die Intransparenz hinsichtlich möglicher Verzerrungen, lassen einen vorschnellen Einsatz in einem so sensiblen Bereich wie dem der Bildung nicht naheliegend erscheinen.",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. E-Learning",
+    "s": "PDF-S. 94"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Moorhouse/Wong 2025",
+    "s": [
+     "S. 55"
+    ]
+   },
+   {
+    "q": "Moorhouse/Wong 2025 (Studie von Al-khresheh 2024)",
+    "s": [
+     "S. 55"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "genai-interaktionskompetenz",
+  "term": "GenAI-Interaktionskompetenz (prompt literacy)",
+  "kurz": "Gute Prompts schreiben und mit dem Werkzeug iterativ weiterarbeiten.",
+  "def": "Die Fähigkeit, gute Prompts zu formulieren und in einem Dialog mit dem Werkzeug so lange nachzuschärfen, bis die Ausgabe passt. Nach Cain (2023) braucht man dafür Fachwissen, kritisches Denken und iteratives Gestalten.",
+  "zitate": [
+   {
+    "t": "GenAI interactional competence can be deﬁned as the ability to craft quality prompts and engage in an iterative dialogic process with a GenAI tool until the most relevant and valuable output is achieved",
+    "s": "S. 62",
+    "q": "Moorhouse/Wong 2025"
+   },
+   {
+    "t": "Cain (2023) argues that teachers need three essential aspects to effectively prompt; 1. content knowledge; 2. critical thinking, and 3. iterative design.",
+    "s": "S. 62",
+    "q": "Moorhouse/Wong 2025"
+   }
+  ],
+  "beispiel": "Statt „Write a short story about a boy in Hong Kong“ ein Prompt mit Alter, Wendung, Lesbarkeitswert und Länge (S. 64–65).",
+  "see": [
+   "prompt",
+   "korroborieren",
+   "p-genai-c"
+  ],
+  "seminare": [
+   "ki"
+  ],
+  "sitzungen": [
+   "ki-s3"
+  ],
+  "herkunft": [
+   {
+    "q": "Moorhouse/Wong 2025",
+    "s": [
+     "S. 62"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "kontextfenster-temperatur",
+  "term": "Kontextfenster und Temperatur",
+  "kurz": "Wie viel Text ein Modell zugleich berücksichtigt und wie zufällig es antwortet.",
+  "def": "Das Kontextfenster ist die Zahl der Tokens, die ein Modell beim Antworten berücksichtigen kann; wird es überschritten, „vergisst“ das Modell Teile des Gesprächs. Die Temperatur ist eine Einstellung zwischen etwa 0 und 1: niedrig heißt vorhersagbar und fokussiert, hoch heißt vielfältig und kreativ.",
+  "zitate": [
+   {
+    "t": "the context window is the number of tokens the model can consider at once when generating a response",
+    "s": "S. 67",
+    "q": "Moorhouse/Wong 2025"
+   },
+   {
+    "t": "temperature is a setting used during the text-generation process that affects the randomness of the model’s outputs",
+    "s": "S. 67",
+    "q": "Moorhouse/Wong 2025"
+   }
+  ],
+  "beispiel": "Für Übungen mit eindeutigen Lösungen eignet sich eine niedrige, für kreative Schreibimpulse eine höhere Temperatur (eigenes Beispiel).",
+  "see": [
+   "llm",
+   "genai-interaktionskompetenz"
+  ],
+  "seminare": [
+   "ki"
+  ],
+  "sitzungen": [
+   "ki-s3"
+  ],
+  "hinweis": "Weitere Begriffe im selben Abschnitt (S. 65–68): Datenquelle, Trainingsdaten, Parameter, Algorithmen.",
+  "herkunft": [
+   {
+    "q": "Moorhouse/Wong 2025",
+    "s": [
+     "S. 67"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "korroborieren",
+  "term": "Korroborieren (KI-Ausgaben prüfen)",
+  "kurz": "KI-Inhalte mit verlässlichen Quellen und anderen Werkzeugen abgleichen.",
+  "def": "Weil genKI flüssig, aber falsch oder einseitig antworten kann, müssen Ausgaben geprüft werden. Das Buch nennt vier Wege für Lehrende: gesunder Menschenverstand, denselben Prompt in mehreren Werkzeugen testen, zitierte Quellen nachprüfen, verlässliche Quellen heranziehen. Für Lernende ist corroborating eine der fünf Kompetenzen der AI literacy.",
+  "zitate": [
+   {
+    "t": "Students must critically assess the accuracy and reliability of GenAI-generated content, particularly for nuanced or complex language tasks.",
+    "s": "S. 46",
+    "q": "Moorhouse/Wong 2025"
+   },
+   {
+    "t": "Teachers can submit the same prompt to two or more chatbots, and if the responses are similar and consistent across chatbots, it likely means the content is valid.",
+    "s": "S. 69",
+    "q": "Moorhouse/Wong 2025"
+   }
+  ],
+  "beispiel": "Drei Modelle nennen die wichtigsten Sehenswürdigkeiten Hongkongs; Victoria Peak und Tian Tan Buddha erscheinen überall (S. 69).",
+  "see": [
+   "halluzination",
+   "ai-literacy",
+   "validitaet"
+  ],
+  "seminare": [
+   "ki"
+  ],
+  "sitzungen": [
+   "ki-s3"
+  ],
+  "lexikon": [
+   {
+    "t": "Selbstverständlich bedarf es stets einer kritischen ↗ Reflexion des Einsatzes von KI, da die generierten Inhalte auf ihren Wahrheitsgehalt überprüft werden müssen",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Digitalisierung und Digitalität",
+    "s": "PDF-S. 78"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Moorhouse/Wong 2025",
+    "s": [
+     "S. 46",
+     "S. 69"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mikrolernen",
+  "term": "Micro-Learning",
+  "kurz": "Lernen in kurzen, abgeschlossenen Einheiten.",
+  "def": "Micro-Learning zerlegt ein Thema in kurze, leicht verdauliche Abschnitte, oft multimodal mit Videos, Animationen oder Infografiken. Das Buch empfiehlt es Lehrenden zur Weiterbildung in genKI, mit klaren und engen Lernzielen.",
+  "zitate": [
+   {
+    "t": "Micro-learning activities are designed to break topics into short, concise, and easily consumable segments (‘chunks’) of learning",
+    "s": "S. 74",
+    "q": "Moorhouse/Wong 2025"
+   }
+  ],
+  "beispiel": "„Learn how to build a customised GenAI tool for language teaching purposes“ ist ein besseres Ziel als „Learn about GenAI tools“ (S. 74).",
+  "see": [
+   "sdl",
+   "p-genai-c"
+  ],
+  "seminare": [
+   "ki"
+  ],
+  "sitzungen": [
+   "ki-s3"
+  ],
+  "herkunft": [
+   {
+    "q": "Moorhouse/Wong 2025",
+    "s": [
+     "S. 74"
     ]
    }
   ]

@@ -1,0 +1,80 @@
+{
+ "id": "ki-s3",
+ "nr": 3,
+ "seminar": "ki",
+ "titel": "Lernende, Ethik, Kompetenzen, Weiterbildung (Moorhouse/Wong, Teil II)",
+ "autor": "Benjamin Luke Moorhouse, Kevin M. Wong (2025)",
+ "lektuere": "Moorhouse/Wong 2025, Kap. 5–8, S. 40–77",
+ "thema": "Theoretische Grundlagen 2: genKI beim Sprachenlernen der Lernenden, ethische und soziale Fragen, nötige Kenntnisse und Fähigkeiten der Lehrenden, professionelle Weiterentwicklung",
+ "status": "entwurf",
+ "ueberblick": {
+  "kurzinhalt": "Teil II des Buchs wechselt die Perspektive. Kapitel 5 fragt, wie Lernende genKI für [[sdl|selbstgesteuertes Lernen]] nutzen können, und dafür brauchen sie [[ai-literacy|AI literacy]]. Kapitel 6 sammelt ethische und soziale Risiken: [[sprachstandardisierung-ki|Standardisierung der Sprache]], weniger Kreativität und Motivation ([[rich-get-richer|rich get richer]]), [[bias-genki|Bias]], Urheberrecht, [[halluzination|Halluzinationen]], ungleicher Zugang, Lehrerrolle und Umwelt. Kapitel 7 beschreibt, was Lehrende können müssen: [[genai-interaktionskompetenz|GenAI-Interaktionskompetenz]] beim [[prompt|Prompten]], Grundwissen über Modelle ([[kontextfenster-temperatur|Kontextfenster, Temperatur]]) und das [[korroborieren|Prüfen der Ausgaben]]. Kapitel 8 zeigt Wege der Weiterbildung, etwa [[mikrolernen|Micro-Learning]], um die [[p-genai-c|P-GenAI-C]] weiterzuentwickeln.",
+  "leitfrage": "Was brauchen Lernende und Lehrende, damit genKI das Sprachenlernen unterstützt, statt es zu ersetzen?",
+  "merksatz": "GenAI soll ein Partner sein, kein Ersatz: Lernende brauchen AI literacy, Lehrende brauchen Interaktionskompetenz, technisches Grundwissen und Prüfroutinen.",
+  "fa": [
+   "بخش دوم کتاب Moorhouse/Wong چهار فصل دارد. فصل ۵ درباره‌ی استفاده‌ی خود زبان‌آموزان از genKI است: یادگیری خودراهبر (SDL)، ساختن تمرین شخصی، گرفتن Feedback فوری و شبیه‌سازی گفت‌وگو. برای این کار زبان‌آموز به AI literacy نیاز دارد که پنج بخش دارد: understanding، accessing، prompting، corroborating و incorporating.",
+   "فصل ۶ خطرهای اخلاقی و اجتماعی را می‌شمارد: یکدست شدن زبان به سمت انگلیسی معیار، کم شدن خلاقیت و انگیزه، Bias در خروجی‌ها، حق نشر، Halluzination، دسترسی نابرابر، نقش تازه‌ی معلم و هزینه‌ی زیست‌محیطی.",
+   "فصل ۷ می‌گوید معلم چه باید بداند: GenAI-Interaktionskompetenz (دانش محتوایی، تفکر انتقادی، طراحی تکرارشونده)، پنج قاعده‌ی Prompt خوب، مفاهیم فنی مثل Kontextfenster و Temperatur، و چهار راه برای بررسی درستی خروجی‌ها.",
+   "فصل ۸ درباره‌ی پیشرفت حرفه‌ای است: یادگیری خودراهبر (مثلاً Micro-Learning)، یادگیری در جمع همکاران و پژوهش عملی معلم، تا P-GenAI-C به‌مرور قوی‌تر شود."
+  ]
+ },
+ "inhalt": [
+  {
+   "titel": "1. Vorbereitung",
+   "quelle": "Seminarplan Riemer (27.10.2026)",
+   "html": "<p>Die Sitzung am 27.10. behandelt Teil II des Buchs (Kap. 5–8). Folien zur Sitzung liegen noch nicht vor. Diese Seite fasst nur das Buch zusammen; die Folien werden ergänzt, sobald sie im Ordner sind.</p><div class=\"tablewrap\"><table><thead><tr><th>Kap.</th><th>Thema</th><th>Seiten</th></tr></thead><tbody><tr><td>5</td><td>Students’ Use of GenAI in Language Learning</td><td>40–51</td></tr><tr><td>6</td><td>Ethical and Social Considerations with GenAI in Language Teaching</td><td>51–60</td></tr><tr><td>7</td><td>Essential GenAI Skills and Knowledge</td><td>60–71</td></tr><tr><td>8</td><td>Enhancing Professional GenAI Competence through Professional Development</td><td>71–77</td></tr></tbody></table></div><p class=\"meta\">Seitenzahlen sind die Buchseiten; in der PDF liegen sie sechs Seiten später.</p>"
+  },
+  {
+   "titel": "2. Kapitel 5: Lernende nutzen genKI (S. 40–51)",
+   "quelle": "Moorhouse/Wong 2025, S. 40–51",
+   "html": "<p>Das Kapitel unterscheidet personalisiertes Lernen (die Lehrkraft passt an) und [[sdl|selbstgesteuertes Lernen]] (die Lernenden steuern selbst):</p><blockquote><p lang=\"en\">“Personalised learning emphasises the teacher’s role in designing, differentiating, and adapting learning experiences to meet each student’s needs. In contrast, SDL focuses on empowering students to take control over their learning process”</p><cite>Moorhouse/Wong 2025, S. 42</cite></blockquote><p>GenAI bietet für SDL drei Affordanzen (S. 43–45): Übungen nach eigenem Bedarf erzeugen, sofortiges Feedback bekommen (auch auf handschriftliche Texte per Foto) und Gespräche simulieren (Rollenspiele). Damit das gelingt, brauchen Lernende [[ai-literacy|AI literacy]]:</p><blockquote><p lang=\"en\">“students must develop AI literacy – a nuanced understanding of how, why, and when to use these tools effectively”</p><cite>Moorhouse/Wong 2025, S. 45</cite></blockquote><div class=\"tablewrap\"><table><thead><tr><th>Kompetenz (Warschauer u. a. 2023)</th><th>Was Lernende dabei tun (nach S. 45–47)</th></tr></thead><tbody><tr><td>understanding</td><td>Zweck, Fähigkeiten, Grenzen und ethische Fragen der Werkzeuge kennen</td></tr><tr><td>accessing</td><td>das passende Werkzeug für das eigene Lernziel auswählen</td></tr><tr><td>prompting</td><td>präzise Prompts formulieren und schrittweise verfeinern</td></tr><tr><td>corroborating</td><td>Genauigkeit prüfen und mit verlässlichen Quellen abgleichen</td></tr><tr><td>incorporating</td><td>Ausgaben ethisch einbauen, die eigene Stimme bewahren, KI-Nutzung dokumentieren</td></tr></tbody></table></div><p>Vier Fallstudien zeigen das an verschiedenen Altersstufen: Wortschatz in der Grundschule, Sprechen mit dem Avatar-Tool Call Annie, Prüfungsvorbereitung zum past perfect, Bewerbungsgespräch einer Ingenieurstudentin (S. 47–50). Fazit des Kapitels:</p><blockquote><p lang=\"en\">“teachers can support students as they learn to use AI not as a crutch but as a strategic resource in their SDL journeys”</p><cite>Moorhouse/Wong 2025, S. 42</cite></blockquote>"
+  },
+  {
+   "titel": "3. Kapitel 6: Ethische und soziale Fragen (S. 51–60)",
+   "quelle": "Moorhouse/Wong 2025, S. 51–60",
+   "html": "<p>Das Kapitel ordnet die Risiken in drei Gruppen. Die rechte Spalte nennt die Gegenmaßnahmen, die das Buch vorschlägt:</p><div class=\"tablewrap\"><table><thead><tr><th>Bereich</th><th>Risiko nach dem Buch</th><th>Vorschlag im Buch</th></tr></thead><tbody><tr><td>[[sprachstandardisierung-ki|Standardisierung]] (S. 52–53)</td><td>Trainingsdaten bevorzugen Standard-Englisch; regionale Varietäten werden an den Rand gedrängt, Lernertexte werden gleichförmig („delve“, „commendable“)</td><td>KI-Texte mit regionalen Varianten vergleichen, verschiedene Englishes hören lassen</td></tr><tr><td>Kreativität (S. 53–54)</td><td>formelhafte, vorhersagbare Sprache</td><td>KI-Text auf Gleichförmigkeit untersuchen und persönlich umschreiben</td></tr><tr><td>Motivation (S. 54–55)</td><td>Lernende fragen, wozu sie noch Englisch lernen sollen; [[rich-get-richer|rich get richer]]</td><td>genKI ergänzend einsetzen; das Endprodukt muss eigene Arbeit sein</td></tr><tr><td>[[bias-genki|Bias]] (S. 55–56)</td><td>Stereotype aus den Trainingsdaten, z. B. Führung = Männer, Fürsorge = Frauen</td><td>Ausgaben im Unterricht kritisch analysieren</td></tr><tr><td>Urheberrecht (S. 56–57)</td><td>Trainingsdaten enthalten geschützte Texte; Herkunft der Ausgaben unklar</td><td>über Zitieren und geistiges Eigentum sprechen; Richtlinien der Institution</td></tr><tr><td>[[halluzination|Halluzinationen]] (S. 57)</td><td>erfundene Fakten und Quellen, scheinbare Autorität der KI</td><td>mit verlässlichen Quellen abgleichen lassen</td></tr><tr><td>Zugang (S. 58)</td><td>Abos und Internetverbindung schaffen digitale Ungleichheit</td><td>subventionierter Zugang, Fortbildung</td></tr><tr><td>Lehrerrolle (S. 58–59)</td><td>Sorge um Arbeitsplatz und professionelle Autonomie</td><td>KI als Ergänzung verstehen</td></tr><tr><td>Umwelt (S. 59)</td><td>hoher Energieverbrauch beim Training und Einsatz</td><td>sparsam einsetzen, Thema im Unterricht</td></tr></tbody></table></div><blockquote><p lang=\"en\">“the dominance of standardised English in GenAI training datasets poses risks of marginalising regional dialects, cultural expressions, and non-standard varieties of English”</p><cite>Moorhouse/Wong 2025, S. 53</cite></blockquote><blockquote><p lang=\"en\">“Large language models rely on statistical probability to generate content, meaning they do not understand the data in their database, nor, do they understand what they generate.”</p><cite>Moorhouse/Wong 2025, S. 57</cite></blockquote>"
+  },
+  {
+   "titel": "4. Kapitel 7: Was Lehrende können und wissen müssen (S. 60–71)",
+   "quelle": "Moorhouse/Wong 2025, S. 60–71",
+   "html": "<p>Viele Werkzeuge sind allgemeine Modelle, nicht für den Sprachunterricht gebaut:</p><blockquote><p lang=\"en\">“the GenAI does not know our context, role, or task requirements”</p><cite>Moorhouse/Wong 2025, S. 61</cite></blockquote><p><strong>[[genai-interaktionskompetenz|GenAI-Interaktionskompetenz]]:</strong></p><blockquote><p lang=\"en\">“GenAI interactional competence can be deﬁned as the ability to craft quality prompts and engage in an iterative dialogic process with a GenAI tool until the most relevant and valuable output is achieved”</p><cite>Moorhouse/Wong 2025, S. 62 (nach Cain 2023)</cite></blockquote><p>Nach Cain (2023) braucht man dafür drei Dinge: Fachwissen (content knowledge), kritisches Denken und iteratives Gestalten (S. 62). Die gemeinsamen Elemente der Prompt-Frameworks (PROPER, CREATE, CAST, CLEAR, TRUST) fasst Moorhouse (2024) so zusammen (S. 63):</p><ol><li>genau sein</li><li>Kontext angeben</li><li>einfache Sprache verwenden</li><li>komplexe Aufgaben in Schritte zerlegen</li><li>iterativ nachschärfen</li></ol><p>Das Buch zeigt den Unterschied an einer Kurzgeschichte über einen Jungen in Hongkong: Der knappe Prompt ergibt einen generischen Text; der genaue Prompt mit Lesbarkeitswert, Länge und Wendung ergibt einen passenden Text (S. 64–65).</p><p><strong>Technisches Grundwissen</strong> (S. 65–68): Datenquelle, Trainingsdaten, Parameter, [[kontextfenster-temperatur|Kontextfenster, Temperatur]], Algorithmen. Ein Beispiel: Drei Chatbots schreiben eine Kurzbiographie von Moorhouse; einer liefert eine Vorlage, einer eine falsche Zugehörigkeit, einer verweigert (S. 66–67).</p><p><strong>[[korroborieren|Ausgaben prüfen]]</strong> (S. 68–70): gesunder Menschenverstand, denselben Prompt in mehreren Werkzeugen testen, zitierte Quellen nachprüfen, verlässliche Quellen heranziehen.</p><p><strong>Chatbots anpassen</strong> (S. 70): z. B. mit Poe eigene Bots mit Anweisungen und Wissensbasis bauen, etwa einen Wörterbuch-Bot mit Erklärungen in der L1 der Lernenden.</p>"
+  },
+  {
+   "titel": "5. Kapitel 8: Professionelle Weiterentwicklung (S. 71–77)",
+   "quelle": "Moorhouse/Wong 2025, S. 71–77",
+   "html": "<p>Neue Technologien werden mit der Zeit normal und bilden „cultures of use“ in einer Profession (Bax, Thorne, nach S. 72). Für die Zukunft erwartet das Buch persönlichere Modelle und KI-Avatare, aber weiterhin menschliche Lehrkräfte im Zentrum (S. 72–73).</p><blockquote><p lang=\"en\">“We advocate for self-directed, community-orientated, evidence-informed, reﬂexive professional development.”</p><cite>Moorhouse/Wong 2025, S. 73</cite></blockquote><div class=\"tablewrap\"><table><thead><tr><th>Weg</th><th>Beispiele im Buch</th></tr></thead><tbody><tr><td>selbstgesteuert (S. 74–75)</td><td>[[mikrolernen|Micro-Learning]] mit klaren, engen Zielen; Kurse mit Micro-Credentials (Google, Microsoft, LinkedIn Learning)</td></tr><tr><td>gemeinschaftsorientiert (S. 75)</td><td>Lerngemeinschaften in Schule und Netz, auch mit Lernenden und Eltern</td></tr><tr><td>evidenzbasiert und reflexiv (S. 75–76)</td><td>Praxisforschung: mit low-stakes-Aufgaben wie Unterrichtsplanung beginnen, Tagebuch führen, Rückmeldungen sammeln, Ergebnisse auf Tagungen teilen</td></tr></tbody></table></div><blockquote><p lang=\"en\">“teachers are human, and are learners of technology themselves”</p><cite>Stockwell/Wang 2023, S. 479, zitiert bei Moorhouse/Wong 2025, S. 74</cite></blockquote>"
+  },
+  {
+   "titel": "6. Bezug zum Seminar (eigene Verknüpfung)",
+   "quelle": "eigene Überlegungen, keine Aussagen des Buchs",
+   "html": "<ul class=\"plain\"><li>Das Seminar untersucht später empirische Studien zu genKI beim Schreiben in der L2. Die fünf Bausteine der AI literacy (Kap. 5) könnten als Kategorien im Analyseraster dienen.</li><li>Die Prüfstrategien aus Kap. 7 passen zum Gütekriterium der Validität aus Teil I: Ein KI-Feedback ist nur brauchbar, wenn es das bewertet, was bewertet werden soll.</li><li>Kap. 6 betrifft DaF/DaZ direkt: Wenn die Trainingsdaten das Standarddeutsche bevorzugen, was bedeutet das für Lernende mit Kontakt zu regionalen Varietäten?</li></ul>"
+  },
+  {
+   "titel": "7. Reflexionsfragen aus dem Buch (sinngemäß übersetzt)",
+   "quelle": "Moorhouse/Wong 2025, S. 51, 60, 71, 77",
+   "html": "<ul class=\"plain\"><li>Kap. 5: Wie kannst du einen sinnvollen Umgang mit genKI vorleben, damit die AI literacy der Lernenden wächst? Welche Sorgen hast du bei der Nutzung durch Lernende?</li><li>Kap. 6: Welche Risiken sind in deinem Unterrichtskontext besonders wichtig, und wie kannst du sie mindern?</li><li>Kap. 7: Welches Prompt-Framework findest du am nützlichsten? Wie prüfst du KI-Inhalte?</li><li>Kap. 8: Welchen Teil deiner P-GenAI-C willst du weiterentwickeln, und wie könnte Micro-Learning dabei helfen?</li></ul>"
+  }
+ ],
+ "zusatz": [],
+ "material": [
+  {
+   "datei": "generative-artificial-intelligence-and-language-teaching.pdf",
+   "art": "Lektüre",
+   "notiz": "Teil II: Kap. 5–8, S. 40–77 (PDF-S. 46–83)"
+  }
+ ],
+ "begriffe": [
+  "sdl",
+  "ai-literacy",
+  "sprachstandardisierung-ki",
+  "rich-get-richer",
+  "bias-genki",
+  "halluzination",
+  "genai-interaktionskompetenz",
+  "prompt",
+  "kontextfenster-temperatur",
+  "korroborieren",
+  "mikrolernen",
+  "p-genai-c"
+ ]
+}
