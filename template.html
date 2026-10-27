@@ -91,6 +91,8 @@ blockquote cite{display:block;font:500 .75rem var(--f-mono);letter-spacing:.06em
 .kq{font-style:italic}
 .bei{border-top:1px dashed var(--line);margin-top:.7rem;padding-top:.5rem;font-size:.96rem}
 .bei b{font:600 .72rem var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-right:.4rem}
+.fig{margin:1.2rem 0}.fig img{display:block;max-width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:6px;padding:.4rem;box-sizing:border-box}.fig figcaption{font:.82rem/1.45 var(--f-sans);color:var(--muted);margin-top:.4rem}
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;align-items:start}.figs .fig{margin:.4rem 0}
 .src{font:.9rem/1.5 var(--f-sans);border-left:3px solid var(--line);padding:.2rem .9rem;margin:.8rem 0;color:var(--muted)}
 .src p{margin:.3rem 0}.src ul{margin:.2rem 0 .4rem 1.1rem;padding:0}
 blockquote.lex{border-left-color:var(--accent)}
@@ -432,10 +434,14 @@ function herkunft(g){
   h+='<p>'+(lx.length?'Fachlexikon: '+lx.map(function(z){return esc(z.q)+', '+esc(z.s)}).join('; ')+' (wörtlich unten).':'Aus den Fachlexika ist hier noch nichts belegt.')+'</p></div>';
   return h;
 }
+function figHtml(b){
+  return '<figure class="fig"><a href="bilder/'+esc(b.datei)+'" target="_blank" rel="noopener"><img src="bilder/'+esc(b.datei)+'" alt="'+esc(b.titel)+'" loading="lazy"></a><figcaption>'+esc(b.titel)+'. Quelle: '+esc(b.quelle)+'. Antippen öffnet das Bild groß.</figcaption></figure>';
+}
 function pEntry(id){
   var g=entry(id); if(!g)return pStart();
   var h='<a class="back" href="#glossar">← Glossar</a><h1>'+esc(g.term)+'</h1>';
   h+='<h2>Definition</h2><p>'+rich(g.def)+'</p>'+herkunft(g)+zitate(g.zitate);
+  if(g.bild&&g.bild.length)h+='<h2>Abbildung</h2><div class="figs">'+g.bild.map(figHtml).join("")+'</div>';
   if(g.lexikon&&g.lexikon.length)h+='<h2>Im Fachlexikon</h2><p class="meta">Wörtlich aus den Lexika in deinem Ordner fachlexika (PDF-Seitenzahlen).</p>'+g.lexikon.map(function(z){return '<blockquote class="lex"><p>'+rich(z.t)+'</p><cite>'+esc(z.q)+', '+esc(z.s)+'</cite></blockquote>'}).join("");
   if(g.hinweis)h+='<div class="hint"><strong>Achtung.</strong> '+rich(g.hinweis)+'</div>';
   var bsp=g.beispiel||g.kafka;

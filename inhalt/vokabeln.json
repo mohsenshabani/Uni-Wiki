@@ -3454,5 +3454,73 @@
   "sitzung": "ki-s3",
   "seminar": "ki",
   "hinweis": "englisch"
+ },
+ {
+  "de": "das L2-Schreibmodell",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s3",
+  "seminar": "schreiben",
+  "glossar": "l2-schreibmodelle"
+ },
+ {
+  "de": "die Lernersprache (L_int)",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s3",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "das Passe-Partout-Wort",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s3",
+  "seminar": "schreiben",
+  "glossar": "ausdrucksstrategien-l2"
+ },
+ {
+  "de": "keeping/lowering the standard",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s3",
+  "seminar": "schreiben",
+  "glossar": "lowering-keeping-standard"
+ },
+ {
+  "de": "die Schreibsozialisation",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s3",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "die Lernstrategie",
+  "gruppe": "fach",
+  "sitzung": "schreiben-s3",
+  "seminar": "schreiben",
+  "glossar": "schreibstrategie"
+ },
+ {
+  "de": "der Veranstalter",
+  "fa": "برگزارکننده",
+  "gruppe": "text",
+  "sitzung": "schreiben-s3",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "die Voraussetzung",
+  "fa": "پیش‌شرط",
+  "gruppe": "text",
+  "sitzung": "schreiben-s3",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "das Gericht",
+  "fa": "غذا (خوراک)",
+  "gruppe": "text",
+  "sitzung": "schreiben-s3",
+  "seminar": "schreiben"
+ },
+ {
+  "de": "der Kochkurs",
+  "fa": "کلاس آشپزی",
+  "gruppe": "text",
+  "sitzung": "schreiben-s3",
+  "seminar": "schreiben"
  }
 ]

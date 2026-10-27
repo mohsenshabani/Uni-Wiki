@@ -44,6 +44,9 @@ for m in re.finditer(r"\[\[([a-z0-9-]+)\|", txt):
 for g in data["glossar"]:
     for i in g.get("see", []):
         if i not in gl_ids: problems.append("see-Verweis ohne Ziel: %s → %s" % (g["id"], i))
+BILD = INH / "bilder"
+for name in sorted(set(re.findall(r'bilder/([A-Za-z0-9._-]+)', txt))):
+    if not (BILD / name).is_file(): problems.append("Bild fehlt in inhalt/bilder: " + name)
 if problems:
     print("FEHLER:"); [print(" -", p) for p in problems]; sys.exit(1)
 
@@ -52,6 +55,13 @@ html = (ROOT / "template.html").read_text(encoding="utf8").replace(
 out = ROOT / "docs" / "index.html"
 out.parent.mkdir(exist_ok=True)
 out.write_text(html, encoding="utf8")
+if BILD.is_dir():
+    import shutil
+    ziel = out.parent / "bilder"
+    ziel.mkdir(exist_ok=True)
+    for f in BILD.iterdir():
+        if f.is_file() and not f.name.startswith("."):
+            shutil.copy2(f, ziel / f.name)
 print("OK: %s (%d KB) · %d Seminar(e), %d Sitzung(en), %d Begriffe, %d Vokabeln"
       % (out.relative_to(ROOT), len(html) // 1024, len(data["seminare"]), len(data["sitzungen"]),
          len(data["glossar"]), len(data["vokabeln"])))

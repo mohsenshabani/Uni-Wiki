@@ -1679,7 +1679,8 @@
    "schreiben"
   ],
   "sitzungen": [
-   "schreiben-s2"
+   "schreiben-s2",
+   "schreiben-s3"
   ],
   "hinweis": null,
   "herkunft": [
@@ -1688,6 +1689,13 @@
     "s": [
      "S. 161"
     ]
+   }
+  ],
+  "bild": [
+   {
+    "datei": "kellogg-1996.png",
+    "titel": "Arbeitsgedächtnismodell des Schreibens von Kellogg (1996)",
+    "quelle": "Modellbeschreibung Kellogg 1996, S. 165"
    }
   ]
  },
@@ -1712,7 +1720,8 @@
    "schreiben"
   ],
   "sitzungen": [
-   "schreiben-s2"
+   "schreiben-s2",
+   "schreiben-s3"
   ],
   "hinweis": null,
   "herkunft": [
@@ -1721,6 +1730,13 @@
     "s": [
      "S. 54"
     ]
+   }
+  ],
+  "bild": [
+   {
+    "datei": "zimmerman-kitsantas-2006.png",
+    "titel": "Phasen und Teilprozesse der Selbstregulation (Zimmerman/Kitsantas 2006)",
+    "quelle": "Zimmerman/Kitsantas 2006, S. 54, Figure 1"
    }
   ]
  },
@@ -1756,6 +1772,20 @@
      "S. 42"
     ]
    }
+  ],
+  "bild": [
+   {
+    "datei": "knowledge-telling-1987.png",
+    "titel": "Knowledge-Telling-Modell (Scardamalia/Bereiter 1987)",
+    "quelle": "Schnell 2020, S. 41, Abb. 2"
+   }
+  ],
+  "lexikon": [
+   {
+    "t": "wohingegen die reine Wissensweitergabe – gerade bei Schreibanfänger/innen – eine Aneinanderreihung dessen darstellt, was dem bzw. der Schreibenden zu der jeweiligen Thematik in den Sinn kommt",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Schreiben",
+    "s": "PDF-S. 410"
+   }
   ]
  },
  {
@@ -1789,6 +1819,13 @@
     "s": [
      "S. 43"
     ]
+   }
+  ],
+  "bild": [
+   {
+    "datei": "knowledge-transforming-1987.png",
+    "titel": "Knowledge-Transforming-Modell (Scardamalia/Bereiter 1987)",
+    "quelle": "Schnell 2020, S. 42, Abb. 3"
    }
   ]
  },
@@ -1834,6 +1871,11 @@
     "t": "Ich begreife eine Strategie als ein Verfahren, das Feld der Aufmerksamkeit zu erweitern",
     "s": "S. 47",
     "q": "Schnell 2020"
+   },
+   {
+    "t": "This plethora of definitions is an indication of just how reluctant experts have been to agree on one common definition for this construct",
+    "s": "Folie 11",
+    "q": "Folien Introna, 3. Sitzung (zitiert Cohen 2021: 3)"
    }
   ],
   "beispiel": "Brain-stormer: schnell schreiben, dann mehrfach überarbeiten. Outliner: lange gliedern, dann schreiben (S. 46).",
@@ -1855,6 +1897,19 @@
     "s": [
      "S. 47"
     ]
+   },
+   {
+    "q": "Folien Introna, 3. Sitzung (zitiert Cohen 2021: 3)",
+    "s": [
+     "Folie 11"
+    ]
+   }
+  ],
+  "lexikon": [
+   {
+    "t": "Das Konzept der L. findet in unterschiedlichen Disziplinen (Lernpsychologie, Psycholinguistik, Spracherwerbspsychologie, ↗ Fremdsprachendidaktik) Anwendung und wird uneinheitlich definiert.",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Lernstrategien",
+    "s": "PDF-S. 306"
    }
   ]
  },
@@ -1868,6 +1923,11 @@
     "t": "there is no natural order of writing development",
     "s": "S. 71",
     "q": "Schnell 2020"
+   },
+   {
+    "t": "Unified writing: Schreiber*innen entwickeln die Fähigkeit, sich selbst als Leser*innen zu sehen und das eigene Produkt kritisch zu bewerten.",
+    "s": "Folie 9",
+    "q": "Folien Introna, 3. Sitzung (nach Aufgebauer 2023: 61–62)"
    }
   ],
   "beispiel": "Studierende imitieren zunächst wissenschaftliche Stilmittel und verwenden sie später kontextadäquat (Steinhoff 2007, S. 73).",
@@ -1881,13 +1941,26 @@
   "sitzungen": [
    "schreiben-s3"
   ],
-  "hinweis": null,
+  "hinweis": "Die Folie (nach Aufgebauer 2023) nennt Stufe 2 „Performatives Schreiben“ und lässt „Unified writing“ unübersetzt; Schnell (nach Zuchewicz 2001) sagt „Regelgemäßes“ und „Authentisch-gestaltendes Schreiben“.",
   "herkunft": [
    {
     "q": "Schnell 2020",
     "s": [
      "S. 71"
     ]
+   },
+   {
+    "q": "Folien Introna, 3. Sitzung (nach Aufgebauer 2023: 61–62)",
+    "s": [
+     "Folie 9"
+    ]
+   }
+  ],
+  "bild": [
+   {
+    "datei": "bereiter-1980.png",
+    "titel": "Schreibentwicklungsmodell von Bereiter (1980: 84)",
+    "quelle": "Folien Introna, 3. Sitzung, Folie 9"
    }
   ]
  },
@@ -2817,7 +2890,8 @@
    "schreiben"
   ],
   "sitzungen": [
-   "schreiben-s2"
+   "schreiben-s2",
+   "schreiben-s3"
   ],
   "hinweis": null,
   "herkunft": [
@@ -2826,6 +2900,20 @@
     "s": [
      "S. 24"
     ]
+   }
+  ],
+  "bild": [
+   {
+    "datei": "hayes-flower-1980.png",
+    "titel": "Schreibprozessmodell von Hayes/Flower (1980)",
+    "quelle": "Schnell 2020, S. 24, Abb. 1 (nachgezeichnet nach Hayes/Flower 1980, Abb. 1.5)"
+   }
+  ],
+  "lexikon": [
+   {
+    "t": "Aus den dabei entstandenen Modellierungen (z. B. Bereiter/Scardamelia 1987 oder Hayes/Flower 1980) erwuchs die Einsicht in die Komplexität des S.s, das sich gerade nicht linear vollzieht, sondern aus planerischen und korrektiven Schleifen besteht.",
+    "q": "Metzler Lexikon Fremdsprachendidaktik, s. v. Schreiben",
+    "s": "PDF-S. 411"
    }
   ]
  },
@@ -4403,6 +4491,128 @@
     "q": "Moorhouse/Wong 2025",
     "s": [
      "S. 74"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l2-schreibmodelle",
+  "term": "L2-Schreibmodelle (Börner 1989, Krings 1992)",
+  "kurz": "Schreibprozessmodelle, die fremdsprachenspezifische Probleme einbeziehen.",
+  "def": "Die Modelle übertragen die Prozessmodellierung von Hayes/Flower auf das Schreiben in der Fremdsprache. Börner (1989) ergänzt Lernersprache, Ausgangs- und Korrekturtexte, Schreibhilfen sowie den Unterrichtsrahmen. Krings (1992) unterscheidet die Realisierung von Plänen in L1 und L2 und modelliert einen eigenen Kreislauf zur Lösung von L2-Problemen.",
+  "zitate": [
+   {
+    "t": "Modell „Schreiben in der Fremdsprache“ von Börner (1989: 355)",
+    "s": "Folie 4",
+    "q": "Folien Introna, 3. Sitzung"
+   },
+   {
+    "t": "Das Modell zum L2-Schreiben von Krings (1992: 70)",
+    "s": "Folie 4",
+    "q": "Folien Introna, 3. Sitzung"
+   }
+  ],
+  "beispiel": "Bei Krings: Ein Wort fehlt (L2-Problem identifizieren), man umschreibt es (Strategie aktivieren), prüft die Lösung und entscheidet sich (eigenes Beispiel).",
+  "see": [
+   "hayes-flower",
+   "ausdrucksstrategien-l2",
+   "l1-entlastung"
+  ],
+  "seminare": [
+   "schreiben"
+  ],
+  "sitzungen": [
+   "schreiben-s3"
+  ],
+  "hinweis": "Die Originaltexte von Börner und Krings liegen nicht im Ordner. Die Definition beschreibt nur, was die Abbildungen auf Folie 4 zeigen.",
+  "bild": [
+   {
+    "datei": "boerner-1989.png",
+    "titel": "Modell „Schreiben in der Fremdsprache“ von Börner (1989: 355)",
+    "quelle": "Folien Introna, 3. Sitzung, Folie 4"
+   },
+   {
+    "datei": "krings-1992.png",
+    "titel": "Modell zum L2-Schreiben von Krings (1992: 70)",
+    "quelle": "Folien Introna, 3. Sitzung, Folie 4"
+   }
+  ],
+  "herkunft": [
+   {
+    "q": "Folien Introna, 3. Sitzung",
+    "s": [
+     "Folie 4"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ausdrucksstrategien-l2",
+  "term": "Strategien bei Ausdrucksproblemen in der L2 (Börner/Vogel 1994)",
+  "kurz": "Wege, ein fehlendes Wort oder einen fehlenden Ausdruck in der L2 zu ersetzen.",
+  "def": "Börner/Vogel nennen drei Strategien für Ausdrucksprobleme bei der L2-Sprachproduktion: ein Schema, Script oder Frame aktivieren, das mit dem Konzept verbunden ist; ähnliche Wörter aus L1, L2 oder anderen Fremdsprachen aktivieren; leichter abrufbare Passe-Partout-Wörter einsetzen.",
+  "zitate": [
+   {
+    "t": "Einsatz von Passe-Partout-Wörtern, die leichter abgerufen werden können",
+    "s": "Folie 12",
+    "q": "Folien Introna, 3. Sitzung (nach Börner/Vogel 1994)"
+   },
+   {
+    "t": "Aktivierung von semantisch oder phonologisch ähnlichen Wörtern der L1, der L2 oder in anderen Fremdsprachen",
+    "s": "Folie 12",
+    "q": "Folien Introna, 3. Sitzung (nach Börner/Vogel 1994)"
+   }
+  ],
+  "beispiel": "Statt des unbekannten Worts „Pfanne“ schreibt man „das Ding zum Braten“ (Passe-Partout-Wort „Ding“; eigenes Beispiel).",
+  "see": [
+   "l2-schreibmodelle",
+   "schreibstrategie",
+   "l1-entlastung"
+  ],
+  "seminare": [
+   "schreiben"
+  ],
+  "sitzungen": [
+   "schreiben-s3"
+  ],
+  "herkunft": [
+   {
+    "q": "Folien Introna, 3. Sitzung (nach Börner/Vogel 1994)",
+    "s": [
+     "Folie 12"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lowering-keeping-standard",
+  "term": "keeping vs. lowering the standard (Uzawa/Cumming 1989)",
+  "kurz": "Ansprüche an den eigenen L2-Text halten oder senken.",
+  "def": "Die Folie nennt zwei Verhaltensweisen beim L2-Schreiben: Manche Schreibende halten ihren Anspruch an den Text, andere senken ihn auf das, was sie in der L2 ausdrücken können.",
+  "zitate": [
+   {
+    "t": "Die Forschung zeigt beim L2-Schreiben unterschiedliche Verhalten: keeping the standard vs. lowering the standard (Uzawa/Cumming 1989)",
+    "s": "Folie 12",
+    "q": "Folien Introna, 3. Sitzung"
+   }
+  ],
+  "beispiel": "Im Selbstversuch (Kochkurs-E-Mail) schreibt man einfachere Sätze als geplant, weil die Wörter fehlen: lowering the standard (eigenes Beispiel).",
+  "see": [
+   "ausdrucksstrategien-l2",
+   "schreibstrategie"
+  ],
+  "seminare": [
+   "schreiben"
+  ],
+  "sitzungen": [
+   "schreiben-s3"
+  ],
+  "hinweis": "Die Folie nennt nur die Begriffe. Die Studie von Uzawa/Cumming (1989) liegt nicht im Ordner; die Erklärung folgt dem Wortsinn.",
+  "herkunft": [
+   {
+    "q": "Folien Introna, 3. Sitzung",
+    "s": [
+     "Folie 12"
     ]
    }
   ]

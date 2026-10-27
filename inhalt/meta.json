@@ -1,5 +1,5 @@
 {
- "stand": "25.10.2026",
+ "stand": "27.10.2026",
  "semester": [
   {
    "id": "2026-ws",
@@ -494,6 +494,12 @@
      "autor": "Grotjahn (2017), in: Akukwe/Grotjahn/Schipolowski (Hg.): Schreibkompetenzen in der Fremdsprache",
      "umfang": "S. 113–116",
      "art": "Lektüre"
+    },
+    {
+     "titel": "Folien zur 3. Sitzung: Schreibentwicklung und Schreibstrategien",
+     "autor": "Silvia Introna",
+     "umfang": "17 Folien",
+     "art": "Folien"
     }
    ],
    "semester": "2026-ws",
